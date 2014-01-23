@@ -1,0 +1,6 @@
+<nav class=" navbar-default navbar-fixed-bottom" role="navigation">
+   <ul class="nav nav-pills nav-justified">
+        <li class="{{active '/forecast'}}"><a href="/forecast"><span class="glyphicon glyphicon-cloud"></a></li>
+        <li class="{{active '/wear'}}"><a href="/wear"><span class="glyphicon glyphicon-picture"></a></li>
+    </ul>
+</nav>

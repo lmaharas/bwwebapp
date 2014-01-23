@@ -1,0 +1,3063 @@
+{
+   "twitter":{
+      "items":[
+         {
+            "section":"twitter",
+            "handle":"@Queen_UK",
+            "name":"Elizabeth Windsor",
+            "url":"https://twitter.com/Queen_UK",
+            "blurb":"If the queen were a raunchy sass who went on booze cruises and said \"sodding\" all the time, this would be her Twitter. ",
+            "category":"Parody",
+            "tweet":"Text from Camilla: \"We're here! Is there a smoking room?? Dying for a fag before it all gets underway!\"",
+            "imgPath":"img/twitter/elizabethwindsor.jpg",
+            "imgPathLg":"img/twitter/elizabethwindsor.jpg",
+            "id":"twitter-parody-elizabethwindsor",
+            "categoryId":"twitter-parody"
+         },
+         {
+            "section":"twitter",
+            "handle":"@levie",
+            "name":"Aaron Levie",
+            "url":"https://twitter.com/levie",
+            "blurb":"The CEO of Box, Aaron Levie is a great source for unconventional wisdom from the front row of the startup scene.",
+            "category":"Tech",
+            "tweet":"Startups often win because it's easier to see what comes next when you don't have to worry about maintaining what came last.",
+            "imgPath":"img/twitter/aaronlevie.jpg",
+            "imgPathLg":"img/twitter/aaronlevie.jpg",
+            "id":"twitter-tech-aaronlevie",
+            "categoryId":"twitter-tech"
+         },
+         {
+            "section":"twitter",
+            "handle":"@aaronpaul_8",
+            "name":"Aaron Paul",
+            "url":"https://twitter.com/aaronpaul_8",
+            "blurb":"The Breaking Bad actor uses Twitter to be funny and to hype worthwhile charitable causes. A winning combination, if you ask us.  ",
+            "category":"Celebrity",
+            "tweet":"I'm sorry for spelling \"masturbating\" wrong people. I just wanted to see if you were paying attention. I rely on autocorrect for everything.",
+            "imgPath":"img/twitter/aaronpaul.jpg",
+            "imgPathLg":"img/twitter/aaronpaul.jpg",
+            "id":"twitter-celebrity-aaronpaul",
+            "categoryId":"twitter-celebrity"
+         },
+         {
+            "section":"twitter",
+            "handle":"@plattypants",
+            "name":"Adam Platt",
+            "url":"https://twitter.com/plattypants",
+            "blurb":"He's a link fiend, but New York's food critic is great as a newsfeed on everything from overhyped chefs to underappreciated desserts.",
+            "category":"Food",
+            "tweet":"How the (patently ridiculous) ‘World’s 50 Best’ list changed the way elite restaurants do business: http://shar.es/Zi6Ln  via @sharethis",
+            "imgPath":"img/twitter/adamplatt.jpg",
+            "imgPathLg":"img/twitter/adamplatt.jpg",
+            "id":"twitter-food-adamplatt",
+            "categoryId":"twitter-food"
+         },
+         {
+            "section":"twitter",
+            "handle":"@alaindebotton",
+            "name":"Alain de Botton",
+            "url":"https://twitter.com/alaindebotton",
+            "blurb":"Every one of de Botton's tweets could be printed on a coffee mug for those who appreicate convenient, but poetic, wisdom.",
+            "category":"Books",
+            "tweet":"Dreams reveal we never quite get over anything. It's all in there somewhere, biding its time.",
+            "imgPath":"img/twitter/alaindebotton.jpg",
+            "imgPathLg":"img/twitter/alaindebotton.jpg",
+            "id":"twitter-books-alaindebotton",
+            "categoryId":"twitter-books"
+         },
+         {
+            "section":"twitter",
+            "handle":"@bazecraze",
+            "name":"Alex Baze",
+            "url":"https://twitter.com/bazecraze",
+            "blurb":"This SNL writer's feed is consistently funny, even when the show's jokes fall flat.",
+            "category":"Humor",
+            "tweet":"I like to think my father is looking down from heaven and smiling, but he’s actually at an Indian casino with his new wife.",
+            "imgPath":"img/twitter/alexbaze.jpg",
+            "imgPathLg":"img/twitter/alexbaze.jpg",
+            "id":"twitter-humor-alexbaze",
+            "categoryId":"twitter-humor"
+         },
+         {
+            "section":"twitter",
+            "handle":"@alexia",
+            "name":"Alexia Tsotsis",
+            "url":"https://twitter.com/alexia",
+            "blurb":"For a running feed of TechCrunch's must-reads, just follow the site's co-editor Alexia Tsotsis. ",
+            "category":"Tech",
+            "tweet":"Is there anything more nouveau bubbly than a dot-com bubble themed \"Back to the Bubble\" 90s party?",
+            "imgPath":"img/twitter/alexiatsotsis.jpg",
+            "imgPathLg":"img/twitter/alexiatsotsis.jpg",
+            "id":"twitter-tech-alexiatsotsis",
+            "categoryId":"twitter-tech"
+         },
+         {
+            "section":"twitter",
+            "handle":"@amalghandour",
+            "name":"Amal Ghandour",
+            "url":"https://twitter.com/amalghandour",
+            "blurb":"She's a blogger and strategist living in Lebanon, with one of the best feeds on Middle Eastern politics and society.",
+            "category":"International",
+            "tweet":"My 1st Sunday musing: If the rebels withstand 33 days of Hezbollah/Assad pounding in Qusair, cld they declare this a holy victory?",
+            "imgPath":"img/twitter/amalghandour.jpg",
+            "imgPathLg":"img/twitter/amalghandour.jpg",
+            "id":"twitter-international-amalghandour",
+            "categoryId":"twitter-international"
+         },
+         {
+            "section":"twitter",
+            "handle":"@amandahesser",
+            "name":"Amanda Hesser",
+            "url":"https://twitter.com/amandahesser/",
+            "blurb":"The former New York Times food writer and founder of Food52.com, Hesser opines mostly on things tech and taste, plus her kids.",
+            "category":"Food",
+            "tweet":"Halfway through decorating Easter eggs, realized that I'd forgotten to *hard-boil* the eggs. And in my head I said a very bad word.",
+            "imgPath":"img/twitter/amandahesser.jpg",
+            "imgPathLg":"img/twitter/amandahesser.jpg",
+            "id":"twitter-food-amandahesser",
+            "categoryId":"twitter-food"
+         },
+         {
+            "section":"twitter",
+            "handle":"@AmandaMarcotte",
+            "name":"Amanda Marcotte",
+            "url":"https://twitter.com/AmandaMarcotte",
+            "blurb":"She calls out unfair expectations and representations of women in media and pop culture, and is a voice of progressive politics.",
+            "category":"Women's Issues",
+            "tweet":"I never stop being astonished at the amount of irrational hate one can draw by daring to be female in public without apparent shame over it.",
+            "imgPath":"img/twitter/amandamarcotte.jpg",
+            "imgPathLg":"img/twitter/amandamarcotte.jpg",
+            "id":"twitter-womensissues-amandamarcotte",
+            "categoryId":"twitter-womensissues"
+         },
+         {
+            "section":"twitter",
+            "handle":"@BuzzFeedAndrew",
+            "name":"Andrew Kaczynski",
+            "url":"https://twitter.com/BuzzFeedAndrew",
+            "blurb":"One of the most recognizable faces of BuzzFeed, Kaczynski is a tireless source of political humor and news with a refreshing lack of filter.",
+            "category":"Politics",
+            "tweet":"The first rule about the all powerful Bike Lobby, you don't talk about the all powerful Bike Lobby.",
+            "imgPath":"img/twitter/andrewkaczynski.jpg",
+            "imgPathLg":"img/twitter/andrewkaczynski.jpg",
+            "id":"twitter-politics-andrewkaczynski",
+            "categoryId":"twitter-politics"
+         },
+         {
+            "section":"twitter",
+            "handle":"@AndrewWK",
+            "name":"Andrew W.K.",
+            "url":"https://twitter.com/AndrewWK",
+            "blurb":"Very few of you know how to party like Andrew W.K., and that's probably good for your health. Live vicariously, instead. ",
+            "category":"Celebrity",
+            "tweet":"PARTY TIP: Don't stress out. Stress is trying to convince you that anxiety is more important than just loving every second of your life.",
+            "imgPath":"img/twitter/andrewwk.jpg",
+            "imgPathLg":"img/twitter/andrewwk.jpg",
+            "id":"twitter-celebrity-andrewwk",
+            "categoryId":"twitter-celebrity"
+         },
+         {
+            "section":"twitter",
+            "handle":"@YourAnonNews",
+            "name":"Anonymous",
+            "url":"https://twitter.com/YourAnonNews",
+            "blurb":"Regardless of how you feel about Anonymous, they matter, and so do these newsy tweets with frequent links to hacker-liberated files.",
+            "category":"News",
+            "tweet":"The Supreme Court has voted that police requiring DNA samples upon arrest is constitutional http://bit.ly/132Hmac ",
+            "imgPath":"img/twitter/anonymous.jpg",
+            "imgPathLg":"img/twitter/anonymous.jpg",
+            "id":"twitter-news-anonymous",
+            "categoryId":"twitter-news"
+         },
+         {
+            "section":"twitter",
+            "handle":"@AntDeRosa",
+            "name":"Anthony De Rosa",
+            "url":"https://twitter.com/AntDeRosa",
+            "blurb":"Former Reuters social media editor, who will be starting as Circa editor-in-chief in mid-June, seems to spend most waking hours tweeting in service of the news. ",
+            "category":"News",
+            "tweet":"On CNN, @DarrellIssa asked about AP phone records seizure by DOJ: \"When is the Justice Dept going to take responsibility for what it does?\"",
+            "imgPath":"img/twitter/anthonyderosa.jpg",
+            "imgPathLg":"img/twitter/anthonyderosa.jpg",
+            "id":"twitter-news-anthonyderosa",
+            "categoryId":"twitter-news"
+         },
+         {
+            "section":"twitter",
+            "handle":"@BaconSalt",
+            "name":"Bacon Salt",
+            "url":"https://twitter.com/baconsalt",
+            "blurb":"You might assume that endless tweeting about Bacon would be boring, but thanks to J&D's Foods (maker of Bacon Salt), we know it's not. ",
+            "category":"Companies",
+            "tweet":"Every day, thousands of innocent plants are killed by vegetarians. Help end the violence. Eat #Bacon. Be a hero. ",
+            "imgPath":"img/twitter/baconsalt.jpg",
+            "imgPathLg":"img/twitter/baconsalt.jpg",
+            "id":"twitter-companies-baconsalt",
+            "categoryId":"twitter-companies"
+         },
+         {
+            "section":"twitter",
+            "handle":"@BaseballAmerica",
+            "name":"Baseball America",
+            "url":"https://twitter.com/BaseballAmerica",
+            "blurb":"All baseball, even way down into the minors. Irony-free, utterly somber, passionately boring updates on America's game. ",
+            "category":"Sports",
+            "tweet":"Draft Update: When Is The 2013 MLB Draft And Everything Else You Need To Know http://ow.ly/2wQD7Z ",
+            "imgPath":"img/twitter/baseballamerica.jpg",
+            "imgPathLg":"img/twitter/baseballamerica.jpg",
+            "id":"twitter-sports-baseballamerica",
+            "categoryId":"twitter-sports"
+         },
+         {
+            "section":"twitter",
+            "handle":"@rejectedjokes",
+            "name":"Ben Schwartz",
+            "url":"https://twitter.com/rejectedjokes",
+            "blurb":"You know him from Parks and Rec and House of Lies, so you should obviously tune into Schwartz's twitter feed for funny one-liners.",
+            "category":"Celebrity",
+            "tweet":"Are the bonus features on the \"Diners, Drive Ins and Dives\" DVD just Guy Fieri taking a bunch of shits?",
+            "imgPath":"img/twitter/benschwartz.jpg",
+            "imgPathLg":"img/twitter/benschwartz.jpg",
+            "id":"twitter-celebrity-benschwartz",
+            "categoryId":"twitter-celebrity"
+         },
+         {
+            "section":"twitter",
+            "handle":"@morningmoneyben",
+            "name":"Ben White",
+            "url":"https://twitter.com/morningmoneyben",
+            "blurb":"Politico's economic correspondent is required reading for Washington news from an informed skeptic.",
+            "category":"Business",
+            "tweet":"Bloomberg says has had no terminal cancellations due to snooping scandal. This makes sense. Terminal is indispensable. I miss mine.",
+            "imgPath":"img/twitter/benwhite.jpg",
+            "imgPathLg":"img/twitter/benwhite.jpg",
+            "id":"twitter-business-benwhite",
+            "categoryId":"twitter-business"
+         },
+         {
+            "section":"twitter",
+            "handle":"@billyeichner",
+            "name":"Billy Eichner",
+            "url":"https://twitter.com/billyeichner",
+            "blurb":"The host of Funny or Die's 'Billy on the Street' is clever off the street, too. Plus, he's not standing there in your face with a mic. ",
+            "category":"Humor",
+            "tweet":"Is there a Grindr for moms?",
+            "imgPath":"img/twitter/billyeichner.jpg",
+            "imgPathLg":"img/twitter/billyeichner.jpg",
+            "id":"twitter-humor-billyeichner",
+            "categoryId":"twitter-humor"
+         },
+         {
+            "section":"twitter",
+            "handle":"@blakeshelton",
+            "name":"Blake Shelton",
+            "url":"https://twitter.com/blakeshelton",
+            "blurb":"Who said celebrities can't have a sense of humor? Shelton is known for openly mocking errant tabloid rumors. Keep up the good work, y'all. ",
+            "category":"Celebrity",
+            "tweet":"I'm so drunk right now I just walked into a 7-11 put a bag of Skittles in my pants and shouted \"Who wants to taste the rainbow?!!\"",
+            "imgPath":"img/twitter/blakeshelton.jpg",
+            "imgPathLg":"img/twitter/blakeshelton.jpg",
+            "id":"twitter-celebrity-blakeshelton",
+            "categoryId":"twitter-celebrity"
+         },
+         {
+            "section":"twitter",
+            "handle":"@BreakingNews",
+            "name":"Breaking News",
+            "url":"https://twitter.com/BreakingNews",
+            "blurb":"Seattle-based journos search the web for breaking news, and hardly sleep, it appears. Capitalize on that. ",
+            "category":"News",
+            "tweet":"North Korea says its leader Kim Jong-il has died-@yonhapnews",
+            "imgPath":"img/twitter/breakingnews.jpg",
+            "imgPathLg":"img/twitter/breakingnews.jpg",
+            "id":"twitter-news-breakingnews",
+            "categoryId":"twitter-news"
+         },
+         {
+            "section":"twitter",
+            "handle":"@BruceBartlett",
+            "name":"Bruce Bartlett",
+            "url":"https://twitter.com/BruceBartlett",
+            "blurb":"Barlett's newsy bits on tax and gold strike that rare balance between snark and substance—and are refreshingly devoid of self-promotion. ",
+            "category":"Business",
+            "tweet":"Easiest way to tax corporations: percentage of their market capitalization based on share price one random day each quarter.",
+            "imgPath":"img/twitter/brucebartlett.jpg",
+            "imgPathLg":"img/twitter/brucebartlett.jpg",
+            "id":"twitter-business-brucebartlett",
+            "categoryId":"twitter-business"
+         },
+         {
+            "section":"twitter",
+            "handle":"@chartnews",
+            "name":"Chart News",
+            "url":"https://twitter.com/chartnews",
+            "blurb":"All you ever wanted to know about Billboard's Weekly Charts, with no distracting hype about the mag itself. ",
+            "category":"Entertainment",
+            "tweet":"Thrift Shop by @macklemore & @ryanlewis this week becomes the 1st song in US digital history to top 300,000 in weekly sales 8 times.",
+            "imgPath":"img/twitter/chartnews.jpg",
+            "imgPathLg":"img/twitter/chartnews.jpg",
+            "id":"twitter-entertainment-chartnews",
+            "categoryId":"twitter-entertainment"
+         },
+         {
+            "section":"twitter",
+            "handle":"@cdixon",
+            "name":"Chris Dixon",
+            "url":"https://twitter.com/cdixon",
+            "blurb":"From his lofty perch as an Andreessen Horowitz investor, Dixon is a well-informed and well-connected source for tech and startup news. ",
+            "category":"Tech",
+            "tweet":"What were the last Hollywood movies you saw about technology & the future that were optimistic? They seem to be systematically dystopian.",
+            "imgPath":"img/twitter/chrisdixon.jpg",
+            "imgPathLg":"img/twitter/chrisdixon.jpg",
+            "id":"twitter-tech-chrisdixon",
+            "categoryId":"twitter-tech"
+         },
+         {
+            "section":"twitter",
+            "handle":"@Cmdr_Hadfield",
+            "name":"Chris Hadfield",
+            "url":"https://twitter.com/Cmdr_Hadfield",
+            "blurb":"This astronaut might be back on Earth, but after his epic Twitter run and David Bowie cover while in orbit, we still expect great things. ",
+            "category":"Health & Science",
+            "tweet":"Hello from Star City! Air is warm, swans on the pond, flowers in bloom, everything green with the start of Russian summer. Photos to follow.",
+            "imgPath":"img/twitter/chrishadfield.jpg",
+            "imgPathLg":"img/twitter/chrishadfield.jpg",
+            "id":"twitter-healthscience-chrishadfield",
+            "categoryId":"twitter-healthscience"
+         },
+         {
+            "section":"twitter",
+            "handle":"@chrislhayes",
+            "name":"Chris Hayes",
+            "url":"https://twitter.com/chrislhayes",
+            "blurb":"MSNBC anchor offers a blend of news, commentary and progressive opinions. If only he would stop trying to create his own trending hashtags.",
+            "category":"Politics",
+            "tweet":"Next plot twist in Rob Ford saga: Toronto mayor heads to Syria to help organize opposition, while former Syria envoy becomes Toronto mayor",
+            "imgPath":"img/twitter/chrishayes.jpg",
+            "imgPathLg":"img/twitter/chrishayes.jpg",
+            "id":"twitter-politics-chrishayes",
+            "categoryId":"twitter-politics"
+         },
+         {
+            "section":"twitter",
+            "handle":"@chrissyteigen",
+            "name":"Chrissy Teigen",
+            "url":"https://twitter.com/chrissyteigen",
+            "blurb":"If nothing else, Teigen will blow away any stereotypes you're harboring about models with nothing interesting to say. Bold, pointed, funny. ",
+            "category":"Celebrity",
+            "tweet":"New York cemeteries. Ain't nobody got room for that.",
+            "imgPath":"img/twitter/chrissyteigen.jpg",
+            "imgPathLg":"img/twitter/chrissyteigen.jpg",
+            "id":"twitter-celebrity-chrissyteigen",
+            "categoryId":"twitter-celebrity"
+         },
+         {
+            "section":"twitter",
+            "handle":"@colinmeloy",
+            "name":"Colin Meloy",
+            "url":"https://twitter.com/colinmeloy",
+            "blurb":"Some insight into the creative process of The Decemberists' lead singer, but mostly entertaining info about his toddler and Portland life.",
+            "category":"Celebrity",
+            "tweet":"Must get out of the habit of saying 'party foul' every time my newborn baby spits up on me.",
+            "imgPath":"img/twitter/colinmeloy.jpg",
+            "imgPathLg":"img/twitter/colinmeloy.jpg",
+            "id":"twitter-celebrity-colinmeloy",
+            "categoryId":"twitter-celebrity"
+         },
+         {
+            "section":"twitter",
+            "handle":"@davidchang",
+            "name":"David Chang",
+            "url":"https://twitter.com/davidchang",
+            "blurb":"He's not the most prolific tweeter, but Momofuku's master chef offers followers a glimpse into the mind of a pork bun pioneer.",
+            "category":"Food",
+            "tweet":"why shouldn't top kitchens use MSG as a finishing salt if data suggests its not an allergen & no short cuts are used in cooking process?",
+            "imgPath":"img/twitter/davidchang.jpg",
+            "imgPathLg":"img/twitter/davidchang.jpg",
+            "id":"twitter-food-davidchang",
+            "categoryId":"twitter-food"
+         },
+         {
+            "section":"twitter",
+            "handle":"@david_j_roth",
+            "name":"David J. Roth",
+            "url":"https://twitter.com/david_j_roth",
+            "blurb":"Not to be confused with the guy from Van Halen, this Roth is a journalist who says funny and interesting things on Twitter.",
+            "category":"Sports",
+            "tweet":"You can harsh on the Senate all you like, but the fact remains that only 90% of Americans were into expanding background checks on guns.",
+            "imgPath":"img/twitter/davidjroth.jpg",
+            "imgPathLg":"img/twitter/davidjroth.jpg",
+            "id":"twitter-sports-davidjroth",
+            "categoryId":"twitter-sports"
+         },
+         {
+            "section":"twitter",
+            "handle":"@dennisrodman",
+            "name":"Dennis Rodman",
+            "url":"https://twitter.com/dennisrodman",
+            "blurb":"Even if he never tweets anything again, Rodman will have already reminded us how strange this world is. The future of U.S. diplomacy?",
+            "category":"Celebrity",
+            "tweet":"I'm calling on the Supreme Leader of North Korea or as I call him \"Kim\", to do me a solid and cut Kenneth Bae loose.",
+            "imgPath":"img/twitter/dennisrodman.jpg",
+            "imgPathLg":"img/twitter/dennisrodman.jpg",
+            "id":"twitter-celebrity-dennisrodman",
+            "categoryId":"twitter-celebrity"
+         },
+         {
+            "section":"twitter",
+            "handle":"@ReformedBroker",
+            "name":"Downtown Josh Brown",
+            "url":"https://twitter.com/ReformedBroker",
+            "blurb":"Brilliant one-liners mixed with insightful comments and posts on the markets and investing. Prolific, relentless and hilarious. ",
+            "category":"Business",
+            "tweet":"the nine-disc DVD set of Hip Hop Abs just arrived...changing into Lycra.",
+            "imgPath":"img/twitter/downtownjoshbrown.jpg",
+            "imgPathLg":"img/twitter/downtownjoshbrown.jpg",
+            "id":"twitter-business-downtownjoshbrown",
+            "categoryId":"twitter-business"
+         },
+         {
+            "section":"twitter",
+            "handle":"@EricTopol",
+            "name":"Eric Topol",
+            "url":"https://twitter.com/EricTopol",
+            "blurb":"This California cardiologist is an encylopedia on the heart and other medical mysteries. ",
+            "category":"Health & Science",
+            "tweet":"Remember when banks didn't have ATMs? Think ahead to the future of medicine.....",
+            "imgPath":"img/twitter/erictopol.jpg",
+            "imgPathLg":"img/twitter/erictopol.jpg",
+            "id":"twitter-healthscience-erictopol",
+            "categoryId":"twitter-healthscience"
+         },
+         {
+            "section":"twitter",
+            "handle":"@errolmorris",
+            "name":"Errol Morris",
+            "url":"https://twitter.com/errolmorris",
+            "blurb":"He follows exactly zero people, but don't take it personally. \"Fog of War\" filmmaker is an interesting/funny dude who doesn't overtweet. ",
+            "category":"Entertainment",
+            "tweet":"I think I might be tripolar.",
+            "imgPath":"img/twitter/errolmorris.jpg",
+            "imgPathLg":"img/twitter/errolmorris.jpg",
+            "id":"twitter-entertainment-errolmorris",
+            "categoryId":"twitter-entertainment"
+         },
+         {
+            "section":"twitter",
+            "handle":"@arzE",
+            "name":"Ezra Koenig of Vampire Weekend",
+            "url":"https://twitter.com/arzE",
+            "blurb":"The lead singer of Vampire Weekend favors eclectic humor and stream-of-conscious missives.",
+            "category":"Celebrity",
+            "tweet":"i had three russian great aunts named Manya, Tanya & Fanya. true story. MY FAMILY'S BEEN RHYMING FOR GENERATIONS",
+            "imgPath":"img/twitter/ezrakoenigofvampireweekend.jpg",
+            "imgPathLg":"img/twitter/ezrakoenigofvampireweekend.jpg",
+            "id":"twitter-celebrity-ezrakoenigofvampireweekend",
+            "categoryId":"twitter-celebrity"
+         },
+         {
+            "section":"twitter",
+            "handle":"@felixsalmon",
+            "name":"Felix Salmon",
+            "url":"https://twitter.com/felixsalmon",
+            "blurb":"Just because everyone else loves him, doesn't mean we can't, too. This Reuters blogger talks economics in a way regular people can digest. ",
+            "category":"Business",
+            "tweet":"Currently debating: Which god did the people of Moore anger?",
+            "imgPath":"img/twitter/felixsalmon.jpg",
+            "imgPathLg":"img/twitter/felixsalmon.jpg",
+            "id":"twitter-business-felixsalmon",
+            "categoryId":"twitter-business"
+         },
+         {
+            "section":"twitter",
+            "handle":"@_FloridaMan",
+            "name":"Florida Man",
+            "url":"https://twitter.com/_FloridaMan",
+            "blurb":"Florida Man knows that Florida truth is way stranger than fiction.",
+            "category":"Humor",
+            "tweet":"Florida Man Arrested For Drunken Rotisserie Chicken Theft, Carrying Hidden Handcuff Keys To Lock Up \"Crazy\" Friend | http://buff.ly/16Bfbpy ",
+            "imgPath":"img/twitter/floridaman.jpg",
+            "imgPathLg":"img/twitter/floridaman.jpg",
+            "id":"twitter-humor-floridaman",
+            "categoryId":"twitter-humor"
+         },
+         {
+            "section":"twitter",
+            "handle":"@harikunzru",
+            "name":"Hari Kunzru",
+            "url":"https://twitter.com/harikunzru",
+            "blurb":"British author (most recent book: Gods Without Men) living in Brooklyn with a Twitter taste for international news and fiction news.",
+            "category":"Books",
+            "tweet":"Recent tweet from Mayor of Ankara: \"We could drown you in a spoon of water, but luckily for you we believe in democracy.\" #Turkey",
+            "imgPath":"img/twitter/harikunzru.jpg",
+            "imgPathLg":"img/twitter/harikunzru.jpg",
+            "id":"twitter-books-harikunzru",
+            "categoryId":"twitter-books"
+         },
+         {
+            "section":"twitter",
+            "handle":"@HarvardHealth",
+            "name":"Harvard Health",
+            "url":"https://twitter.com/HarvardHealth",
+            "blurb":"It often pushes Harvard studies, but in this case, that's a good thing, if you want to keep abreast of diseases and medical breakthroughs.",
+            "category":"Health & Science",
+            "tweet":"Harvard discovery reverses aging in mouse hearts. http://hvrd.me/YRiWnb  Could it work in humans, too?",
+            "imgPath":"img/twitter/harvardhealth.jpg",
+            "imgPathLg":"img/twitter/harvardhealth.jpg",
+            "id":"twitter-healthscience-harvardhealth",
+            "categoryId":"twitter-healthscience"
+         },
+         {
+            "section":"twitter",
+            "handle":"@HillaryClinton",
+            "name":"Hillary Clinton",
+            "url":"https://twitter.com/HillaryClinton",
+            "blurb":"With a nod to the creators of the Texts From Hillary meme, the former Secretary of State joined the Twitterverse in early June. #Hillary2016?",
+            "category":"Politics",
+            "tweet":"Thanks for the inspiration @ASmith83 & @Sllambe - I'll take it from here... ",
+            "imgPath":"img/twitter/hillaryclinton.jpg",
+            "imgPathLg":"img/twitter/hillaryclinton.jpg",
+            "id":"twitter-politics-hillaryclinton",
+            "categoryId":"twitter-politics"
+         },
+         {
+            "section":"twitter",
+            "handle":"@HughAcheson",
+            "name":"Hugh Acheson",
+            "url":"https://twitter.com/hughacheson",
+            "blurb":"The great thing about Acheson's feed is its lack of pretention. Instagrammed food and tweeted, random thoughts from an industry star.",
+            "category":"Food",
+            "tweet":"BBQ shrimp at Mr B's last night was great, but the whole grown man putting a bib on me was a little strange. I was, luckily, fully clothed.",
+            "imgPath":"img/twitter/hughacheson.jpg",
+            "imgPathLg":"img/twitter/hughacheson.jpg",
+            "id":"twitter-food-hughacheson",
+            "categoryId":"twitter-food"
+         },
+         {
+            "section":"twitter",
+            "handle":"@hunterwalk",
+            "name":"Hunter Walk",
+            "url":"https://twitter.com/hunterwalk",
+            "blurb":"One-stop Twitter shop for news and analysis on startups from the former director of product management at Google turned venture capitalist.",
+            "category":"Tech",
+            "tweet":"Why are iOS apps allowed to repeatedly ask me to rate them or remind me later. No dismiss/stop.",
+            "imgPath":"img/twitter/hunterwalk.jpg",
+            "imgPathLg":"img/twitter/hunterwalk.jpg",
+            "id":"twitter-tech-hunterwalk",
+            "categoryId":"twitter-tech"
+         },
+         {
+            "section":"twitter",
+            "handle":"@IDFSpokesperson",
+            "name":"IDF Spokesperson",
+            "url":"https://twitter.com/IDFSpokesperson",
+            "blurb":"The Israel Defense Force's feed was a watershed moment in social media. It tweets movements of troops and platitudes of support.",
+            "category":"International",
+            "tweet":"Update: A firebomb was thrown at an ",
+            "imgPath":"img/twitter/idfspokesperson.jpg",
+            "imgPathLg":"img/twitter/idfspokesperson.jpg",
+            "id":"twitter-international-idfspokesperson",
+            "categoryId":"twitter-international"
+         },
+         {
+            "section":"twitter",
+            "handle":"@poniewozik",
+            "name":"James Poniewozik",
+            "url":"https://twitter.com/poniewozik",
+            "blurb":"Time columnist knows his pop culture, and can tell a good joke at the expense of politicians and journalists.",
+            "category":"Entertainment",
+            "tweet":"No idea how good Shymalan's WAYWARD PINES will be, but he's going to lose it when some AV Club commenter figures out the twist in week 1",
+            "imgPath":"img/twitter/jamesponiewozik.jpg",
+            "imgPathLg":"img/twitter/jamesponiewozik.jpg",
+            "id":"twitter-entertainment-jamesponiewozik",
+            "categoryId":"twitter-entertainment"
+         },
+         {
+            "section":"twitter",
+            "handle":"@jasonmgood",
+            "name":"Jason Good",
+            "url":"https://twitter.com/jasonmgood",
+            "blurb":"Not all comedians are funny on Twitter. Same goes for dads. Jason is both, and is hilarious. ",
+            "category":"Family",
+            "tweet":"I can still hear Chris Christie breathing after I turn off the TV",
+            "imgPath":"img/twitter/jasongood.jpg",
+            "imgPathLg":"img/twitter/jasongood.jpg",
+            "id":"twitter-family-jasongood",
+            "categoryId":"twitter-family"
+         },
+         {
+            "section":"twitter",
+            "handle":"@Jay_HorwitzPR",
+            "name":"Jay Horwitz",
+            "url":"https://twitter.com/Jay_HorwitzPR",
+            "blurb":"Proof that you don't have to be 20 to use Twitter correctly, the VP of media relations for the Mets is a funny and engaging tweeter. ",
+            "category":"Sports",
+            "tweet":"Have the start of flu coming on. Stopped on the way to park to pick up some Medical Marijuana.It's legal here you know.Game should be fun.",
+            "imgPath":"img/twitter/jayhorwitz.jpg",
+            "imgPathLg":"img/twitter/jayhorwitz.jpg",
+            "id":"twitter-sports-jayhorwitz",
+            "categoryId":"twitter-sports"
+         },
+         {
+            "section":"twitter",
+            "handle":"@jennydeluxe",
+            "name":"Jenna Wortham",
+            "url":"https://twitter.com/jennydeluxe",
+            "blurb":"She's one of the hip ladies on the tech desk of the NY Times, offering unpretentious thoughts on culture, tech, and Brooklyn.",
+            "category":"Tech",
+            "tweet":"ugh god there goes my wednesday. all i'm doing now is snapchatting taco bell",
+            "imgPath":"img/twitter/jennawortham.jpg",
+            "imgPathLg":"img/twitter/jennawortham.jpg",
+            "id":"twitter-tech-jennawortham",
+            "categoryId":"twitter-tech"
+         },
+         {
+            "section":"twitter",
+            "handle":"@campsucks",
+            "name":"Jenni Konner",
+            "url":"https://twitter.com/campsucks",
+            "blurb":"Lena Dunham's BFF and Girls showrunner mixes jokes with occasional behind-the-scenes glimpses of the zeitgeitsy HBO show.",
+            "category":"Humor",
+            "tweet":"There's no USWeekly at the airport. Do they cancel all flights?",
+            "imgPath":"img/twitter/jennikonner.jpg",
+            "imgPathLg":"img/twitter/jennikonner.jpg",
+            "id":"twitter-humor-jennikonner",
+            "categoryId":"twitter-humor"
+         },
+         {
+            "section":"twitter",
+            "handle":"@JennyJohnsonHi5",
+            "name":"Jenny Johnson",
+            "url":"https://twitter.com/JennyJohnsonHi5",
+            "blurb":"Because she took on Chris Brown and won, but also because she continued to be hilarious long after Brown deleted his Twitter. ",
+            "category":"Humor",
+            "tweet":"If you ever feel bad about yourself, just remember Brad Pitt has Billy Bob Thornton's sloppy seconds.",
+            "imgPath":"img/twitter/jennyjohnson.jpg",
+            "imgPathLg":"img/twitter/jennyjohnson.jpg",
+            "id":"twitter-humor-jennyjohnson",
+            "categoryId":"twitter-humor"
+         },
+         {
+            "section":"twitter",
+            "handle":"@JessicaValenti",
+            "name":"Jessica Valenti",
+            "url":"https://twitter.com/JessicaValenti",
+            "blurb":"She calls herself a \"feminist killjoy,\" but The Nation writer tends a feed that's as much enlightening as it is acerbic. ",
+            "category":"Women's Issues",
+            "tweet":"Misogynist comedian challenge: Go 24 hrs w/o using 'cunt', 'Birkenstocks', 'fat', or 'feminazi' and I will consider taking you seriously",
+            "imgPath":"img/twitter/jessicavalenti.jpg",
+            "imgPathLg":"img/twitter/jessicavalenti.jpg",
+            "id":"twitter-womensissues-jessicavalenti",
+            "categoryId":"twitter-womensissues"
+         },
+         {
+            "section":"twitter",
+            "handle":"@johnjannuzzi",
+            "name":"John Jannuzzi",
+            "url":"https://twitter.com/johnjannuzzi",
+            "blurb":"An unfiltered peek into the mind of the Lucky magazine editor. Some tweets are incoherent, others hiarious, and nearly all entertaining.",
+            "category":"Style",
+            "tweet":"oh god it's raining and somebody just put on the xx. must free self of emo darkness chamber.",
+            "imgPath":"img/twitter/johnjannuzzi.jpg",
+            "imgPathLg":"img/twitter/johnjannuzzi.jpg",
+            "id":"twitter-style-johnjannuzzi",
+            "categoryId":"twitter-style"
+         },
+         {
+            "section":"twitter",
+            "handle":"@fart",
+            "name":"Jon Hendren",
+            "url":"https://twitter.com/fart",
+            "blurb":"Not only does he have the best Twitter handle ever, this writer for somethingawful.com will make you chuckle on the regs. ",
+            "category":"Humor",
+            "tweet":"eating a cold cut combo alone in a 24 hr subway to November Rain and getting a little emotional if we can be honest",
+            "imgPath":"img/twitter/jonhendren.jpg",
+            "imgPathLg":"img/twitter/jonhendren.jpg",
+            "id":"twitter-humor-jonhendren",
+            "categoryId":"twitter-humor"
+         },
+         {
+            "section":"twitter",
+            "handle":"@CapehartJ",
+            "name":"Jonathan Capehart",
+            "url":"https://twitter.com/CapehartJ",
+            "blurb":"The Washington Post opinion writer specializes in concise commentary and direct responses to questions and criticisms.",
+            "category":"Politics",
+            "tweet":"#Obama on #IRS:....If what happened is as reported \"That's outrageous. And there's no place for it.\"",
+            "imgPath":"img/twitter/jonathancapehart.jpg",
+            "imgPathLg":"img/twitter/jonathancapehart.jpg",
+            "id":"twitter-politics-jonathancapehart",
+            "categoryId":"twitter-politics"
+         },
+         {
+            "section":"twitter",
+            "handle":"@JoseCanseco",
+            "name":"Jose Canseco",
+            "url":"https://twitter.com/JoseCanseco",
+            "blurb":"From his open call for a pro bono attorney to the premature declaration of Al Gore's death, Canseco, uh, knocks his Tweets out of the park. ",
+            "category":"Celebrity",
+            "tweet":"Can't believe Barbara Walters is gone I used to mix up her and Madonna .",
+            "imgPath":"img/twitter/josecanseco.jpg",
+            "imgPathLg":"img/twitter/josecanseco.jpg",
+            "id":"twitter-celebrity-josecanseco",
+            "categoryId":"twitter-celebrity"
+         },
+         {
+            "section":"twitter",
+            "handle":"@julieklausner",
+            "name":"Julie Klausner",
+            "url":"https://twitter.com/julieklausner",
+            "blurb":"A master of pithy jokes and punchlines, Klausner will probably be uber-famous in a few years. Follow her now and say you knew her when.",
+            "category":"Humor",
+            "tweet":"One day, when the doorbell rings, I'll stop saying to my cat \"Ooooh Jimmy, is that your GIIIIRRRLFRIEND???\" But that day is not today.",
+            "imgPath":"img/twitter/julieklausner.jpg",
+            "imgPathLg":"img/twitter/julieklausner.jpg",
+            "id":"twitter-humor-julieklausner",
+            "categoryId":"twitter-humor"
+         },
+         {
+            "section":"twitter",
+            "handle":"@katiebakes",
+            "name":"Katie Baker",
+            "url":"https://twitter.com/katiebakes",
+            "blurb":"A Grantland A-lister, Baker is great on most things related to sports and awkwardness.",
+            "category":"Sports",
+            "tweet":"I turned on The Biggest Loser 15 seconds ago and I'm already bawling.",
+            "imgPath":"img/twitter/katiebaker.jpg",
+            "imgPathLg":"img/twitter/katiebaker.jpg",
+            "id":"twitter-sports-katiebaker",
+            "categoryId":"twitter-sports"
+         },
+         {
+            "section":"twitter",
+            "handle":"@kegrand",
+            "name":"Katie Grand",
+            "url":"https://twitter.com/kegrand ",
+            "blurb":"Editor of the consistently exciting fashion mag Love, Grand's feed is full of fun missives from her life and juicy fashion instagrams.",
+            "category":"Style",
+            "tweet":"Best line ever from Working Girl \"six thousand dollars and its not even leather\"",
+            "imgPath":"img/twitter/katiegrand.jpg",
+            "imgPathLg":"img/twitter/katiegrand.jpg",
+            "id":"twitter-style-katiegrand",
+            "categoryId":"twitter-style"
+         },
+         {
+            "section":"twitter",
+            "handle":"@KimJongNumberUn",
+            "name":"Kim Jong Number Un",
+            "url":"https://twitter.com/KimJongNumberUn",
+            "blurb":"This fake Twitter account for the guy running North Korea makes us wish the real dictator had a sense of humor. ",
+            "category":"Parody",
+            "tweet":"Let me stop all the rumors right now - I am not pregnant.",
+            "imgPath":"img/twitter/kimjongnumberun.jpg",
+            "imgPathLg":"img/twitter/kimjongnumberun.jpg",
+            "id":"twitter-parody-kimjongnumberun",
+            "categoryId":"twitter-parody"
+         },
+         {
+            "section":"twitter",
+            "handle":"@laurabrown99",
+            "name":"Laura Brown",
+            "url":"https://twitter.com/laurabrown99",
+            "blurb":"Pithy humor meets fashion fodder in this feed from the executive editor of Harper's Bazaar. Plus, some great Instagram link-outs. ",
+            "category":"Style",
+            "tweet":"You know what's chic? Doing a shoot at home about your fabulous life, and rummaging for clothing in your dry cleaning bag.",
+            "imgPath":"img/twitter/laurabrown.jpg",
+            "imgPathLg":"img/twitter/laurabrown.jpg",
+            "id":"twitter-style-laurabrown",
+            "categoryId":"twitter-style"
+         },
+         {
+            "section":"twitter",
+            "handle":"@lrozen",
+            "name":"Laura Rozen",
+            "url":"https://twitter.com/lrozen",
+            "blurb":"Nearly half of Rozen's feed is retweets of relevant articles and context on all-things-Middle East. She's fast and informed.",
+            "category":"International",
+            "tweet":"Many signs of growing international consensus on a roadmap for Syria crisis resolution. who knows if will succeed",
+            "imgPath":"img/twitter/laurarozen.jpg",
+            "imgPathLg":"img/twitter/laurarozen.jpg",
+            "id":"twitter-international-laurarozen",
+            "categoryId":"twitter-international"
+         },
+         {
+            "section":"twitter",
+            "handle":"@Mom101",
+            "name":"Liz Gumbinner",
+            "url":"https://twitter.com/Mom101",
+            "blurb":"She used to be in advertising, and has the wit to prove it. Half modern motherly insight, half hilarious everywoman.",
+            "category":"Family",
+            "tweet":"I'm happy for you women who look gorgeous pregnant. Mostly.",
+            "imgPath":"img/twitter/lizgumbinner.jpg",
+            "imgPathLg":"img/twitter/lizgumbinner.jpg",
+            "id":"twitter-family-lizgumbinner",
+            "categoryId":"twitter-family"
+         },
+         {
+            "section":"twitter",
+            "handle":"@maggiepolitico",
+            "name":"Maggie Haberman ",
+            "url":"https://twitter.com/maggiepolitico",
+            "blurb":"A solid mix of inside-baseball political fodder and breaking news, from one of Politico's star reporters. Warning: favors RTs.",
+            "category":"Politics",
+            "tweet":"Weiner is trying to re-run his 2005, somewhat below-the-radar strategy. I think - I THINK - that will be harder this time",
+            "imgPath":"img/twitter/maggiehaberman.jpg",
+            "imgPathLg":"img/twitter/maggiehaberman.jpg",
+            "id":"twitter-politics-maggiehaberman",
+            "categoryId":"twitter-politics"
+         },
+         {
+            "section":"twitter",
+            "handle":"@mattzollerseitz",
+            "name":"Matt Zoller Seitz",
+            "url":"https://twitter.com/mattzollerseitz",
+            "blurb":"If he's not asleep, the editor of RogerEbert.com and beloved New York Mag TV critic is on Twitter. A mix of culture and personal insights.",
+            "category":"Entertainment",
+            "tweet":"Put John Slattery behind the camera of a drug-fueled episode, what do you get? Screwball Scorsese in suits. #MadMen",
+            "imgPath":"img/twitter/mattzollerseitz.jpg",
+            "imgPathLg":"img/twitter/mattzollerseitz.jpg",
+            "id":"twitter-entertainment-mattzollerseitz",
+            "categoryId":"twitter-entertainment"
+         },
+         {
+            "section":"twitter",
+            "handle":"@MVoltaggio",
+            "name":"Michael Voltaggio",
+            "url":"https://twitter.com/mvoltaggio",
+            "blurb":"Winner of the 6th season of Top Chef, in which he beat out his brother, Voltaggio tweets about his adventures in restauranting in L.A.",
+            "category":"Food",
+            "tweet":"Is it too much to ask an employee to show up for work sober?",
+            "imgPath":"img/twitter/michaelvoltaggio.jpg",
+            "imgPathLg":"img/twitter/michaelvoltaggio.jpg",
+            "id":"twitter-food-michaelvoltaggio",
+            "categoryId":"twitter-food"
+         },
+         {
+            "section":"twitter",
+            "handle":"@mollyesque",
+            "name":"Molly Ball",
+            "url":"https://twitter.com/mollyesque",
+            "blurb":"A smart progressive on politics, tweeting not just her own good work at the Atlantic but other worthwhile reads. ",
+            "category":"Politics",
+            "tweet":"The number of hotels that now offer cookies at check-in is proof of the greatness of capitalism.",
+            "imgPath":"img/twitter/mollyball.jpg",
+            "imgPathLg":"img/twitter/mollyball.jpg",
+            "id":"twitter-politics-mollyball",
+            "categoryId":"twitter-politics"
+         },
+         {
+            "section":"twitter",
+            "handle":"@Nervana_1",
+            "name":"Nervana Mahmoud",
+            "url":"https://twitter.com/Nervana_1",
+            "blurb":"Few are better versed in the triumph and turmoil of the Middle East than Mahmoud, who tweets reliable insights on a critical region. ",
+            "category":"International",
+            "tweet":"#Syrians should be proud of their fight for freedom, but they shouldn't tolerate barbarism in the name  of their revolution.  #Syria",
+            "imgPath":"img/twitter/nervanamahmoud.jpg",
+            "imgPathLg":"img/twitter/nervanamahmoud.jpg",
+            "id":"twitter-international-nervanamahmoud",
+            "categoryId":"twitter-international"
+         },
+         {
+            "section":"twitter",
+            "handle":"@newscientist",
+            "name":"New Scientist",
+            "url":"https://twitter.com/newscientist",
+            "blurb":"More science news than you can shake a stick at, and with appeal for the masses, too. ",
+            "category":"Health & Science",
+            "tweet":"Thermal picture shows the surface of an emperor penguin's body is colder than the air around it. Some feat http://ow.ly/kQ3YI ",
+            "imgPath":"img/twitter/newscientist.jpg",
+            "imgPathLg":"img/twitter/newscientist.jpg",
+            "id":"twitter-healthscience-newscientist",
+            "categoryId":"twitter-healthscience"
+         },
+         {
+            "section":"twitter",
+            "handle":"@itsWillyFerrell",
+            "name":"Not Will Ferrell",
+            "url":"https://twitter.com/itsWillyFerrell",
+            "blurb":"The actual Will Ferrell does have a Twitter, but it’s nothing compared to this guy, who has wriggled into Ferrell’s brain and set up shop.",
+            "category":"Parody",
+            "tweet":"If Monday had a face, I would kick its face in the balls.",
+            "imgPath":"img/twitter/notwillferrell.jpg",
+            "imgPathLg":"img/twitter/notwillferrell.jpg",
+            "id":"twitter-parody-notwillferrell",
+            "categoryId":"twitter-parody"
+         },
+         {
+            "section":"twitter",
+            "handle":"@OldSpice",
+            "name":"Old Spice",
+            "url":"https://twitter.com/oldspice",
+            "blurb":"With humor just as sarcastic and virile as you'd expect, Old Spice makes marketing on Twitter a worthwhile follow.",
+            "category":"Companies",
+            "tweet":"Don't understand why people still need CDs when Old Spice is music to the nostrils.",
+            "imgPath":"img/twitter/oldspice.jpg",
+            "imgPathLg":"img/twitter/oldspice.jpg",
+            "id":"twitter-companies-oldspice",
+            "categoryId":"twitter-companies"
+         },
+         {
+            "section":"twitter",
+            "handle":"@oliviawilde",
+            "name":"Olivia Wilde",
+            "url":"https://twitter.com/oliviawilde",
+            "blurb":"Sure, she's a movie star and Jason Sudeikis' bride-to-be, but  she tweets like your funny best friend who happens to be cooler than you.",
+            "category":"Celebrity",
+            "tweet":"\"Don't trip on Anna Wintour and fall down stairs naked while spilling hot gravy on your face.\" - my silent prayer during tonight's Met Ball.",
+            "imgPath":"img/twitter/oliviawilde.jpg",
+            "imgPathLg":"img/twitter/oliviawilde.jpg",
+            "id":"twitter-celebrity-oliviawilde",
+            "categoryId":"twitter-celebrity"
+         },
+         {
+            "section":"twitter",
+            "handle":"@paulfeig",
+            "name":"Paul Feig",
+            "url":"https://twitter.com/paulfeig",
+            "blurb":"The director of Bridesmaids favors tart observations and har-har punchlines.",
+            "category":"Entertainment",
+            "tweet":"If my dog pees on a tree next to an outdoor cafe, everyone thinks it's cute. If I pee on that tree, people scream & I get arrested. #notfair",
+            "imgPath":"img/twitter/paulfeig.jpg",
+            "imgPathLg":"img/twitter/paulfeig.jpg",
+            "id":"twitter-entertainment-paulfeig",
+            "categoryId":"twitter-entertainment"
+         },
+         {
+            "section":"twitter",
+            "handle":"@PhilJackson11",
+            "name":"Phil Jackson",
+            "url":"https://twitter.com/PhilJackson11",
+            "blurb":"Legenday coach Phil Jackson knows his sports, of course. A must follow for hoops fans and anyone curious about the mind of a great coach.",
+            "category":"Sports",
+            "tweet":"NBA rules committee shud make a rule change. Naismith set up the game to eliminate fouling, therefore a team shud not profit from fouls.",
+            "imgPath":"img/twitter/philjackson.jpg",
+            "imgPathLg":"img/twitter/philjackson.jpg",
+            "id":"twitter-sports-philjackson",
+            "categoryId":"twitter-sports"
+         },
+         {
+            "section":"twitter",
+            "handle":"@playgrounddad",
+            "name":"Playground Dad",
+            "url":"https://twitter.com/playgrounddad",
+            "blurb":"This feed is as much about being a more attentive parent as it is about life as the father of four daughters. ",
+            "category":"Family",
+            "tweet":"At the end of the school year the teachers send home so much crap….um, I mean my child's art and schoolwork that I value incredibly.",
+            "imgPath":"img/twitter/playgrounddad.jpg",
+            "imgPathLg":"img/twitter/playgrounddad.jpg",
+            "id":"twitter-family-playgrounddad",
+            "categoryId":"twitter-family"
+         },
+         {
+            "section":"twitter",
+            "handle":"@PocketHits",
+            "name":"Pocket Hits",
+            "url":"https://twitter.com/PocketHits",
+            "blurb":"Ferrets out great things to read and, with a separate app, let's you save them in your 'pocket' to read later. Good before a job interview.",
+            "category":"News",
+            "tweet":"\"Inside Google's Secret Lab.\" @bradstone, @BW http://bit.ly/12ZWXYB  #MostSaved #longreads",
+            "imgPath":"img/twitter/pockethits.jpg",
+            "imgPathLg":"img/twitter/pockethits.jpg",
+            "id":"twitter-news-pockethits",
+            "categoryId":"twitter-news"
+         },
+         {
+            "section":"twitter",
+            "handle":"@robdelaney",
+            "name":"Rob Delaney",
+            "url":"https://twitter.com/robdelaney",
+            "blurb":"Offends, delights, and insults with charming aplomb. We also love that he is a brazen feminist.",
+            "category":"Humor",
+            "tweet":"When a guy calls a woman a \"feminazi,\" it would be a funny joke for her to work him to death then cook him in an oven.",
+            "imgPath":"img/twitter/robdelaney.jpg",
+            "imgPathLg":"img/twitter/robdelaney.jpg",
+            "id":"twitter-humor-robdelaney",
+            "categoryId":"twitter-humor"
+         },
+         {
+            "section":"twitter",
+            "handle":"@RobGeorge",
+            "name":"Robert A George ",
+            "url":"https://twitter.com/RobGeorge",
+            "blurb":"New York Post editorial writer who manages to mix politics, humor and bizarre hashtags (#jewishPornTitles, anyone?) with aplomb. ",
+            "category":"Politics",
+            "tweet":"So, as deficit shrinks, which side is first to admit that \"fiscal cliff\" combo -- tax increase+sequester -- actually worked? #tabootopics",
+            "imgPath":"img/twitter/robertageorge.jpg",
+            "imgPathLg":"img/twitter/robertageorge.jpg",
+            "id":"twitter-politics-robertageorge",
+            "categoryId":"twitter-politics"
+         },
+         {
+            "section":"twitter",
+            "handle":"@robertcostaNRO",
+            "name":"Robert Costa",
+            "url":"https://twitter.com/robertcostaNRO",
+            "blurb":"Goes deep into the GOP's raucous if predictable fights over the debt ceiling, sequester, entitlement reform and more.",
+            "category":"Politics",
+            "tweet":"McConnell on the IRS scandal: \"I told you so\" -- says he's been concerned about the admin's pressuring of political speech for yrs. More tk",
+            "imgPath":"img/twitter/robertcosta.jpg",
+            "imgPathLg":"img/twitter/robertcosta.jpg",
+            "id":"twitter-politics-robertcosta",
+            "categoryId":"twitter-politics"
+         },
+         {
+            "section":"twitter",
+            "handle":"@RuPaul",
+            "name":"RuPaul",
+            "url":"https://twitter.com/RuPaul",
+            "blurb":"The world's most famous drag queen is bold, clever and she talks to her fans. Winning! ",
+            "category":"Celebrity",
+            "tweet":"Mama said: \"Who needs a cigarette lighter when U've got the stove\"",
+            "imgPath":"img/twitter/rupaul.jpg",
+            "imgPathLg":"img/twitter/rupaul.jpg",
+            "id":"twitter-celebrity-rupaul",
+            "categoryId":"twitter-celebrity"
+         },
+         {
+            "section":"twitter",
+            "handle":"@rubycramer",
+            "name":"Ruby Cramer ",
+            "url":"https://twitter.com/rubycramer",
+            "blurb":"She's a cub reporter, but adds some levity to politics coverage with her Buzzfeed bent for listicles and banter. ",
+            "category":"Politics",
+            "tweet":"If Christie calls for elex in Oct, costing mills, Dems will go through every budget item Christie has vetoed as way to push back, source sez",
+            "imgPath":"img/twitter/rubycramer.jpg",
+            "imgPathLg":"img/twitter/rubycramer.jpg",
+            "id":"twitter-politics-rubycramer",
+            "categoryId":"twitter-politics"
+         },
+         {
+            "section":"twitter",
+            "handle":"@SallieKrawcheck",
+            "name":"Sallie Krawcheck",
+            "url":"https://twitter.com/salliekrawcheck",
+            "blurb":"A former Wall Street heavyweight, Krawcheck's feed is filled with Street commentary and news about women business leaders.",
+            "category":"Business",
+            "tweet":"5 Steps to Impact Investing w/ a Gender Lens, Melanie Hamburger @85Broads #InvestinWomen http://po.st/y8JM6M ",
+            "imgPath":"img/twitter/salliekrawcheck.jpg",
+            "imgPathLg":"img/twitter/salliekrawcheck.jpg",
+            "id":"twitter-business-salliekrawcheck",
+            "categoryId":"twitter-business"
+         },
+         {
+            "section":"twitter",
+            "handle":"@sarahdessen",
+            "name":"Sarah Dessen",
+            "url":"https://twitter.com/sarahdessen",
+            "blurb":"YA author Dessen tweets mostly about her mostly upbeat life as a mother, wife, and writer in Chapel HIll, N.C.",
+            "category":"Books",
+            "tweet":"Starting to get really nervous about telling my kid she has to get shots this morning. Trying to channel calming energy, like Cesar Milan.",
+            "imgPath":"img/twitter/sarahdessen.jpg",
+            "imgPathLg":"img/twitter/sarahdessen.jpg",
+            "id":"twitter-books-sarahdessen",
+            "categoryId":"twitter-books"
+         },
+         {
+            "section":"twitter",
+            "handle":"@sarahw",
+            "name":"Sarah Weinman",
+            "url":"https://twitter.com/sarahw",
+            "blurb":"The Publishers Marketplace editor does what everyone on Twitter should strive to do: post interesting thoughts and interesting links. ",
+            "category":"Entertainment",
+            "tweet":"So I'm not quite ready to commit to this statement fully but...I think PI fiction is making a comeback. And about time, too.",
+            "imgPath":"img/twitter/sarahweinman.jpg",
+            "imgPathLg":"img/twitter/sarahweinman.jpg",
+            "id":"twitter-entertainment-sarahweinman",
+            "categoryId":"twitter-entertainment"
+         },
+         {
+            "section":"twitter",
+            "handle":"@sesamestreet",
+            "name":"Sesame Street",
+            "url":"https://twitter.com/sesamestreet",
+            "blurb":"For a respite from snark and  self-promotion, Sesame Street's feed is a welcome light-hearted destination.",
+            "category":"Companies",
+            "tweet":"Grover: Another joke from your furry pal Grover. Why did the monster cross the road? Because it was the chicken's day off! Ah, humor.",
+            "imgPath":"img/twitter/sesamestreet.jpg",
+            "imgPathLg":"img/twitter/sesamestreet.jpg",
+            "id":"twitter-companies-sesamestreet",
+            "categoryId":"twitter-companies"
+         },
+         {
+            "section":"twitter",
+            "handle":"@HiddenBrain",
+            "name":"Shankar Vedantam",
+            "url":"https://twitter.com/HiddenBrain",
+            "blurb":"NPR's science correspondent is one of those people who devours news of all kinds, and shares the best of what he reads. ",
+            "category":"Health & Science",
+            "tweet":"We've heard it takes a village to act ethically. Does it take a village to act unethically? http://ow.ly/lsSLm ",
+            "imgPath":"img/twitter/shankarvedantam.jpg",
+            "imgPathLg":"img/twitter/shankarvedantam.jpg",
+            "id":"twitter-healthscience-shankarvedantam",
+            "categoryId":"twitter-healthscience"
+         },
+         {
+            "section":"twitter",
+            "handle":"@Sherman_Alexie",
+            "name":"Sherman Alexie",
+            "url":"https://twitter.com/Sherman_Alexie",
+            "blurb":"Winner of the PEN/Faulkner prize for fiction, Alexie tweets all seem off the cuff—sometimes witty, sometimes insightful, usually personal. ",
+            "category":"Books",
+            "tweet":"I don't believe in Jesus as supernatural figure. I do believe in him as a pioneering social justice worker.",
+            "imgPath":"img/twitter/shermanalexie.jpg",
+            "imgPathLg":"img/twitter/shermanalexie.jpg",
+            "id":"twitter-books-shermanalexie",
+            "categoryId":"twitter-books"
+         },
+         {
+            "section":"twitter",
+            "handle":"@SWilderTaylor",
+            "name":"Stefanie Wilder Taylor",
+            "url":"https://twitter.com/SWilderTaylor",
+            "blurb":"The NickMom host of Parental Discretion likes fancy vinegar, black jellybeans and the Lifetime Movie Network. What more do you ask for? ",
+            "category":"Family",
+            "tweet":"I'm home schooling my kids! And by home schooling I mean letting them watch Fresh Beat Band while they're home sick.",
+            "imgPath":"img/twitter/stefaniewildertaylor.jpg",
+            "imgPathLg":"img/twitter/stefaniewildertaylor.jpg",
+            "id":"twitter-family-stefaniewildertaylor",
+            "categoryId":"twitter-family"
+         },
+         {
+            "section":"twitter",
+            "handle":"@SteveCase",
+            "name":"Steve Case",
+            "url":"https://twitter.com/SteveCase",
+            "blurb":"Case founded AOL, but he’s no one-hit wonder. Remains carefully tuned into the tech, politics and business worlds, and you can, too.",
+            "category":"Business",
+            "tweet":"Are foodies quietly killing rock-and-roll? http://wapo.st/11Z9vP0  \"Cuisine is stealing music’s role in helping young people forge identity\"",
+            "imgPath":"img/twitter/stevecase.jpg",
+            "imgPathLg":"img/twitter/stevecase.jpg",
+            "id":"twitter-business-stevecase",
+            "categoryId":"twitter-business"
+         },
+         {
+            "section":"twitter",
+            "handle":"@thedaddycomplex",
+            "name":"The Daddy Complex",
+            "url":"https://twitter.com/thedaddycomplex",
+            "blurb":"David Vienna is the writer behind this feed and the father of twin boys Wyatt and Boone. Simply put: it's funny and his kids are cute.",
+            "category":"Family",
+            "tweet":"This morning I tried a new tactic with our boys. My wife was Good Cop, like usual, but I was Fucking Lunatic Cop. Results were mixed.",
+            "imgPath":"img/twitter/thedaddycomplex.jpg",
+            "imgPathLg":"img/twitter/thedaddycomplex.jpg",
+            "id":"twitter-family-thedaddycomplex",
+            "categoryId":"twitter-family"
+         },
+         {
+            "section":"twitter",
+            "handle":"@timmarchman",
+            "name":"Tim Marchman",
+            "url":"https://twitter.com/timmarchman",
+            "blurb":"This editor at The Classical is on top of everything, and if you follow him, you will at least be able to pretend you are, too. ",
+            "category":"Sports",
+            "tweet":"Trying and failing to think of a team/athlete as contemptuous as the Heat when they're indignant.",
+            "imgPath":"img/twitter/timmarchman.jpg",
+            "imgPathLg":"img/twitter/timmarchman.jpg",
+            "id":"twitter-sports-timmarchman",
+            "categoryId":"twitter-sports"
+         },
+         {
+            "section":"twitter",
+            "handle":"@jezebel_tracie",
+            "name":"Tracie Egan Morissey",
+            "url":"https://twitter.com/jezebel_tracie",
+            "blurb":"For all lovers of Jezebel, the site's editor offers a similar spin on gossip and news in just 140 characters, plus clever one-liners. ",
+            "category":"Women's Issues",
+            "tweet":"It's time to retire \"lady boner.\"",
+            "imgPath":"img/twitter/tracieeganmorissey.jpg",
+            "imgPathLg":"img/twitter/tracieeganmorissey.jpg",
+            "id":"twitter-womensissues-tracieeganmorissey",
+            "categoryId":"twitter-womensissues"
+         },
+         {
+            "section":"twitter",
+            "handle":"@VitalVoices",
+            "name":"Vital Voices",
+            "url":"https://twitter.com/VitalVoices",
+            "blurb":"Spotlighting events and articles about female leadership around the world, the feed is a great way to stay informed and inspired.",
+            "category":"Women's Issues",
+            "tweet":"From Uruguay to Silicon Valley & back, Fortune/State mentee Agustina shares why she's now dreaming bigger than ever: http://ow.ly/lkR7m ",
+            "imgPath":"img/twitter/vitalvoices.jpg",
+            "imgPathLg":"img/twitter/vitalvoices.jpg",
+            "id":"twitter-womensissues-vitalvoices",
+            "categoryId":"twitter-womensissues"
+         },
+         {
+            "section":"twitter",
+            "handle":"@WillMcAvoyACN",
+            "name":"Will McAvoy",
+            "url":"https://twitter.com/WillMcAvoyACN",
+            "blurb":"If you agree that HBO's “The Newsroom” is terribly overwrought, this is a good way to skip it and imagine if the anchor simply tweeted.",
+            "category":"Parody",
+            "tweet":"Oh, God. We've moved on to analyzing if Obama cried or not during his press conference. #WeAreNowhere",
+            "imgPath":"img/twitter/willmcavoy.jpg",
+            "imgPathLg":"img/twitter/willmcavoy.jpg",
+            "id":"twitter-parody-willmcavoy",
+            "categoryId":"twitter-parody"
+         },
+         {
+            "section":"twitter",
+            "handle":"@wizkhalifa",
+            "name":"Wiz Khalifa",
+            "url":"https://twitter.com/wizkhalifa",
+            "blurb":"A window into the rapper's wacky world, with some touching bursts of normalcy, like his description of daughter's kisses on the nose. ",
+            "category":"Celebrity",
+            "tweet":"Yesterday wuz intense. Chilled wit Bash, seen Problem kill it, played some pool, bombed sum hills, recorded 2 verses for da album. Intense",
+            "imgPath":"img/twitter/wizkhalifa.jpg",
+            "imgPathLg":"img/twitter/wizkhalifa.jpg",
+            "id":"twitter-celebrity-wizkhalifa",
+            "categoryId":"twitter-celebrity"
+         },
+         {
+            "section":"twitter",
+            "handle":"@WomenforWomen",
+            "name":"Women for Women International",
+            "url":"https://twitter.com/WomenforWomen",
+            "blurb":"Women for Women works to help female war survivors. Its feed stays on top of its mission with well-honed news items and event updates. ",
+            "category":"Women's Issues",
+            "tweet":"Heartwarming update on Aesha Mohammadzai, the young Afghan girl whose husband cut of her ears and nose as punishment. http://ow.ly/kV909 ",
+            "imgPath":"img/twitter/womenforwomeninternational.jpg",
+            "imgPathLg":"img/twitter/womenforwomeninternational.jpg",
+            "id":"twitter-womensissues-womenforwomeninternational",
+            "categoryId":"twitter-womensissues"
+         },
+         {
+            "section":"twitter",
+            "handle":"@LIFECOACHER",
+            "name":"Your Life Coaches",
+            "url":"https://twitter.com/LIFECOACHERS",
+            "blurb":"This trio of funny dudes puts together satirical (but also maybe kind of real?) advice. Follow it, or just get a good laugh.",
+            "category":"Humor",
+            "tweet":"In the spirit of paying it forward, insincerely suck up to at least one celebrity on Twitter today. We've neglected them for so long.",
+            "imgPath":"img/twitter/yourlifecoaches.jpg",
+            "imgPathLg":"img/twitter/yourlifecoaches.jpg",
+            "id":"twitter-humor-yourlifecoaches",
+            "categoryId":"twitter-humor"
+         }
+      ],
+      "categories":[
+         {
+            "id":"twitter-books",
+            "name":"Books"
+         },
+         {
+            "id":"twitter-business",
+            "name":"Business"
+         },
+         {
+            "id":"twitter-celebrity",
+            "name":"Celebrity"
+         },
+         {
+            "id":"twitter-companies",
+            "name":"Companies"
+         },
+         {
+            "id":"twitter-entertainment",
+            "name":"Entertainment"
+         },
+         {
+            "id":"twitter-family",
+            "name":"Family"
+         },
+         {
+            "id":"twitter-food",
+            "name":"Food"
+         },
+         {
+            "id":"twitter-healthscience",
+            "name":"Health & Science"
+         },
+         {
+            "id":"twitter-humor",
+            "name":"Humor"
+         },
+         {
+            "id":"twitter-international",
+            "name":"International"
+         },
+         {
+            "id":"twitter-news",
+            "name":"News"
+         },
+         {
+            "id":"twitter-parody",
+            "name":"Parody"
+         },
+         {
+            "id":"twitter-politics",
+            "name":"Politics"
+         },
+         {
+            "id":"twitter-sports",
+            "name":"Sports"
+         },
+         {
+            "id":"twitter-style",
+            "name":"Style"
+         },
+         {
+            "id":"twitter-tech",
+            "name":"Tech"
+         },
+         {
+            "id":"twitter-womensissues",
+            "name":"Women's Issues"
+         }
+      ]
+   },
+   "autocomplete":[
+      {
+         "label":"Elizabeth Windsor, @Queen_UK",
+         "link":"twitter-parody-elizabethwindsor"
+      },
+      {
+         "label":"Aaron Levie, @levie",
+         "link":"twitter-tech-aaronlevie"
+      },
+      {
+         "label":"Aaron Paul, @aaronpaul_8",
+         "link":"twitter-celebrity-aaronpaul"
+      },
+      {
+         "label":"Adam Platt, @plattypants",
+         "link":"twitter-food-adamplatt"
+      },
+      {
+         "label":"Alain de Botton, @alaindebotton",
+         "link":"twitter-books-alaindebotton"
+      },
+      {
+         "label":"Alex Baze, @bazecraze",
+         "link":"twitter-humor-alexbaze"
+      },
+      {
+         "label":"Alexia Tsotsis, @alexia",
+         "link":"twitter-tech-alexiatsotsis"
+      },
+      {
+         "label":"Amal Ghandour, @amalghandour",
+         "link":"twitter-international-amalghandour"
+      },
+      {
+         "label":"Amanda Hesser, @amandahesser",
+         "link":"twitter-food-amandahesser"
+      },
+      {
+         "label":"Amanda Marcotte, @AmandaMarcotte",
+         "link":"twitter-womensissues-amandamarcotte"
+      },
+      {
+         "label":"Andrew Kaczynski, @BuzzFeedAndrew",
+         "link":"twitter-politics-andrewkaczynski"
+      },
+      {
+         "label":"Andrew W.K., @AndrewWK",
+         "link":"twitter-celebrity-andrewwk"
+      },
+      {
+         "label":"Anonymous, @YourAnonNews",
+         "link":"twitter-news-anonymous"
+      },
+      {
+         "label":"Anthony De Rosa, @AntDeRosa",
+         "link":"twitter-news-anthonyderosa"
+      },
+      {
+         "label":"Bacon Salt, @BaconSalt",
+         "link":"twitter-companies-baconsalt"
+      },
+      {
+         "label":"Baseball America, @BaseballAmerica",
+         "link":"twitter-sports-baseballamerica"
+      },
+      {
+         "label":"Ben Schwartz, @rejectedjokes",
+         "link":"twitter-celebrity-benschwartz"
+      },
+      {
+         "label":"Ben White, @morningmoneyben",
+         "link":"twitter-business-benwhite"
+      },
+      {
+         "label":"Billy Eichner, @billyeichner",
+         "link":"twitter-humor-billyeichner"
+      },
+      {
+         "label":"Blake Shelton, @blakeshelton",
+         "link":"twitter-celebrity-blakeshelton"
+      },
+      {
+         "label":"Breaking News, @BreakingNews",
+         "link":"twitter-news-breakingnews"
+      },
+      {
+         "label":"Bruce Bartlett, @BruceBartlett",
+         "link":"twitter-business-brucebartlett"
+      },
+      {
+         "label":"Chart News, @chartnews",
+         "link":"twitter-entertainment-chartnews"
+      },
+      {
+         "label":"Chris Dixon, @cdixon",
+         "link":"twitter-tech-chrisdixon"
+      },
+      {
+         "label":"Chris Hadfield, @Cmdr_Hadfield",
+         "link":"twitter-healthscience-chrishadfield"
+      },
+      {
+         "label":"Chris Hayes, @chrislhayes",
+         "link":"twitter-politics-chrishayes"
+      },
+      {
+         "label":"Chrissy Teigen, @chrissyteigen",
+         "link":"twitter-celebrity-chrissyteigen"
+      },
+      {
+         "label":"Colin Meloy, @colinmeloy",
+         "link":"twitter-celebrity-colinmeloy"
+      },
+      {
+         "label":"David Chang, @davidchang",
+         "link":"twitter-food-davidchang"
+      },
+      {
+         "label":"David J. Roth, @david_j_roth",
+         "link":"twitter-sports-davidjroth"
+      },
+      {
+         "label":"Dennis Rodman, @dennisrodman",
+         "link":"twitter-celebrity-dennisrodman"
+      },
+      {
+         "label":"Downtown Josh Brown, @ReformedBroker",
+         "link":"twitter-business-downtownjoshbrown"
+      },
+      {
+         "label":"Eric Topol, @EricTopol",
+         "link":"twitter-healthscience-erictopol"
+      },
+      {
+         "label":"Errol Morris, @errolmorris",
+         "link":"twitter-entertainment-errolmorris"
+      },
+      {
+         "label":"Ezra Koenig of Vampire Weekend, @arzE",
+         "link":"twitter-celebrity-ezrakoenigofvampireweekend"
+      },
+      {
+         "label":"Felix Salmon, @felixsalmon",
+         "link":"twitter-business-felixsalmon"
+      },
+      {
+         "label":"Florida Man, @_FloridaMan",
+         "link":"twitter-humor-floridaman"
+      },
+      {
+         "label":"Hari Kunzru, @harikunzru",
+         "link":"twitter-books-harikunzru"
+      },
+      {
+         "label":"Harvard Health, @HarvardHealth",
+         "link":"twitter-healthscience-harvardhealth"
+      },
+      {
+         "label":"Hillary Clinton, @HillaryClinton",
+         "link":"twitter-politics-hillaryclinton"
+      },
+      {
+         "label":"Hugh Acheson, @HughAcheson",
+         "link":"twitter-food-hughacheson"
+      },
+      {
+         "label":"Hunter Walk, @hunterwalk",
+         "link":"twitter-tech-hunterwalk"
+      },
+      {
+         "label":"IDF Spokesperson, @IDFSpokesperson",
+         "link":"twitter-international-idfspokesperson"
+      },
+      {
+         "label":"James Poniewozik, @poniewozik",
+         "link":"twitter-entertainment-jamesponiewozik"
+      },
+      {
+         "label":"Jason Good, @jasonmgood",
+         "link":"twitter-family-jasongood"
+      },
+      {
+         "label":"Jay Horwitz, @Jay_HorwitzPR",
+         "link":"twitter-sports-jayhorwitz"
+      },
+      {
+         "label":"Jenna Wortham, @jennydeluxe",
+         "link":"twitter-tech-jennawortham"
+      },
+      {
+         "label":"Jenni Konner, @campsucks",
+         "link":"twitter-humor-jennikonner"
+      },
+      {
+         "label":"Jenny Johnson, @JennyJohnsonHi5",
+         "link":"twitter-humor-jennyjohnson"
+      },
+      {
+         "label":"Jessica Valenti, @JessicaValenti",
+         "link":"twitter-womensissues-jessicavalenti"
+      },
+      {
+         "label":"John Jannuzzi, @johnjannuzzi",
+         "link":"twitter-style-johnjannuzzi"
+      },
+      {
+         "label":"Jon Hendren, @fart",
+         "link":"twitter-humor-jonhendren"
+      },
+      {
+         "label":"Jonathan Capehart, @CapehartJ",
+         "link":"twitter-politics-jonathancapehart"
+      },
+      {
+         "label":"Jose Canseco, @JoseCanseco",
+         "link":"twitter-celebrity-josecanseco"
+      },
+      {
+         "label":"Julie Klausner, @julieklausner",
+         "link":"twitter-humor-julieklausner"
+      },
+      {
+         "label":"Katie Baker, @katiebakes",
+         "link":"twitter-sports-katiebaker"
+      },
+      {
+         "label":"Katie Grand, @kegrand",
+         "link":"twitter-style-katiegrand"
+      },
+      {
+         "label":"Kim Jong Number Un, @KimJongNumberUn",
+         "link":"twitter-parody-kimjongnumberun"
+      },
+      {
+         "label":"Laura Brown, @laurabrown99",
+         "link":"twitter-style-laurabrown"
+      },
+      {
+         "label":"Laura Rozen, @lrozen",
+         "link":"twitter-international-laurarozen"
+      },
+      {
+         "label":"Liz Gumbinner, @Mom101",
+         "link":"twitter-family-lizgumbinner"
+      },
+      {
+         "label":"Maggie Haberman , @maggiepolitico",
+         "link":"twitter-politics-maggiehaberman"
+      },
+      {
+         "label":"Matt Zoller Seitz, @mattzollerseitz",
+         "link":"twitter-entertainment-mattzollerseitz"
+      },
+      {
+         "label":"Michael Voltaggio, @MVoltaggio",
+         "link":"twitter-food-michaelvoltaggio"
+      },
+      {
+         "label":"Molly Ball, @mollyesque",
+         "link":"twitter-politics-mollyball"
+      },
+      {
+         "label":"Nervana Mahmoud, @Nervana_1",
+         "link":"twitter-international-nervanamahmoud"
+      },
+      {
+         "label":"New Scientist, @newscientist",
+         "link":"twitter-healthscience-newscientist"
+      },
+      {
+         "label":"Not Will Ferrell, @itsWillyFerrell",
+         "link":"twitter-parody-notwillferrell"
+      },
+      {
+         "label":"Old Spice, @OldSpice",
+         "link":"twitter-companies-oldspice"
+      },
+      {
+         "label":"Olivia Wilde, @oliviawilde",
+         "link":"twitter-celebrity-oliviawilde"
+      },
+      {
+         "label":"Paul Feig, @paulfeig",
+         "link":"twitter-entertainment-paulfeig"
+      },
+      {
+         "label":"Phil Jackson, @PhilJackson11",
+         "link":"twitter-sports-philjackson"
+      },
+      {
+         "label":"Playground Dad, @playgrounddad",
+         "link":"twitter-family-playgrounddad"
+      },
+      {
+         "label":"Pocket Hits, @PocketHits",
+         "link":"twitter-news-pockethits"
+      },
+      {
+         "label":"Rob Delaney, @robdelaney",
+         "link":"twitter-humor-robdelaney"
+      },
+      {
+         "label":"Robert A George , @RobGeorge",
+         "link":"twitter-politics-robertageorge"
+      },
+      {
+         "label":"Robert Costa, @robertcostaNRO",
+         "link":"twitter-politics-robertcosta"
+      },
+      {
+         "label":"RuPaul, @RuPaul",
+         "link":"twitter-celebrity-rupaul"
+      },
+      {
+         "label":"Ruby Cramer , @rubycramer",
+         "link":"twitter-politics-rubycramer"
+      },
+      {
+         "label":"Sallie Krawcheck, @SallieKrawcheck",
+         "link":"twitter-business-salliekrawcheck"
+      },
+      {
+         "label":"Sarah Dessen, @sarahdessen",
+         "link":"twitter-books-sarahdessen"
+      },
+      {
+         "label":"Sarah Weinman, @sarahw",
+         "link":"twitter-entertainment-sarahweinman"
+      },
+      {
+         "label":"Sesame Street, @sesamestreet",
+         "link":"twitter-companies-sesamestreet"
+      },
+      {
+         "label":"Shankar Vedantam, @HiddenBrain",
+         "link":"twitter-healthscience-shankarvedantam"
+      },
+      {
+         "label":"Sherman Alexie, @Sherman_Alexie",
+         "link":"twitter-books-shermanalexie"
+      },
+      {
+         "label":"Stefanie Wilder Taylor, @SWilderTaylor",
+         "link":"twitter-family-stefaniewildertaylor"
+      },
+      {
+         "label":"Steve Case, @SteveCase",
+         "link":"twitter-business-stevecase"
+      },
+      {
+         "label":"The Daddy Complex, @thedaddycomplex",
+         "link":"twitter-family-thedaddycomplex"
+      },
+      {
+         "label":"Tim Marchman, @timmarchman",
+         "link":"twitter-sports-timmarchman"
+      },
+      {
+         "label":"Tracie Egan Morissey, @jezebel_tracie",
+         "link":"twitter-womensissues-tracieeganmorissey"
+      },
+      {
+         "label":"Vital Voices, @VitalVoices",
+         "link":"twitter-womensissues-vitalvoices"
+      },
+      {
+         "label":"Will McAvoy, @WillMcAvoyACN",
+         "link":"twitter-parody-willmcavoy"
+      },
+      {
+         "label":"Wiz Khalifa, @wizkhalifa",
+         "link":"twitter-celebrity-wizkhalifa"
+      },
+      {
+         "label":"Women for Women International, @WomenforWomen",
+         "link":"twitter-womensissues-womenforwomeninternational"
+      },
+      {
+         "label":"Your Life Coaches, @LIFECOACHER",
+         "link":"twitter-humor-yourlifecoaches"
+      },
+      {
+         "label":"100 Percent Men, @100PercentMen",
+         "link":"web-tumblr-100percentmen"
+      },
+      {
+         "label":"99U, @99u",
+         "link":"web-brainfood-99u"
+      },
+      {
+         "label":"AbandonedNYC, @abandonednyc",
+         "link":"web-randomfun-abandonednyc"
+      },
+      {
+         "label":"Arts & Letters Daily, @aldaily",
+         "link":"web-reading-artslettersdaily"
+      },
+      {
+         "label":"Artsy, @artsy",
+         "link":"web-artstyle-artsy"
+      },
+      {
+         "label":"Atavist, @theatavist",
+         "link":"web-reading-atavist"
+      },
+      {
+         "label":"BackBid, @BackBid",
+         "link":"web-travelfood-backbid"
+      },
+      {
+         "label":"Bad Kids Jokes, Bad Kids Jokes'",
+         "link":"web-tumblr-badkidsjokes"
+      },
+      {
+         "label":"Bloesem, @bloesemblog Kids",
+         "link":"web-parenting-bloesem"
+      },
+      {
+         "label":"Brain Pickings , @brainpickings",
+         "link":"web-brainfood-brainpickings"
+      },
+      {
+         "label":"Camera Awesome, @awesomize",
+         "link":"web-apps-cameraawesome"
+      },
+      {
+         "label":"CR Fashion Book, @CRFASHIONBOOK",
+         "link":"web-artstyle-crfashionbook"
+      },
+      {
+         "label":"Curisma, @curisma_daily",
+         "link":"web-tech-curisma"
+      },
+      {
+         "label":"DadWagon, @dadwagon",
+         "link":"web-parenting-dadwagon"
+      },
+      {
+         "label":"DailyLit, @DailyLit",
+         "link":"web-reading-dailylit"
+      },
+      {
+         "label":"DatPiff, @DatPiff",
+         "link":"web-sportsentertainment-datpiff"
+      },
+      {
+         "label":"Dinner: A Love Story, @dinnerlovestory",
+         "link":"web-parenting-dinneralovestory"
+      },
+      {
+         "label":"Dlisted, @itsdlisted",
+         "link":"web-sportsentertainment-dlisted"
+      },
+      {
+         "label":"Doom & Gloom From the Tomb, Doom & Gloom From the Tomb'",
+         "link":"web-tumblr-doomgloomfromthetomb"
+      },
+      {
+         "label":"Dots, @playdots",
+         "link":"web-apps-dots"
+      },
+      {
+         "label":"Eat Your Books, @EatYourBooks",
+         "link":"web-travelfood-eatyourbooks"
+      },
+      {
+         "label":"Elbows, @elbows",
+         "link":"web-sportsentertainment-elbows"
+      },
+      {
+         "label":"Etymonline , Etymonline ",
+         "link":"web-brainfood-etymonline"
+      },
+      {
+         "label":"Evernote Food, @EvernoteFood",
+         "link":"web-apps-evernotefood"
+      },
+      {
+         "label":"Fantastical, @flexibits",
+         "link":"web-apps-fantastical"
+      },
+      {
+         "label":"FindTheBest, @FindTheBest",
+         "link":"web-shopping-findthebest"
+      },
+      {
+         "label":"Flavorwire, @flavorwire",
+         "link":"web-sportsentertainment-flavorwire"
+      },
+      {
+         "label":"Foodie, @FoodieByGlam",
+         "link":"web-travelfood-foodie"
+      },
+      {
+         "label":"Foodily, @FOODILY",
+         "link":"web-travelfood-foodily"
+      },
+      {
+         "label":"Foodspotting, @foodspotting",
+         "link":"web-travelfood-foodspotting"
+      },
+      {
+         "label":"Futility Closet, futilitycloset.com",
+         "link":"web-brainfood-futilitycloset"
+      },
+      {
+         "label":"GeoGuesser, %23GeoGuesser",
+         "link":"web-randomfun-geoguesser"
+      },
+      {
+         "label":"Grubwithus, @Grubwithus",
+         "link":"web-travelfood-grubwithus"
+      },
+      {
+         "label":"Hacker News, Hacker News'",
+         "link":"web-tech-hackernews"
+      },
+      {
+         "label":"HitFix, @HitFix",
+         "link":"web-sportsentertainment-hitfix"
+      },
+      {
+         "label":"Houzz, @houzz",
+         "link":"web-artstyle-houzz"
+      },
+      {
+         "label":"I Love Charts, @ilovecharts",
+         "link":"web-tumblr-ilovecharts"
+      },
+      {
+         "label":"Iconic Photos, @aalholmes",
+         "link":"web-photography-iconicphotos"
+      },
+      {
+         "label":"Into The Gloss, @IntoTheGloss",
+         "link":"web-artstyle-intothegloss"
+      },
+      {
+         "label":"Lil Bub, @IAMLILBUB",
+         "link":"web-tumblr-lilbub"
+      },
+      {
+         "label":"Machinarium , Machinarium",
+         "link":"web-apps-machinarium"
+      },
+      {
+         "label":"Maddie on Things, Maddie on Things'",
+         "link":"web-tumblr-maddieonthings"
+      },
+      {
+         "label":"Makers, @MAKERSwomen",
+         "link":"web-randomfun-makers"
+      },
+      {
+         "label":"Me & My Shadow, myshadow.org",
+         "link":"web-randomfun-memyshadow"
+      },
+      {
+         "label":"Medium , @medium",
+         "link":"web-reading-medium"
+      },
+      {
+         "label":"Menswear Dog, @Mensweardog",
+         "link":"web-tumblr-mensweardog"
+      },
+      {
+         "label":"Moda Operandi, @modaoperandi",
+         "link":"web-shopping-modaoperandi"
+      },
+      {
+         "label":"Momfilter, @Momfilter",
+         "link":"web-parenting-momfilter"
+      },
+      {
+         "label":"Nah Right, @nahright",
+         "link":"web-sportsentertainment-nahright"
+      },
+      {
+         "label":"Newsmap, @therealnewsmap",
+         "link":"web-randomfun-newsmap"
+      },
+      {
+         "label":"NPR's The Picture Show, @NPRPictureShow",
+         "link":"web-photography-nprsthepictureshow"
+      },
+      {
+         "label":"Of a Kind, @ofakind",
+         "link":"web-shopping-ofakind"
+      },
+      {
+         "label":"PaperKarma , @PaperKarma",
+         "link":"web-apps-paperkarma"
+      },
+      {
+         "label":"Parent Hacks, @parenthacks",
+         "link":"web-parenting-parenthacks"
+      },
+      {
+         "label":"PolitiFact, @politifact",
+         "link":"web-politics-politifact"
+      },
+      {
+         "label":"Prison Photography, @brookpete",
+         "link":"web-photography-prisonphotography"
+      },
+      {
+         "label":"Public Books, @publicbooks",
+         "link":"web-reading-publicbooks"
+      },
+      {
+         "label":"Put This On, @putthison",
+         "link":"web-artstyle-putthison"
+      },
+      {
+         "label":"Reddit Politics, @Reddit Politics",
+         "link":"web-politics-redditpolitics"
+      },
+      {
+         "label":"Sabato's Crystal Ball, @larrysabato",
+         "link":"web-politics-sabatoscrystalball"
+      },
+      {
+         "label":"Shoptiques, @shoptiques",
+         "link":"web-shopping-shoptiques"
+      },
+      {
+         "label":"The Skeptic's Dictionary, @RobertTCarroll",
+         "link":"web-brainfood-theskepticsdictionary"
+      },
+      {
+         "label":"Small Demons, @smalldemons",
+         "link":"web-reading-smalldemons"
+      },
+      {
+         "label":"Switchcam, @switchcam",
+         "link":"web-sportsentertainment-switchcam"
+      },
+      {
+         "label":"Taegan Goddard's Political Wire, @politicalwire",
+         "link":"web-politics-taegangoddardspoliticalwire"
+      },
+      {
+         "label":"The Classical, @Classical",
+         "link":"web-sportsentertainment-theclassical"
+      },
+      {
+         "label":"The Orchestra, @touchpress",
+         "link":"web-apps-theorchestra"
+      },
+      {
+         "label":"The RealReal, @therealreal",
+         "link":"web-shopping-therealreal"
+      },
+      {
+         "label":"The Selby, @theselby",
+         "link":"web-artstyle-theselby"
+      },
+      {
+         "label":"The Spectator Archive, @spectator",
+         "link":"web-reading-thespectatorarchive"
+      },
+      {
+         "label":"The Waste Land, The Waste Land'",
+         "link":"web-apps-thewasteland"
+      },
+      {
+         "label":"The Weight of Objects, @weightofobjects",
+         "link":"web-tumblr-theweightofobjects"
+      },
+      {
+         "label":"TouchOfModern, @TouchofModern",
+         "link":"web-shopping-touchofmodern"
+      },
+      {
+         "label":"TourWrist, @TourWrist",
+         "link":"web-photography-tourwrist"
+      },
+      {
+         "label":"Turntable , @turntablefm",
+         "link":"web-sportsentertainment-turntable"
+      },
+      {
+         "label":"Valleywag , @Valleywag",
+         "link":"web-tech-valleywag"
+      },
+      {
+         "label":"Wantful, @Wantful",
+         "link":"web-shopping-wantful"
+      },
+      {
+         "label":"We the People, We the People'",
+         "link":"web-politics-wethepeople"
+      },
+      {
+         "label":"Weigel, @daveweigel",
+         "link":"web-politics-weigel"
+      },
+      {
+         "label":"Wondermind, @Tate",
+         "link":"web-parenting-wondermind"
+      },
+      {
+         "label":"You Are Blind, youareblind.com",
+         "link":"web-brainfood-youareblind"
+      },
+      {
+         "label":"Unz, Unz.org",
+         "link":"web-reading-unz"
+      }
+   ],
+   "web":{
+      "items":[
+         {
+            "section":"web",
+            "handle":"@100PercentMen",
+            "name":"100 Percent Men",
+            "url":"http://100percentmen.tumblr.com/",
+            "blurb":"In case you were concerned there are too many powerful women in the U.S., this bizarre tumblr reminds you of all the men still dancing atop that glass ceiling by listing and connecting their names.",
+            "category":"Tumblr",
+            "imgPath":"img/web/100percentmen.jpg",
+            "imgPathLg":"img/web/100percentmen_home.png",
+            "id":"web-tumblr-100percentmen",
+            "categoryId":"web-tumblr"
+         },
+         {
+            "section":"web",
+            "handle":"@99u",
+            "name":"99U",
+            "url":"http://99u.com/",
+            "blurb":"This is the place to go if you thought up a business idea (possibly while high) and a few days later still want to make it real. Experts in productivity and creativity write about getting it done.",
+            "category":"Brain Food",
+            "imgPath":"img/web/99u.jpg",
+            "imgPathLg":"img/web/99u_home.png",
+            "id":"web-brainfood-99u",
+            "categoryId":"web-brainfood"
+         },
+         {
+            "section":"web",
+            "handle":"@abandonednyc",
+            "name":"AbandonedNYC",
+            "url":"http://abandonednyc.com/",
+            "blurb":"One would think that every inch of New York City has been captured before, but this blog uncovers the haunted and lonely corners of the most populous U.S. city.",
+            "category":"Random & Fun",
+            "imgPath":"img/web/abandonednyc.jpg",
+            "imgPathLg":"img/web/abandonednyc_home.png",
+            "id":"web-randomfun-abandonednyc",
+            "categoryId":"web-randomfun"
+         },
+         {
+            "section":"web",
+            "handle":"@aldaily",
+            "name":"Arts & Letters Daily",
+            "url":"http://www.aldaily.com/",
+            "blurb":"Pulls and summarizes the best of the artsy pubs you want to read (or pretend to read), like the American Scholar and n+1. It's great as a reading list, or as a crib sheet for the literary set.",
+            "category":"Reading",
+            "imgPath":"img/web/artslettersdaily.jpg",
+            "imgPathLg":"img/web/artslettersdaily_home.png",
+            "id":"web-reading-artslettersdaily",
+            "categoryId":"web-reading"
+         },
+         {
+            "section":"web",
+            "handle":"@artsy",
+            "name":"Artsy",
+            "url":"http://artsy.net",
+            "blurb":"Artsy brings the gallery to you, offering a rapidly growing (30K+) collection of high-res artworks from every era and area. Founded in a Princeton dorm room, it's since pulled millions in funding.",
+            "category":"Art & Style",
+            "imgPath":"img/web/artsy.jpg",
+            "imgPathLg":"img/web/artsy_home.png",
+            "id":"web-artstyle-artsy",
+            "categoryId":"web-artstyle"
+         },
+         {
+            "section":"web",
+            "handle":"@theatavist",
+            "name":"Atavist",
+            "url":"http://www.atavist.com/",
+            "blurb":"This Brooklyn-based online mag reminds us of an old-fashioned glossy, with a sleek design and meaty, storytelling features. Like most old media, it isn't free, but the stories are worth a few bucks.",
+            "category":"Reading",
+            "imgPath":"img/web/atavist.jpg",
+            "imgPathLg":"img/web/atavist_home.png",
+            "id":"web-reading-atavist",
+            "categoryId":"web-reading"
+         },
+         {
+            "section":"web",
+            "handle":"@BackBid",
+            "name":"BackBid",
+            "url":"http://www.backbid.com/Default.aspx",
+            "blurb":"A welcome new business model in an otherwise dated field, Backbid lets users show the rate they've booked for a hotel and ask other hotels to beat the price.",
+            "category":"Travel & Food",
+            "imgPath":"img/web/backbid.jpg",
+            "imgPathLg":"img/web/backbid_home.png",
+            "id":"web-travelfood-backbid",
+            "categoryId":"web-travelfood"
+         },
+         {
+            "section":"web",
+            "handle":"Bad Kids Jokes'",
+            "name":"Bad Kids Jokes",
+            "url":"http://badkidsjokes.tumblr.com/",
+            "blurb":"There’s something endlessly humorous about errant kids’ jokes. Most of them make no sense and poop is a theme, but you'll giggle at this site, which catalogs jokes rejected by a kids' site.",
+            "category":"Tumblr",
+            "imgPath":"img/web/badkidsjokes.jpg",
+            "imgPathLg":"img/web/badkidsjokes_home.png",
+            "id":"web-tumblr-badkidsjokes",
+            "categoryId":"web-tumblr"
+         },
+         {
+            "section":"web",
+            "handle":"@bloesemblog Kids",
+            "name":"Bloesem",
+            "url":"http://bkids.typepad.com/bookhoucraftprojects/",
+            "blurb":"Malaysia-based Irene Hoofs aims to give \"design-conscious parents\" ideas for stuff to do with their kids, with a heavy dose of clever and absolutely no Martha Stewart.",
+            "category":"Parenting",
+            "imgPath":"img/web/bloesem.jpg",
+            "imgPathLg":"img/web/bloesem_home.png",
+            "id":"web-parenting-bloesem",
+            "categoryId":"web-parenting"
+         },
+         {
+            "section":"web",
+            "handle":"@brainpickings",
+            "name":"Brain Pickings ",
+            "url":"http://www.brainpickings.org/",
+            "blurb":"With nothing more complicated than a very smart and content-heavy blog, Brooklyn's Maria Popova has built a stalwart following by scouring old books for intellectual content. ",
+            "category":"Brain Food",
+            "imgPath":"img/web/brainpickings.jpg",
+            "imgPathLg":"img/web/brainpickings_home.png",
+            "id":"web-brainfood-brainpickings",
+            "categoryId":"web-brainfood"
+         },
+         {
+            "section":"web",
+            "handle":"@awesomize",
+            "name":"Camera Awesome",
+            "url":"http://www.awesomize.com/",
+            "blurb":"Awesome features include image stabilization, the ability to focus in one place but have the exposure in another, slow and fast burst shooting, and interval shooting. It's awesome. ",
+            "category":"Apps",
+            "imgPath":"img/web/cameraawesome.jpg",
+            "imgPathLg":"img/web/cameraawesome_home.png",
+            "id":"web-apps-cameraawesome",
+            "categoryId":"web-apps"
+         },
+         {
+            "section":"web",
+            "handle":"@CRFASHIONBOOK",
+            "name":"CR Fashion Book",
+            "url":"http://crfashionbook.com/",
+            "blurb":"Former French Vogue editor Carine Roitfeld gives readers backstage access with videos from fashion shoots and original content that’s as glossy and sexy as the stuff found in the print version. ",
+            "category":"Art & Style",
+            "imgPath":"img/web/crfashionbook.jpg",
+            "imgPathLg":"img/web/crfashionbook_home.png",
+            "id":"web-artstyle-crfashionbook",
+            "categoryId":"web-artstyle"
+         },
+         {
+            "section":"web",
+            "handle":"@curisma_daily",
+            "name":"Curisma",
+            "url":"http://curisma.com",
+            "blurb":"Curisma knows what gadget you want to buy before you do. Seed it with a few things you like, and it'll spit out some Not Safe for Wallet suggestions from a wide swath of sites.",
+            "category":"Tech",
+            "imgPath":"img/web/curisma.jpg",
+            "imgPathLg":"img/web/curisma_home.png",
+            "id":"web-tech-curisma",
+            "categoryId":"web-tech"
+         },
+         {
+            "section":"web",
+            "handle":"@dadwagon",
+            "name":"DadWagon",
+            "url":"http://www.dadwagon.com/",
+            "blurb":"Not your father's fatherhood blog: a crew of young NYC journos collect irreverent tips and share (occasionally obscene) stories on the fast-changing job of being a dad, from tantrums to divorce.",
+            "category":"Parenting",
+            "imgPath":"img/web/dadwagon.jpg",
+            "imgPathLg":"img/web/dadwagon_home.png",
+            "id":"web-parenting-dadwagon",
+            "categoryId":"web-parenting"
+         },
+         {
+            "section":"web",
+            "handle":"@DailyLit",
+            "name":"DailyLit",
+            "url":"http://www.dailylit.com/",
+            "blurb":"If you've got time for email but not for Emerson, check out DailyLit, which sends a five-minute chunk of belles-lettres to your RSS feed or email every day.",
+            "category":"Reading",
+            "imgPath":"img/web/dailylit.jpg",
+            "imgPathLg":"img/web/dailylit_home.png",
+            "id":"web-reading-dailylit",
+            "categoryId":"web-reading"
+         },
+         {
+            "section":"web",
+            "handle":"@DatPiff",
+            "name":"DatPiff",
+            "url":"http://www.datpiff.com/",
+            "blurb":"As every hip-hop fan knows, albums are for suckers. The best beats are on the mixtape, and nearly all are here. Register on the site and they can be yours for free.",
+            "category":"Sports & Entertainment",
+            "imgPath":"img/web/datpiff.jpg",
+            "imgPathLg":"img/web/datpiff_home.png",
+            "id":"web-sportsentertainment-datpiff",
+            "categoryId":"web-sportsentertainment"
+         },
+         {
+            "section":"web",
+            "handle":"@dinnerlovestory",
+            "name":"Dinner: A Love Story",
+            "url":"http://www.dinneralovestory.com",
+            "blurb":"Jenny Rosenstrach's blog sits at the corner of food and parenting, two things she clearly knows well, alternating between recipes for family dinners and aww-inducing stories of her young kids.",
+            "category":"Parenting",
+            "imgPath":"img/web/dinneralovestory.jpg",
+            "imgPathLg":"img/web/dinneralovestory_home.png",
+            "id":"web-parenting-dinneralovestory",
+            "categoryId":"web-parenting"
+         },
+         {
+            "section":"web",
+            "handle":"@itsdlisted",
+            "name":"Dlisted",
+            "url":"http://dlisted.com",
+            "blurb":"The guiltiest of our guilty pleasures is Michael K's LA cousin of Gawker, where some of the meanest people on the Internet discuss celebs and fashion with trademark spite and brilliant turns of phrase.",
+            "category":"Sports & Entertainment",
+            "imgPath":"img/web/dlisted.jpg",
+            "imgPathLg":"img/web/dlisted_home.png",
+            "id":"web-sportsentertainment-dlisted",
+            "categoryId":"web-sportsentertainment"
+         },
+         {
+            "section":"web",
+            "handle":"Doom & Gloom From the Tomb'",
+            "name":"Doom & Gloom From the Tomb",
+            "url":"http://doomandgloomfromthetomb.tumblr.com/",
+            "blurb":"Featuring tracks from the likes of The Beach Boys, Fleetwood Mac, and Neil Young, the site is a key resource for live recordings, bootlegs, and unreleased music from the days when rock music mattered.",
+            "category":"Tumblr",
+            "imgPath":"img/web/doomgloomfromthetomb.jpg",
+            "imgPathLg":"img/web/doomgloomfromthetomb_home.png",
+            "id":"web-tumblr-doomgloomfromthetomb",
+            "categoryId":"web-tumblr"
+         },
+         {
+            "section":"web",
+            "handle":"@playdots",
+            "name":"Dots",
+            "url":"http://nerdyoctopus.com/dots",
+            "blurb":"As addictive as Angry Birds, Dots has been downloaded more than 3 million times. It's simple, but not exactly easy, and is great to play when stoned (or so we've heard).",
+            "category":"Apps",
+            "imgPath":"img/web/dots.jpg",
+            "imgPathLg":"img/web/dots_home.png",
+            "id":"web-apps-dots",
+            "categoryId":"web-apps"
+         },
+         {
+            "section":"web",
+            "handle":"@EatYourBooks",
+            "name":"Eat Your Books",
+            "url":"http://www.eatyourbooks.com/",
+            "blurb":"Lets you make a constantly updated, DIY cookbook thanks to a searchable catalogue of recipes from more than 800,000 cookbooks and across several well-known blogs and food magazines.",
+            "category":"Travel & Food",
+            "imgPath":"img/web/eatyourbooks.jpg",
+            "imgPathLg":"img/web/eatyourbooks_home.png",
+            "id":"web-travelfood-eatyourbooks",
+            "categoryId":"web-travelfood"
+         },
+         {
+            "section":"web",
+            "handle":"@elbows",
+            "name":"Elbows",
+            "url":"http://Elbo.ws",
+            "blurb":"Discover what the kids are listening to with this social version of Pitchfork, which aggregates music blogs and ranks what's getting the most buzz. ",
+            "category":"Sports & Entertainment",
+            "imgPath":"img/web/elbows.jpg",
+            "imgPathLg":"img/web/elbows_home.png",
+            "id":"web-sportsentertainment-elbows",
+            "categoryId":"web-sportsentertainment"
+         },
+         {
+            "section":"web",
+            "handle":"Etymonline ",
+            "name":"Etymonline ",
+            "url":"http://www.etymonline.com/",
+            "blurb":"Why would you spend any significant time on a comprehensive dictionary of English word origins? Search a few words (especially of the four-letter variety) and just see if you can stop.",
+            "category":"Brain Food",
+            "imgPath":"img/web/etymonline.jpg",
+            "imgPathLg":"img/web/etymonline_home.png",
+            "id":"web-brainfood-etymonline",
+            "categoryId":"web-brainfood"
+         },
+         {
+            "section":"web",
+            "handle":"@EvernoteFood",
+            "name":"Evernote Food",
+            "url":"http://evernote.com/food/",
+            "blurb":"A place to store and organize all your food favorites and to-do lists, from recipes to restaurant to photos of every plate consumed.",
+            "category":"Apps",
+            "imgPath":"img/web/evernotefood.jpg",
+            "imgPathLg":"img/web/evernotefood_home.png",
+            "id":"web-apps-evernotefood",
+            "categoryId":"web-apps"
+         },
+         {
+            "section":"web",
+            "handle":"@flexibits",
+            "name":"Fantastical",
+            "url":"http://flexibits.com/fantastical",
+            "blurb":"A calendar app that lets you type in events the way you'd speak them. Tell it to \"break up with Candi at 2 on Thursday\" and \"Break up with Candy\" will appear at the appointed hour.",
+            "category":"Apps",
+            "imgPath":"img/web/fantastical.jpg",
+            "imgPathLg":"img/web/fantastical_home.png",
+            "id":"web-apps-fantastical",
+            "categoryId":"web-apps"
+         },
+         {
+            "section":"web",
+            "handle":"@FindTheBest",
+            "name":"FindTheBest",
+            "url":"http://www.findthebest.com/",
+            "blurb":"Whether you're looking for a smartphone or an industrial drill bit, this site takes consumer reviews into the age of algorithm by sussing out a \"smart rating\" for products from patchy individual assessments.",
+            "category":"Shopping",
+            "imgPath":"img/web/findthebest.jpg",
+            "imgPathLg":"img/web/findthebest_home.png",
+            "id":"web-shopping-findthebest",
+            "categoryId":"web-shopping"
+         },
+         {
+            "section":"web",
+            "handle":"@flavorwire",
+            "name":"Flavorwire",
+            "url":"http://flavorwire.com/",
+            "blurb":"A solid and offbeat alternative to the exhausting cultural news cycle built around premieres and tabloid obsessions. A good example of this: it recently held a short fiction contest. ",
+            "category":"Sports & Entertainment",
+            "imgPath":"img/web/flavorwire.jpg",
+            "imgPathLg":"img/web/flavorwire_home.png",
+            "id":"web-sportsentertainment-flavorwire",
+            "categoryId":"web-sportsentertainment"
+         },
+         {
+            "section":"web",
+            "handle":"@FoodieByGlam",
+            "name":"Foodie",
+            "url":"http://www.foodie.com",
+            "blurb":"Like Epicurious on crack (or artisanal chicken fat), Foodie's a useful and very pretty social network for food lovers who want to up their technique in the kitchen or ogle Michelin-starred dishes.",
+            "category":"Travel & Food",
+            "imgPath":"img/web/foodie.jpg",
+            "imgPathLg":"img/web/foodie_home.png",
+            "id":"web-travelfood-foodie",
+            "categoryId":"web-travelfood"
+         },
+         {
+            "section":"web",
+            "handle":"@FOODILY",
+            "name":"Foodily",
+            "url":"http://www.foodily.com/",
+            "blurb":"Want a paleo-friendly recipe that uses artichoke hearts? Foodily’s here for you, with an archive of more than 2 million recipes, social sharing, and nutritional rundowns.",
+            "category":"Travel & Food",
+            "imgPath":"img/web/foodily.jpg",
+            "imgPathLg":"img/web/foodily_home.png",
+            "id":"web-travelfood-foodily",
+            "categoryId":"web-travelfood"
+         },
+         {
+            "section":"web",
+            "handle":"@foodspotting",
+            "name":"Foodspotting",
+            "url":"http://www.foodspotting.com",
+            "blurb":"Foodspotting goes deeper than Yelp by letting you see photos of actual food, submitted by those people you see taking pictures of their food, at local restaurants. ",
+            "category":"Travel & Food",
+            "imgPath":"img/web/foodspotting.jpg",
+            "imgPathLg":"img/web/foodspotting_home.png",
+            "id":"web-travelfood-foodspotting",
+            "categoryId":"web-travelfood"
+         },
+         {
+            "section":"web",
+            "handle":"futilitycloset.com",
+            "name":"Futility Closet",
+            "url":"http://www.futilitycloset.com",
+            "blurb":"Greg Ross collects what he calls \"compendious amusements\"--weird anecdotes and fun facts of the day with a decidedly nerdy remit. Perfect if you've got a brainy cocktail party to impress.",
+            "category":"Brain Food",
+            "imgPath":"img/web/futilitycloset.jpg",
+            "imgPathLg":"img/web/futilitycloset_home.png",
+            "id":"web-brainfood-futilitycloset",
+            "categoryId":"web-brainfood"
+         },
+         {
+            "section":"web",
+            "handle":"%23GeoGuesser",
+            "name":"GeoGuesser",
+            "url":"http://geoguessr.com/",
+            "blurb":"If you love geography and competition (and who doesn't?), this one's for you. Accrue wins by guessing where in the world a particular Google Street View is. The closer you get, the smarter you are. Obviously.",
+            "category":"Random & Fun",
+            "imgPath":"img/web/geoguesser.jpg",
+            "imgPathLg":"img/web/geoguesser_home.png",
+            "id":"web-randomfun-geoguesser",
+            "categoryId":"web-randomfun"
+         },
+         {
+            "section":"web",
+            "handle":"@Grubwithus",
+            "name":"Grubwithus",
+            "url":"http://www.grubwithus.com/",
+            "blurb":"If OkCupid, Meetup, and Chowhound all had a baby together it might look like this: Site lets you set up dinners with groups of random strangers who share your interests, your taste in food, or both. ",
+            "category":"Travel & Food",
+            "imgPath":"img/web/grubwithus.jpg",
+            "imgPathLg":"img/web/grubwithus_home.png",
+            "id":"web-travelfood-grubwithus",
+            "categoryId":"web-travelfood"
+         },
+         {
+            "section":"web",
+            "handle":"Hacker News'",
+            "name":"Hacker News",
+            "url":"http://news.ycombinator.com/",
+            "blurb":"Y Combinator's startup whiz Paul Graham brings you a Reddit clone with more positive vibes (you can only vote stuff up, not down) and a community with a pronounced tech focus.",
+            "category":"Tech",
+            "imgPath":"img/web/hackernews.jpg",
+            "imgPathLg":"img/web/hackernews_home.png",
+            "id":"web-tech-hackernews",
+            "categoryId":"web-tech"
+         },
+         {
+            "section":"web",
+            "handle":"@HitFix",
+            "name":"HitFix",
+            "url":"http://www.hitfix.com/",
+            "blurb":"Home to respected TV critic Alan Sepinwall, HitFix is a destination for entertainment junkies who debate the finer points of the industry but have no taste for gossip. ",
+            "category":"Sports & Entertainment",
+            "imgPath":"img/web/hitfix.jpg",
+            "imgPathLg":"img/web/hitfix_home.png",
+            "id":"web-sportsentertainment-hitfix",
+            "categoryId":"web-sportsentertainment"
+         },
+         {
+            "section":"web",
+            "handle":"@houzz",
+            "name":"Houzz",
+            "url":"http://www.houzz.com/",
+            "blurb":"A Better Homes for the Internet age. Houzz's cool interactive features get you home design tips customized for you. Its popular iPad app, with 8 million downloads, is handy for redecorating in situ.",
+            "category":"Art & Style",
+            "imgPath":"img/web/houzz.jpg",
+            "imgPathLg":"img/web/houzz_home.png",
+            "id":"web-artstyle-houzz",
+            "categoryId":"web-artstyle"
+         },
+         {
+            "section":"web",
+            "handle":"@ilovecharts",
+            "name":"I Love Charts",
+            "url":"http://ilovecharts.tumblr.com",
+            "blurb":"We love charts, too. On Jason Oberholtzer and Cody Westphal’s Tumblr, find charts like “How Much We Cried” during Toy Story 3. Endless entertainment/education/timesuck.",
+            "category":"Tumblr",
+            "imgPath":"img/web/ilovecharts.jpg",
+            "imgPathLg":"img/web/ilovecharts_home.png",
+            "id":"web-tumblr-ilovecharts",
+            "categoryId":"web-tumblr"
+         },
+         {
+            "section":"web",
+            "handle":"@aalholmes",
+            "name":"Iconic Photos",
+            "url":"http://iconicphotos.wordpress.com/",
+            "blurb":"Alex Selwyn-Holmes posts haunting, iconic photos that tell a story about a moment in history, and how photography captured it. ",
+            "category":"Photography",
+            "imgPath":"img/web/iconicphotos.jpg",
+            "imgPathLg":"img/web/iconicphotos_home.png",
+            "id":"web-photography-iconicphotos",
+            "categoryId":"web-photography"
+         },
+         {
+            "section":"web",
+            "handle":"@IntoTheGloss",
+            "name":"Into The Gloss",
+            "url":"http://intothegloss.com/",
+            "blurb":"It’s one of the newest sites for beauty coverage, but it may be the best. A shiny, straightforward design features beauty insights and tricks from fashion world A-listers, plus an easy click-through-to-buy option.",
+            "category":"Art & Style",
+            "imgPath":"img/web/intothegloss.jpg",
+            "imgPathLg":"img/web/intothegloss_home.png",
+            "id":"web-artstyle-intothegloss",
+            "categoryId":"web-artstyle"
+         },
+         {
+            "section":"web",
+            "handle":"@IAMLILBUB",
+            "name":"Lil Bub",
+            "url":"http://lilbub.com",
+            "blurb":"Not too much to get here, just tons of photos of an odd-looking cat with a joyful, wide-eyed gaze. Fans of Lil Bub, the star of a Tribeca-winning documentary, can buy her book and follow her online.",
+            "category":"Tumblr",
+            "imgPath":"img/web/lilbub.jpg",
+            "imgPathLg":"img/web/lilbub_home.png",
+            "id":"web-tumblr-lilbub",
+            "categoryId":"web-tumblr"
+         },
+         {
+            "section":"web",
+            "handle":"Machinarium",
+            "name":"Machinarium ",
+            "url":"http://machinarium.net/",
+            "blurb":"In this beautiful puzzle game, you're an adorable robot using logic and clues to get from one place to the next. It's hard but approachable. ",
+            "category":"Apps",
+            "imgPath":"img/web/machinarium.jpg",
+            "imgPathLg":"img/web/machinarium_home.png",
+            "id":"web-apps-machinarium",
+            "categoryId":"web-apps"
+         },
+         {
+            "section":"web",
+            "handle":"Maddie on Things'",
+            "name":"Maddie on Things",
+            "url":"http://maddieonthings.com/",
+            "blurb":"Maddie is as calm and photogenic as a dog can get. Owner Theron Humphrey started photographing his beloved dog balancing on everything from fire hydrants to basketball hoops, and the results are epic.",
+            "category":"Tumblr",
+            "imgPath":"img/web/maddieonthings.jpg",
+            "imgPathLg":"img/web/maddieonthings_home.png",
+            "id":"web-tumblr-maddieonthings",
+            "categoryId":"web-tumblr"
+         },
+         {
+            "section":"web",
+            "handle":"@MAKERSwomen",
+            "name":"Makers",
+            "url":"http://www.makers.com/",
+            "blurb":"A collection of video interviews and stories from kick-ass women leaders, from Ruth Bader Ginsburg to Ellen DeGeneres, who talk lifestyle and leadership.",
+            "category":"Random & Fun",
+            "imgPath":"img/web/makers.jpg",
+            "imgPathLg":"img/web/makers_home.png",
+            "id":"web-randomfun-makers",
+            "categoryId":"web-randomfun"
+         },
+         {
+            "section":"web",
+            "handle":"myshadow.org",
+            "name":"Me & My Shadow",
+            "url":"http://myshadow.org",
+            "blurb":"Lets you figure out what sort of data footprint is left by your devices and Internet access points so you can see how your digital habits affect your privacy. Good start for eluding the NSA. ",
+            "category":"Random & Fun",
+            "imgPath":"img/web/memyshadow.jpg",
+            "imgPathLg":"img/web/memyshadow_home.png",
+            "id":"web-randomfun-memyshadow",
+            "categoryId":"web-randomfun"
+         },
+         {
+            "section":"web",
+            "handle":"@medium",
+            "name":"Medium ",
+            "url":"http://medium.com",
+            "blurb":"When the guy behind Twitter tries a new social-network thing, we take notice. The point of Evan Williams’s Medium, in an era of shameless click-bait, is proving survival on good content alone is possible.",
+            "category":"Reading",
+            "imgPath":"img/web/medium.jpg",
+            "imgPathLg":"img/web/medium_home.png",
+            "id":"web-reading-medium",
+            "categoryId":"web-reading"
+         },
+         {
+            "section":"web",
+            "handle":"@Mensweardog",
+            "name":"Menswear Dog",
+            "url":"http://mensweardog.tumblr.com/",
+            "blurb":"Yet another dog blog, but one with some serious style. David Fung and Yena Kim dress their shiba inu in Fung’s clothes—and not only are the poses enthusiastic, but the menswear suggestions are solid.",
+            "category":"Tumblr",
+            "imgPath":"img/web/mensweardog.jpg",
+            "imgPathLg":"img/web/mensweardog_home.png",
+            "id":"web-tumblr-mensweardog",
+            "categoryId":"web-tumblr"
+         },
+         {
+            "section":"web",
+            "handle":"@modaoperandi",
+            "name":"Moda Operandi",
+            "url":"http://modaoperandi.com/",
+            "blurb":"From Vogue Contributing Editor Lauren Santo Domingo, the beautifully-designed Moda Operandi lets users pre-order designer collections straight from the runway.",
+            "category":"Shopping",
+            "imgPath":"img/web/modaoperandi.jpg",
+            "imgPathLg":"img/web/modaoperandi_home.png",
+            "id":"web-shopping-modaoperandi",
+            "categoryId":"web-shopping"
+         },
+         {
+            "section":"web",
+            "handle":"@Momfilter",
+            "name":"Momfilter",
+            "url":"http://www.momfilter.com",
+            "blurb":"Momfilter picked up the ball when Cookie, the glossy for with-it parents, shut in 2009, and brims with the same deft and practical ideas for fashion, food and other facets of modern childrearing.",
+            "category":"Parenting",
+            "imgPath":"img/web/momfilter.jpg",
+            "imgPathLg":"img/web/momfilter_home.png",
+            "id":"web-parenting-momfilter",
+            "categoryId":"web-parenting"
+         },
+         {
+            "section":"web",
+            "handle":"@nahright",
+            "name":"Nah Right",
+            "url":"http://nahright.com/news/",
+            "blurb":"One of the most actively updated places on the Internet for new rap videos, industry gossip, and remixes. The sheer volume of news makes Nah Right something of a politico of rap sites.",
+            "category":"Sports & Entertainment",
+            "imgPath":"img/web/nahright.jpg",
+            "imgPathLg":"img/web/nahright_home.png",
+            "id":"web-sportsentertainment-nahright",
+            "categoryId":"web-sportsentertainment"
+         },
+         {
+            "section":"web",
+            "handle":"@therealnewsmap",
+            "name":"Newsmap",
+            "url":"http://newsmap.jp/",
+            "blurb":"So weird yet so alluring, the site constantly updates and arranges headlines from Google News based on what's trending, piecing them together into a \"treemap\" that keeps related material together. ",
+            "category":"Random & Fun",
+            "imgPath":"img/web/newsmap.jpg",
+            "imgPathLg":"img/web/newsmap_home.png",
+            "id":"web-randomfun-newsmap",
+            "categoryId":"web-randomfun"
+         },
+         {
+            "section":"web",
+            "handle":"@NPRPictureShow",
+            "name":"NPR's The Picture Show",
+            "url":"http://www.npr.org/blogs/pictureshow/ ",
+            "blurb":"A feed of breathtaking photos and interesting stories from all over the world, updated daily by one of NPR's multimedia reporter-producers.",
+            "category":"Photography",
+            "imgPath":"img/web/nprsthepictureshow.jpg",
+            "imgPathLg":"img/web/nprsthepictureshow_home.png",
+            "id":"web-photography-nprsthepictureshow",
+            "categoryId":"web-photography"
+         },
+         {
+            "section":"web",
+            "handle":"@ofakind",
+            "name":"Of a Kind",
+            "url":"http://ofakind.com/editions",
+            "blurb":"Subscribers to Of a Kind get daily access to designer outfits so cool that very few copies of them exist.",
+            "category":"Shopping",
+            "imgPath":"img/web/ofakind.jpg",
+            "imgPathLg":"img/web/ofakind_home.png",
+            "id":"web-shopping-ofakind",
+            "categoryId":"web-shopping"
+         },
+         {
+            "section":"web",
+            "handle":"@PaperKarma",
+            "name":"PaperKarma ",
+            "url":"http://www.paperkarma.com/",
+            "blurb":"Gets rid of junk mail--actual mail, as in paper, the stuff that the mailman delivers. Snap a photo of the sender's address and he'll get a cease-and-desist letter of his own.",
+            "category":"Apps",
+            "imgPath":"img/web/paperkarma.jpg",
+            "imgPathLg":"img/web/paperkarma_home.png",
+            "id":"web-apps-paperkarma",
+            "categoryId":"web-apps"
+         },
+         {
+            "section":"web",
+            "handle":"@parenthacks",
+            "name":"Parent Hacks",
+            "url":"http://www.parenthacks.com",
+            "blurb":"A minimalist, judgment-free collection of creative shortcuts for simplifying and economizing life with kids.",
+            "category":"Parenting",
+            "imgPath":"img/web/parenthacks.jpg",
+            "imgPathLg":"img/web/parenthacks_home.png",
+            "id":"web-parenting-parenthacks",
+            "categoryId":"web-parenting"
+         },
+         {
+            "section":"web",
+            "handle":"@politifact",
+            "name":"PolitiFact",
+            "url":"http://www.politifact.com",
+            "blurb":"The ultimate politcal debunker, Politifact reporters check the veracity of statements made every day by congressmen, mayors, the president, and more, and then rates them on a truth scale. ",
+            "category":"Politics",
+            "imgPath":"img/web/politifact.jpg",
+            "imgPathLg":"img/web/politifact_home.png",
+            "id":"web-politics-politifact",
+            "categoryId":"web-politics"
+         },
+         {
+            "section":"web",
+            "handle":"@brookpete",
+            "name":"Prison Photography",
+            "url":"http://prisonphotography.org/",
+            "blurb":"A global perspective on the gritty and honest reality of incarceration, told through photographs, interviews, and commentary.",
+            "category":"Photography",
+            "imgPath":"img/web/prisonphotography.jpg",
+            "imgPathLg":"img/web/prisonphotography_home.png",
+            "id":"web-photography-prisonphotography",
+            "categoryId":"web-photography"
+         },
+         {
+            "section":"web",
+            "handle":"@publicbooks",
+            "name":"Public Books",
+            "url":"http://publicbooks.org/",
+            "blurb":"A monthly compendium of meaty book writing. Pieces are long—expect at least 1,000 words written by professors—and designed to cater to seriously curious readers.",
+            "category":"Reading",
+            "imgPath":"img/web/publicbooks.jpg",
+            "imgPathLg":"img/web/publicbooks_home.png",
+            "id":"web-reading-publicbooks",
+            "categoryId":"web-reading"
+         },
+         {
+            "section":"web",
+            "handle":"@putthison",
+            "name":"Put This On",
+            "url":"http://www.putthison.com",
+            "blurb":"Put This On is one of the web's most useful men's clothing sites, with plentiful and generous tutorials for the sartorially clueless.",
+            "category":"Art & Style",
+            "imgPath":"img/web/putthison.jpg",
+            "imgPathLg":"img/web/putthison_home.png",
+            "id":"web-artstyle-putthison",
+            "categoryId":"web-artstyle"
+         },
+         {
+            "section":"web",
+            "handle":"@Reddit Politics",
+            "name":"Reddit Politics",
+            "url":"http://www.reddit.com/r/politics/",
+            "blurb":"Skip the cat gifs and privacy rants and go straight to Reddit's politics page for informed, democratized threads on Rand Paul's marijuana approach and the growing inequality in America.",
+            "category":"Politics",
+            "imgPath":"img/web/redditpolitics.jpg",
+            "imgPathLg":"img/web/redditpolitics_home.png",
+            "id":"web-politics-redditpolitics",
+            "categoryId":"web-politics"
+         },
+         {
+            "section":"web",
+            "handle":"@larrysabato",
+            "name":"Sabato's Crystal Ball",
+            "url":"http://www.centerforpolitics.org/crystalball/",
+            "blurb":"Covering every gubernatorial and Senate race, and every tight one in the House, Sabato and his colleagues at the University of Virginia's Center for Politics have proven they can separate the signal from the noise.  ",
+            "category":"Politics",
+            "imgPath":"img/web/sabatoscrystalball.jpg",
+            "imgPathLg":"img/web/sabatoscrystalball_home.png",
+            "id":"web-politics-sabatoscrystalball",
+            "categoryId":"web-politics"
+         },
+         {
+            "section":"web",
+            "handle":"@shoptiques",
+            "name":"Shoptiques",
+            "url":"http://www.shoptiques.com",
+            "blurb":"Love boutiques but hate getting there? Shoptiques brings them to you. The site has 100 shops and will double that by July, says founder and CEO Olga Vidisheva.",
+            "category":"Shopping",
+            "imgPath":"img/web/shoptiques.jpg",
+            "imgPathLg":"img/web/shoptiques_home.png",
+            "id":"web-shopping-shoptiques",
+            "categoryId":"web-shopping"
+         },
+         {
+            "section":"web",
+            "handle":"@RobertTCarroll",
+            "name":"The Skeptic's Dictionary",
+            "url":"http://www.skepdic.com",
+            "blurb":"An exhaustive compendium of medical quackery, fraud, paranormal mumbo-jumbo and all flavors of pseudoscience. Delightful to browse, almost like a terrible WebMD.",
+            "category":"Brain Food",
+            "imgPath":"img/web/theskepticsdictionary.jpg",
+            "imgPathLg":"img/web/theskepticsdictionary_home.png",
+            "id":"web-brainfood-theskepticsdictionary",
+            "categoryId":"web-brainfood"
+         },
+         {
+            "section":"web",
+            "handle":"@smalldemons",
+            "name":"Small Demons",
+            "url":"http://www.smalldemons.com/",
+            "blurb":"This interactive literary encyclopedia connects the books you love based on the people, places and things they contain. Browse all the novels that mention Buddha or spaghetti, or make your own lists. ",
+            "category":"Reading",
+            "imgPath":"img/web/smalldemons.jpg",
+            "imgPathLg":"img/web/smalldemons_home.png",
+            "id":"web-reading-smalldemons",
+            "categoryId":"web-reading"
+         },
+         {
+            "section":"web",
+            "handle":"@switchcam",
+            "name":"Switchcam",
+            "url":"http://make.switchcam.com/  ",
+            "blurb":"Not something we knew we needed, but now that it's here, we admit it's cool: suture your videos to others' from the same event, whether a BBQ or a concert, to create one video of a whole crowd's experience.",
+            "category":"Sports & Entertainment",
+            "imgPath":"img/web/switchcam.jpg",
+            "imgPathLg":"img/web/switchcam_home.png",
+            "id":"web-sportsentertainment-switchcam",
+            "categoryId":"web-sportsentertainment"
+         },
+         {
+            "section":"web",
+            "handle":"@politicalwire",
+            "name":"Taegan Goddard's Political Wire",
+            "url":"http://politicalwire.com",
+            "blurb":"One of the first political websites is still the best. If you read nothing but Political Wire on the day's developments in D.C. and elsewhere, you'll know just about everything that's informing the national conversation.",
+            "category":"Politics",
+            "imgPath":"img/web/taegangoddardspoliticalwire.jpg",
+            "imgPathLg":"img/web/taegangoddardspoliticalwire_home.png",
+            "id":"web-politics-taegangoddardspoliticalwire",
+            "categoryId":"web-politics"
+         },
+         {
+            "section":"web",
+            "handle":"@Classical",
+            "name":"The Classical",
+            "url":"http://theclassical.org/",
+            "blurb":"A scrappier Deadspin, the Classical features a roster of America's best young sportswriters and delivers a one-two punch of superb writing and oddball topics.",
+            "category":"Sports & Entertainment",
+            "imgPath":"img/web/theclassical.jpg",
+            "imgPathLg":"img/web/theclassical_home.png",
+            "id":"web-sportsentertainment-theclassical",
+            "categoryId":"web-sportsentertainment"
+         },
+         {
+            "section":"web",
+            "handle":"@touchpress",
+            "name":"The Orchestra",
+            "url":"http://www.touchpress.com/titles/orchestra/",
+            "blurb":"Follow along with a synchronized score, switch between instruments, and learn more about music than you would sitting in an actual symphony hall (caveat: it eats up 2 gigs of space). ",
+            "category":"Apps",
+            "imgPath":"img/web/theorchestra.jpg",
+            "imgPathLg":"img/web/theorchestra_home.png",
+            "id":"web-apps-theorchestra",
+            "categoryId":"web-apps"
+         },
+         {
+            "section":"web",
+            "handle":"@therealreal",
+            "name":"The RealReal",
+            "url":"http://www.therealreal.com",
+            "blurb":"The best-kept secret of anyone with a well-endowed closet. Sellers get up to 70 percent of the proceeds after the site raids their wardrobes. ",
+            "category":"Shopping",
+            "imgPath":"img/web/therealreal.jpg",
+            "imgPathLg":"img/web/therealreal_home.png",
+            "id":"web-shopping-therealreal",
+            "categoryId":"web-shopping"
+         },
+         {
+            "section":"web",
+            "handle":"@theselby",
+            "name":"The Selby",
+            "url":"http://theselby.com",
+            "blurb":"Want to sneak into celebrities' houses and peek around? Photographer Todd Selby works his connections with famous friends to bring you neat, and often surprising, snaps of their cribs.",
+            "category":"Art & Style",
+            "imgPath":"img/web/theselby.jpg",
+            "imgPathLg":"img/web/theselby_home.png",
+            "id":"web-artstyle-theselby",
+            "categoryId":"web-artstyle"
+         },
+         {
+            "section":"web",
+            "handle":"@spectator",
+            "name":"The Spectator Archive",
+            "url":"http://archive.spectator.co.uk/",
+            "blurb":"One of the best English-language magazines in the world has undertaken the unenviable task of digitizing every issue since it began publishing in 1828. And all 1.5 million pages are, as of now, available for free. ",
+            "category":"Reading",
+            "imgPath":"img/web/thespectatorarchive.jpg",
+            "imgPathLg":"img/web/thespectatorarchive_home.png",
+            "id":"web-reading-thespectatorarchive",
+            "categoryId":"web-reading"
+         },
+         {
+            "section":"web",
+            "handle":"The Waste Land'",
+            "name":"The Waste Land",
+            "url":"http://www.touchpress.com/titles/thewasteland/",
+            "blurb":"Brings alive T.S. Eliot's masterpiece with a series of interactive features, from audio readings to expert commentary. It's a gorgeous way to use new tech to experience old art. ",
+            "category":"Apps",
+            "imgPath":"img/web/thewasteland.jpg",
+            "imgPathLg":"img/web/thewasteland_home.png",
+            "id":"web-apps-thewasteland",
+            "categoryId":"web-apps"
+         },
+         {
+            "section":"web",
+            "handle":"@weightofobjects",
+            "name":"The Weight of Objects",
+            "url":"http://www.weightofobjects.com/",
+            "blurb":"Probably the most sophisticated Tumblr here, this is an NYC editor and photographer duo's portrait project. Each entry features a photo of a person and another of a treasured but ordinary possession.",
+            "category":"Tumblr",
+            "imgPath":"img/web/theweightofobjects.jpg",
+            "imgPathLg":"img/web/theweightofobjects_home.png",
+            "id":"web-tumblr-theweightofobjects",
+            "categoryId":"web-tumblr"
+         },
+         {
+            "section":"web",
+            "handle":"@TouchofModern",
+            "name":"TouchOfModern",
+            "url":"http://www.touchofmodern.com",
+            "blurb":"ToMo to the initiated, this flash site sends its design-oriented members deals on unique furnishings and equipment, which its fans say beat out competitors like Gilt and Hautelook aesthetically.",
+            "category":"Shopping",
+            "imgPath":"img/web/touchofmodern.jpg",
+            "imgPathLg":"img/web/touchofmodern_home.png",
+            "id":"web-shopping-touchofmodern",
+            "categoryId":"web-shopping"
+         },
+         {
+            "section":"web",
+            "handle":"@TourWrist",
+            "name":"TourWrist",
+            "url":"http://www.tourwrist.com ",
+            "blurb":"Photo sharing in 360 degrees: users upload beautiful and occasionally vertigo-inducing panoramas of the Grand Canyon, the Great Wall, and other vistas you might want to scroll around.",
+            "category":"Photography",
+            "imgPath":"img/web/tourwrist.jpg",
+            "imgPathLg":"img/web/tourwrist_home.png",
+            "id":"web-photography-tourwrist",
+            "categoryId":"web-photography"
+         },
+         {
+            "section":"web",
+            "handle":"@turntablefm",
+            "name":"Turntable ",
+            "url":"http://turntable.fm/ ",
+            "blurb":"Be a DJ without leaving your basement by sharing music live with other fans in user-made virtual clubs. Or just pop in and listen. ",
+            "category":"Sports & Entertainment",
+            "imgPath":"img/web/turntable.jpg",
+            "imgPathLg":"img/web/turntable_home.png",
+            "id":"web-sportsentertainment-turntable",
+            "categoryId":"web-sportsentertainment"
+         },
+         {
+            "section":"web",
+            "handle":"@Valleywag",
+            "name":"Valleywag ",
+            "url":"http://valleywag.gawker.com/",
+            "blurb":"The ruthless Silicon Valley gossip rag shut down four years ago, only to reignite this year as the go-to source for leaked sex tapes, prototype photos, and the juicy rumors that fuel obsessive techies. ",
+            "category":"Tech",
+            "imgPath":"img/web/valleywag.jpg",
+            "imgPathLg":"img/web/valleywag_home.png",
+            "id":"web-tech-valleywag",
+            "categoryId":"web-tech"
+         },
+         {
+            "section":"web",
+            "handle":"@Wantful",
+            "name":"Wantful",
+            "url":"http://www.wantful.com",
+            "blurb":"Like MadLibs for gift-giving: you fill in some blanks about the recipient and your budget, and Wantful puts together a gift package.",
+            "category":"Shopping",
+            "imgPath":"img/web/wantful.jpg",
+            "imgPathLg":"img/web/wantful_home.png",
+            "id":"web-shopping-wantful",
+            "categoryId":"web-shopping"
+         },
+         {
+            "section":"web",
+            "handle":"We the People'",
+            "name":"We the People",
+            "url":"http://petitions.whitehouse.gov",
+            "blurb":"It's where citizens can petition the president directly, which means it's a huge archive of the things in America that actually garner Obama's attention (i.e. building a Death Star). An endlessly fascinating read.",
+            "category":"Politics",
+            "imgPath":"img/web/wethepeople.jpg",
+            "imgPathLg":"img/web/wethepeople_home.png",
+            "id":"web-politics-wethepeople",
+            "categoryId":"web-politics"
+         },
+         {
+            "section":"web",
+            "handle":"@daveweigel",
+            "name":"Weigel",
+            "url":"http://www.slate.com/blogs/weigel.html",
+            "blurb":"Like Lay's potato chips, Weigel's posts on Slate are tasty, salty, and addictive. Same goes for his Twitter feed, by the way. ",
+            "category":"Politics",
+            "imgPath":"img/web/weigel.jpg",
+            "imgPathLg":"img/web/weigel_home.png",
+            "id":"web-politics-weigel",
+            "categoryId":"web-politics"
+         },
+         {
+            "section":"web",
+            "handle":"@Tate",
+            "name":"Wondermind",
+            "url":"http://wondermind.tate.org.uk/",
+            "blurb":"The UK's Tate Gallery hosts this sometimes trippy and always edifying guide to the mind for kids, with Alice in Wonderland as the thematic backdrop to its games and videos.",
+            "category":"Parenting",
+            "imgPath":"img/web/wondermind.jpg",
+            "imgPathLg":"img/web/wondermind_home.png",
+            "id":"web-parenting-wondermind",
+            "categoryId":"web-parenting"
+         },
+         {
+            "section":"web",
+            "handle":"youareblind.com",
+            "name":"You Are Blind",
+            "url":"http://youareblind.com/",
+            "blurb":"This unexpectedly fascinating Russian site gives sighted browsers the unsettling experience of being blind, by offering a very complex and very dark simulation of moving around in darkness.",
+            "category":"Brain Food",
+            "imgPath":"img/web/youareblind.jpg",
+            "imgPathLg":"img/web/youareblind_home.png",
+            "id":"web-brainfood-youareblind",
+            "categoryId":"web-brainfood"
+         },
+         {
+            "section":"web",
+            "handle":"Unz.org",
+            "name":"Unz",
+            "url":"http://www.unz.org/",
+            "blurb":"Created by businessman and political activist Ron Unz, Unz.org houses an invaluable archive of well-known and long-forgotten political and cultural magazines--scanned, searchable, and available for download. ",
+            "category":"Reading",
+            "imgPath":"img/web/unz.jpg",
+            "imgPathLg":"img/web/unz_home.png",
+            "id":"web-reading-unz",
+            "categoryId":"web-reading"
+         }
+      ],
+      "categories":[
+         {
+            "id":"web-apps",
+            "name":"Apps"
+         },
+         {
+            "id":"web-artstyle",
+            "name":"Art & Style"
+         },
+         {
+            "id":"web-brainfood",
+            "name":"Brain Food"
+         },
+         {
+            "id":"web-parenting",
+            "name":"Parenting"
+         },
+         {
+            "id":"web-photography",
+            "name":"Photography"
+         },
+         {
+            "id":"web-politics",
+            "name":"Politics"
+         },
+         {
+            "id":"web-randomfun",
+            "name":"Random & Fun"
+         },
+         {
+            "id":"web-reading",
+            "name":"Reading"
+         },
+         {
+            "id":"web-shopping",
+            "name":"Shopping"
+         },
+         {
+            "id":"web-sportsentertainment",
+            "name":"Sports & Entertainment"
+         },
+         {
+            "id":"web-tech",
+            "name":"Tech"
+         },
+         {
+            "id":"web-travelfood",
+            "name":"Travel & Food"
+         },
+         {
+            "id":"web-tumblr",
+            "name":"Tumblr"
+         }
+      ]
+   }
+}

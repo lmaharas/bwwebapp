@@ -1,0 +1,144 @@
+/* *
+ *
+ Poncho Web App
+ *
+ * @project     Poncho Web App
+ * @section     mobile
+ * @date        2014-1-12
+ * @author      Lynn Maharas
+ * @copyright   2014 by Poncho Weather App
+ *
+ */
+
+/*
+* Mobile
+*/
+.header {
+    height: 88px;
+}
+
+.header .search {
+    vertical-align: middle;
+}
+
+.header .search .form-control {
+    height: 40px;
+}
+
+.header .search .btn {
+    padding: 9px 12px;
+}
+
+.body .header {
+    font-size: 16px;
+}
+
+.body .header,
+.body, .text {
+    line-height: 1.3em;
+    height: auto;
+}
+
+/*
+ * PAGES
+ */
+/* Forecast */
+.forecast {
+    /*background-color: rgba(120, 231, 199, .8);*/
+}
+
+/* Wear */
+.wear {
+    /*background-color: rgba(255, 212, 188, .8);*/
+}
+
+/*
+ * COMPONENTS
+ */
+
+/*Temps*/
+.temps {
+    /*background-color: #78E7C7;*/
+    /*background-color: rgba(120, 231, 199,  .3);*/
+    background-color: rgba(255, 255, 255, .5);
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+}
+
+.temps .current {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.temps .current img {
+    vertical-align: top;
+}
+
+.temps .current div {
+    display: inline-block;
+}
+
+.temps h3,
+.temps h4 {
+    margin: 0;
+    line-height: 1em;
+}
+
+.temps h4 {
+    font-size: 14px;
+}
+
+.temps .more {
+    display: none;
+    /*background-color: #78E7C7;*/
+    /*background-color: rgba(120, 231, 199, .8);*/
+    background-color: rgba(255, 255, 255, .8);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.temps .more .time {
+    text-align: center;
+}
+
+
+/*
+* Mobile Overrides
+*/
+@media (max-width: 767px) {
+
+    /* footer main app navbar */
+    .footer .navbar-nav {
+        margin: 0
+    }
+
+    .footer .nav-justified > li {
+        display: table-cell;
+        width: 1%;
+        vertical-align: middle;
+    }
+
+    .footer .nav-justified > li > a {
+        margin-bottom: 0
+    }
+
+    /* sign-in dropdown */
+    .login-buttons-dropdown-align-right#login-buttons + li .dropdown-menu {
+        margin: 0 auto;
+        float: none;
+        right: auto;
+        left: auto;
+        border: 1px solid #cccccc;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    }
+
+    #login-other-options {
+        overflow: auto;
+    }
+}

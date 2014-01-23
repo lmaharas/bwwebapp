@@ -1,0 +1,19 @@
+<header class="header row">
+    <div class="input-group search">
+        <input type="text" placeholder="What to wear?" class="form-control">
+        <span class="input-group-btn">
+            <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+        </span>
+    </div><!-- /input-group -->
+</header>
+
+<section class="body row">
+    <button class="btn btn-default btn-lg camera"><span class="glyphicon glyphicon-camera"><input type="file" accept="image/*" capture="camera"></span></button>
+    <p class="text col-xs-12">Thankfully it's turned out to be a clear day, and it's an overcast (but dry) evening ahead. Time to get your Friday on.</p>
+
+    {>"temps" /}
+</section>
+
+<footer class="footer">
+    {>"navbar" /}
+</footer>
