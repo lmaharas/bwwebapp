@@ -13,24 +13,30 @@
 /*
 * Mobile
 */
-.header {
+.body .header {
     height: 88px;
 }
 
-.header .search {
+.body .header .search {
     vertical-align: middle;
 }
 
-.header .search .form-control {
+.body .header .search .form-control {
     height: 40px;
 }
 
-.header .search .btn {
+.body .header .search .btn {
     padding: 9px 12px;
 }
 
 .body .header {
     font-size: 16px;
+}
+
+.body .header h2 {
+    font-size: 28px;
+    line-height: 40px;
+    vertical-align: middle;
 }
 
 .body .header,

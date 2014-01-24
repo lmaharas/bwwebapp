@@ -3,9 +3,18 @@
 
     var currentState = 'forecast';
 
-    function setURL() {
+    function getURL() {
         var hash = window.location.hash ? window.location.hash.substr(1) : currentState;
+        if (hash == 'forecast' || hash == 'wear') {
+            currentState = hash;
+        } else {
+            currentState = 'forecast';
+        }
+    }
+
+    function setURL(hash) {
         window.location.hash = hash;
+
         setActiveNav(hash);
         setBodyClass(hash);
     }
@@ -16,6 +25,7 @@
     }
 
     function setBodyClass(pageClass) {
+        $("body").removeClass();
         $("body").addClass(pageClass);
     }
 
@@ -23,17 +33,22 @@
         $.getJSON("data.json", function(data){
             dust.render(path, data, function(err, out) {
                 $("body").html(out);
-                setURL();
+                setURL(path);
             });
         });
     }
 
-    function bindEvents(data) {
+    // function storePicture() {
+    //     //localStorage.dataToStore =
+    // }
+
+    function bindEvents() {
 
         var touchOrClickEvent = Modernizr.touch ? "touchstart" : "click";
 
         // Toggle Temp Up/Down
         $('.temps').on(touchOrClickEvent, function() {
+            alert('touch');
             $('.more').animate({ height: "toggle" });
         });
 
@@ -48,13 +63,12 @@
 
         $.getJSON("data.json", function(data){
 
-            dust.render("forecast", data, function(err, out) {
+            getURL();
 
+            dust.render(currentState, data, function(err, out) {
                 $("body").html(out);
-
-                bindEvents(data);
-                setURL();
-
+                bindEvents();
+                setURL(currentState);
             });
 
         });

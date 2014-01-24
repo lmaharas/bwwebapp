@@ -1,15 +1,18 @@
 <header class="header row">
-    <div class="input-group search">
-        <input type="text" placeholder="What to wear?" class="form-control">
-        <span class="input-group-btn">
-            <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
-        </span>
-    </div><!-- /input-group -->
+    <div class="container col-xs-12">
+        <h2>What to wear today?</h2>
+    </div>
 </header>
 
 <section class="body row">
-    <button class="btn btn-default btn-lg camera"><span class="glyphicon glyphicon-camera"><input type="file" accept="image/*" capture="camera"></span></button>
-    <p class="text col-xs-12">Thankfully it's turned out to be a clear day, and it's an overcast (but dry) evening ahead. Time to get your Friday on.</p>
+    <div class="container col-xs-12">
+        <button class="btn btn-default btn-lg camera"><span class="glyphicon glyphicon-camera"></span><input type="file" accept="image/*" capture="camera"></button>
+        <h3>Whatcha gonna wear?</h3>
+        <input type="text" placeholder="Leave yourself a reminder note, so next time the weather is similar to todays', you'll know what to wear?" class="form-control note">
+        <p class="text col-xs-12">Thankfully it's turned out to be a clear day, and it's an overcast (but dry) evening ahead. Time to get your Friday on.</p>
+        <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown">
+    Large button <span class="caret"></span>
+    </div>
 
     {>"temps" /}
 </section>
