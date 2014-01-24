@@ -17,3 +17,4 @@
 <footer class="footer">
     {>"navbar" /}
 </footer>
+{>googleanalytics /}
