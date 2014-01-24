@@ -48,7 +48,6 @@
 
         // Toggle Temp Up/Down
         $('.temps').on(touchOrClickEvent, function() {
-            alert('touch');
             $('.more').animate({ height: "toggle" });
         });
 
