@@ -125,6 +125,34 @@
         }
     }
 
+    function getCurrentPonchoMessage() {
+        var ponchoJsonURL = 'http://poncho.is/s/5EcpV/json/',
+            d = new Date(),
+            m_names = new Array("Jan.", "Feb.", "Mar.", "Apr.", "May", "Jun.", "Jul.", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."),
+            curr_date = d.getDate(),
+            curr_month = d.getMonth(),
+            curr_year = d.getFullYear(),
+            dateToday = m_names[curr_month] + " " + d_names[curr_day] + ", " + curr_year;
+
+
+        $.getJSON(ponchoJsonURL, function(data){
+            console.log(data[dateToday]);
+        });
+    }
+
+    function getCurrentForecastCondition() {
+        var LATITUDE = '40.7366138',
+            LONGITUDE = '-74.0094471',
+            APIKEY = '04e2a312ccb44bb2c4cc196f41a681bc',
+            TIME =
+            forecastIOURL = 'https://api.forecast.io/forecast/' + APIKEY + '/' + LATITUDE + ',' + LONGITUDE + ',' + TIME;
+
+
+        $.getJSON(forecastIOURL, function(data){
+
+        });
+    }
+
     function bindAddNoteEvents() {
 
         // open camera
