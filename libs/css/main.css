@@ -13,49 +13,117 @@
 /*
 * Mobile
 */
-.body .header {
-    height: 88px;
+
+body {
+    max-width: 480px;
+    margin: 0 auto;
 }
 
-.body .header .search {
+.header {
+    height: 45px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.header .search {
     vertical-align: middle;
 }
 
-.body .header .search .form-control {
+.header .search .form-control {
     height: 40px;
 }
 
-.body .header .search .btn {
+.header .search .btn {
     padding: 9px 12px;
 }
 
-.body .header {
-    font-size: 16px;
+.header .title {
+    font-size: 18px;
+    line-height: 45px;
+    font-weight: bold;
+    margin: 0;
+    vertical-align: middle;
+    background-color: #cbcbcb;
+    color: #777777;
+    text-transform: uppercase;
 }
 
-.body .header h2 {
-    font-size: 28px;
-    line-height: 40px;
+.header .title .text {
+    padding-left: 15px;
+}
+
+.body .wrapper {
+    display: table-cell;
     vertical-align: middle;
 }
 
-.body .header,
-.body, .text {
-    line-height: 1.3em;
-    height: auto;
+.body .wrapper .gif {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.body .wrapper .gif .img {
+    width: 100%;
+    max-width: 480px;
+}
+
+.body {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.body h3 {
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.2;
 }
 
 /*
  * PAGES
  */
 /* Forecast */
-.forecast {
-    /*background-color: rgba(120, 231, 199, .8);*/
+.forecast .body {
+    display: table;
 }
 
+.forecast .body .subject {
+    font-size: 16px;
+}
+
+.forecast .body .subject,
+.forecast .body .text {
+    line-height: 1.3em;
+    height: auto;
+}
+
+
 /* Wear */
-.wear {
-    /*background-color: rgba(255, 212, 188, .8);*/
+#camera {
+    position: absolute;
+    left: -999999em;
+}
+
+.wear .btn {
+    right: 0;
+    position: relative;
+}
+
+.back-btn {
+    float: left;
+    border-right: 1px solid #428bca;
+    border-radius: 0;
+}
+
+.add-btn {
+    float: right;
+    border-left: 1px solid #428bca;
+    border-radius: 0;
+}
+
+.add-btn:hover,
+.back-btn:hover {
+    background-color: #eee;
 }
 
 /*
@@ -71,6 +139,7 @@
     bottom: 40px;
     left: 0;
     right: 0;
+    cursor: pointer;
 }
 
 .temps .current {

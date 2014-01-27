@@ -1,18 +1,32 @@
 <header class="header row">
-    <div class="container col-xs-12">
-        <h2>What to wear today?</h2>
+    <div class="container col-xs-12 ">
+        <h2 class="title"><span class="text">Don't forget!</span><a class="btn btn-lg add-btn" href="#addnote"><span class="glyphicon glyphicon-plus"></a></h2>
     </div>
 </header>
 
 <section class="body row">
-    <div class="container col-xs-12">
-        <button class="btn btn-default btn-lg camera"><span class="glyphicon glyphicon-camera"></span><input type="file" accept="image/*" capture="camera"></button>
-        <h3>Whatcha gonna wear?</h3>
-        <input type="text" placeholder="Leave yourself a reminder note, so next time the weather is similar to todays', you'll know what to wear?" class="form-control note">
-        <p class="text col-xs-12">Thankfully it's turned out to be a clear day, and it's an overcast (but dry) evening ahead. Time to get your Friday on.</p>
-        <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown">
-    Large button <span class="caret"></span>
+    <div class="wrapper col-xs-12 wear-page">
+        <div class="gif">
+            <img class="img" src="http://placehold.it/300x169" alt="img">
+        </div>
+        <p class="text">Thankfully it's turned out to be a clear day, and it's an overcast (but dry) evening ahead. Time to get your Friday on.</p>
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Leave yourself a note. The next time the weather is similar to todays' you'll get a reminder, from YOURSELF!</p>
+                    <p>Perhaps your note will look like this:</p>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 
     {>"temps" /}
 </section>

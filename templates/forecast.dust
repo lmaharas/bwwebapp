@@ -1,19 +1,22 @@
 <header class="header row">
     <div class="container col-xs-12">
-        <div class="input-group search">
+        <!-- <div class="input-group search">
             <input type="text" placeholder="Where you at?" class="form-control">
             <span class="input-group-btn">
                 <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
             </span>
-        </div><!-- /input-group -->
+        </div> --><!-- /input-group -->
+        <h2 class="title"><span class="text">Forecast</span></h2>
     </div>
 </header>
 
 <section class="body row">
-    <div class="container col-xs-12">
-        <h1 class="header">☁ Thank Cats It's Friday!</h1>
+    <div class="wrapper col-xs-12">
+        <h1 class="subject">☁ Thank Cats It's Friday!</h1>
         <p class="text">Thankfully it's turned out to be a clear day, and it's an overcast (but dry) evening ahead. Time to get your Friday on.</p>
-        <img class="img" src="http://placehold.it/320x180" alt="img">
+        <div class="gif">
+            <img class="img" src="http://placehold.it/300x169" alt="img">
+        </div>
     </div>
 
     {>"temps" /}
