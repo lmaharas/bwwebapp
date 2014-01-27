@@ -1,7 +1,8 @@
 (function($, undefined) {
     "use strict";
 
-    var currentState = 'forecast';
+    var currentState = 'forecast',
+        touchOrClickEvent = Modernizr.touch ? "touchstart" : "click";
 
     function getURL() {
         var hash = window.location.hash ? window.location.hash.substr(1) : currentState;
@@ -38,12 +39,12 @@
             dust.render(path, data, function(err, out) {
                 $("body").html(out);
                 setURL(path);
+
+                if ( path == 'addnote') {
+                    bindAddNoteEvents();
+                }
             });
         });
-    }
-
-    function storePic(picture) {
-        localStorage.dataToStore = picture;
     }
 
     function loadPic(file) {
@@ -66,39 +67,95 @@
 
         }
 
-        URL.revokeObjectURL(fileURL);
     }
 
-    function storeNote() {
-        textNote = $('.add-page .note').html();
-        if(textNote !== '' || textNote === 'undefined') {
-            localStorage.dataToStore = textNote;
+    function storePic(date, picture, $pageWrapperClass, callback) {
+        console.log(picture);
+        hideError($pageWrapperClass);
+        localStorage['picNote_' + date] = picture;
+        callback();
+    }
+
+    function storeNote(date, textNote, $pageWrapperClass) {
+        console.log(textNote);
+        hideError($pageWrapperClass);
+        localStorage['textNote_' + date] = textNote;
+    }
+
+    function showNullNoteError($pageWrapperClass) {
+        $pageWrapperClass.find('.error.no-note').show();
+    }
+
+    function showStorageError($pageWrapperClass) {
+        $pageWrapperClass.find('.error.no-storage').show();
+    }
+
+    function hideError($pageWrapperClass) {
+        $pageWrapperClass.find('.error').hide();
+    }
+
+    function storeData() {
+        var $pageWrapperClass = $('.addnote');
+
+        if (Modernizr.localstorage) {
+
+            var textNote = $('.addnote .note').val() ? $('.addnote .note').val() : '',
+                picture = $('.addnote .gif .img').attr('src') ? $('.addnote .gif .img').attr('src') : '',
+                date = new Date();
+
+            if (textNote) {
+                storeNote(date, textNote, $pageWrapperClass);
+            }
+
+            if (picture) {
+                storePic(date, picture, $pageWrapperClass, function(){
+                    var URL=window.URL|| window.webkitURL;
+                    URL.revokeObjectURL(picture);
+                });
+            }
+
+            if ( textNote === '' && picture === '' ) {
+                showNullNoteError($pageWrapperClass);
+            }
+
+        } else {
+            showNoStorageError($pageWrapperClass);
         }
     }
 
-    function bindEvents() {
-
-        var touchOrClickEvent = Modernizr.touch ? "touchstart" : "click";
-
-        // Toggle Temp Up/Down
-        $('.temps').on(touchOrClickEvent, function() {
-            $('.more').animate({ height: "toggle" });
-        });
-
+    function bindAddNoteEvents() {
         $('.camera-btn').on(touchOrClickEvent, function() {
             $('#camera').click();
-            console.log('camera');
 
             $('#camera').on('change', function(e) {
                 var picture=e.target.files[0];
-                console.log(picture);
                 loadPic(picture);
             });
         });
 
-        $('.store-note').on(touchOrClickEvent, function() {
-            storePic();
-            storeNote();
+        $('.wrapper .note').on('focus', function() {
+            $('html, body').animate({
+                scrollTop: $(this).offset().top
+            });
+        });
+
+        $('#store-data').submit( function(e) {
+            e.preventDefault();
+        });
+
+        $('.store-note').on(touchOrClickEvent, function(e) {
+            e.preventDefault();
+            storeData();
+        });
+
+
+    }
+
+    function bindEvents() {
+
+        // Toggle Temp Up/Down
+        $('.temps').on(touchOrClickEvent, function() {
+            $('.more').animate({ height: "toggle" });
         });
 
         $('.add-btn').on(touchOrClickEvent, function(e) {

@@ -19,10 +19,10 @@
         </div>
     </div>
 
-    {>"temps" /}
 </section>
 
 <footer class="footer">
+    {>"temps" /}
     {>"navbar" /}
 </footer>
 {>googleanalytics /}

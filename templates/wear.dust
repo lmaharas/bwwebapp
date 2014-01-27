@@ -9,7 +9,7 @@
         <div class="gif">
             <img class="img" src="http://placehold.it/300x169" alt="img">
         </div>
-        <p class="text">Thankfully it's turned out to be a clear day, and it's an overcast (but dry) evening ahead. Time to get your Friday on.</p>
+        <p class="text">It's gonna be cloudy and rainy today so wear your rainboots!</p>
     </div>
 
     <!-- Modal -->
@@ -28,10 +28,10 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
-    {>"temps" /}
 </section>
 
 <footer class="footer">
+    {>"temps" /}
     {>"navbar" /}
 </footer>
 {>googleanalytics /}

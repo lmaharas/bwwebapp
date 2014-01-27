@@ -126,6 +126,25 @@ body {
     background-color: #eee;
 }
 
+/*Add Note*/
+.addnote .wrapper {
+    margin-bottom: 120px;
+}
+
+.addnote .wrapper .gif {
+    margin-bottom: 10px;
+}
+
+.addnote .camera-btn {
+    margin-bottom: 10px;
+}
+
+.error {
+    color: rgba(255, 0, 0, .5);
+    font-style: italic;
+    display: none;
+}
+
 /*
  * COMPONENTS
  */
@@ -135,7 +154,7 @@ body {
     /*background-color: #78E7C7;*/
     /*background-color: rgba(120, 231, 199,  .3);*/
     background-color: rgba(255, 255, 255, .5);
-    position: absolute;
+    position: fixed;
     bottom: 40px;
     left: 0;
     right: 0;
