@@ -42,6 +42,8 @@
 
                 if ( path == 'addnote') {
                     bindAddNoteEvents();
+                } else {
+                    bindEvents();
                 }
             });
         });
@@ -124,6 +126,8 @@
     }
 
     function bindAddNoteEvents() {
+
+        // open camera
         $('.camera-btn').on(touchOrClickEvent, function() {
             $('#camera').click();
 
@@ -133,21 +137,33 @@
             });
         });
 
+        // scroll to text input for note
         $('.wrapper .note').on('focus', function() {
             $('html, body').animate({
                 scrollTop: $(this).offset().top
             });
         });
 
+        // do not submit data form
         $('#store-data').submit( function(e) {
             e.preventDefault();
         });
 
+        // store data locally
         $('.store-note').on(touchOrClickEvent, function(e) {
             e.preventDefault();
             storeData();
         });
 
+        // Toggle Temp Up/Down
+        $('.temps').on(touchOrClickEvent, function() {
+            $('.more').animate({ height: "toggle" });
+        });
+
+        $('.back-btn').on(touchOrClickEvent, function(e) {
+            e.preventDefault();
+            window.history.back();
+        });
 
     }
 

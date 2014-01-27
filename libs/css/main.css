@@ -44,8 +44,8 @@ body {
     font-weight: bold;
     margin: 0;
     vertical-align: middle;
-    background-color: #cbcbcb;
-    color: #777777;
+    background-color: #efefef;
+    color: #888888;
     text-transform: uppercase;
 }
 
@@ -111,13 +111,13 @@ body {
 
 .back-btn {
     float: left;
-    border-right: 1px solid #428bca;
+    border-right: 1px solid #888;
     border-radius: 0;
 }
 
 .add-btn {
     float: right;
-    border-left: 1px solid #428bca;
+    border-left: 1px solid #888;
     border-radius: 0;
 }
 
@@ -151,9 +151,9 @@ body {
 
 /*Temps*/
 .temps {
-    /*background-color: #78E7C7;*/
-    /*background-color: rgba(120, 231, 199,  .3);*/
-    background-color: rgba(255, 255, 255, .5);
+    background-color: #78E7C7;
+    background-color: rgba(120, 231, 199,  .2);
+    /*background-color: rgba(255, 255, 255, .5);*/
     position: fixed;
     bottom: 40px;
     left: 0;
@@ -187,9 +187,9 @@ body {
 
 .temps .more {
     display: none;
-    /*background-color: #78E7C7;*/
-    /*background-color: rgba(120, 231, 199, .8);*/
-    background-color: rgba(255, 255, 255, .8);
+    background-color: #78E7C7;
+    background-color: rgba(120, 231, 199, .3);
+    /*background-color: rgba(255, 255, 255, .8);*/
     padding-top: 10px;
     padding-bottom: 10px;
 }
