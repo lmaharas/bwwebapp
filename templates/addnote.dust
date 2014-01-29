@@ -1,3 +1,6 @@
+{>"page"/}
+
+{<bodyContent}
 <header class="header row">
     <div class="container col-xs-12">
         <h2 class="title"><span class="text">Add a Note</span><a class="btn btn-lg back-btn" href="#"><span class="glyphicon glyphicon-chevron-left"></a></h2>
@@ -18,9 +21,4 @@
         </form>
     </div>
 </section>
-
-<footer class="footer">
-    {>"temps" /}
-    {>"navbar" /}
-</footer>
-{>googleanalytics /}
+{/bodyContent}

@@ -17,13 +17,13 @@
 body {
     max-width: 480px;
     margin: 0 auto;
+    color: #444444;
 }
 
 .header {
     height: 45px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     margin-top: 0;
-    margin-bottom: 10px;
 }
 
 .header .search {
@@ -53,9 +53,21 @@ body {
     padding-left: 15px;
 }
 
+.body {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.body h3 {
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.2;
+}
+
 .body .wrapper {
     display: table-cell;
     vertical-align: middle;
+    padding-bottom: 120px;
 }
 
 .body .wrapper .gif {
@@ -66,17 +78,6 @@ body {
 .body .wrapper .gif .img {
     width: 100%;
     max-width: 480px;
-}
-
-.body {
-    text-align: center;
-    margin: 0 auto;
-}
-
-.body h3 {
-    font-size: 16px;
-    margin: 0;
-    line-height: 1.2;
 }
 
 /*
@@ -102,6 +103,11 @@ body {
 #camera {
     position: absolute;
     left: -999999em;
+}
+
+.wear .text {
+    text-align: left;
+    margin-bottom: 12px;
 }
 
 .wear .btn {
@@ -151,9 +157,8 @@ body {
 
 /*Temps*/
 .temps {
-    background-color: #78E7C7;
-    background-color: rgba(120, 231, 199,  .2);
-    /*background-color: rgba(255, 255, 255, .5);*/
+    background-color: #E3F9F3;
+    background-color: rgba(227, 249, 243, .8);
     position: fixed;
     bottom: 40px;
     left: 0;
@@ -187,9 +192,8 @@ body {
 
 .temps .more {
     display: none;
-    background-color: #78E7C7;
-    background-color: rgba(120, 231, 199, .3);
-    /*background-color: rgba(255, 255, 255, .8);*/
+    background-color: #cdf2e6;
+    background-color: rgba(194, 243, 228, .8);
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -198,6 +202,16 @@ body {
     text-align: center;
 }
 
+/*navbar*/
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:focus {
+    background-color: #7374AD;
+}
+
+a, a:hover {
+    color: #7374AD;
+}
 
 /*
 * Mobile Overrides

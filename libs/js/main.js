@@ -2,7 +2,8 @@
     "use strict";
 
     var currentState = 'forecast',
-        touchOrClickEvent = Modernizr.touch ? "touchstart" : "click";
+        touchOrClickEvent = Modernizr.touch ? "touchstart" : "click",
+        consolidated_json = '';
 
     function getURL() {
         var hash = window.location.hash ? window.location.hash.substr(1) : currentState;
@@ -15,7 +16,6 @@
 
     function setURL(hash) {
         window.location.hash = hash;
-
         setActiveNav(hash);
         setBodyClass(hash);
     }
@@ -32,21 +32,6 @@
     function setBodyClass(pageClass) {
         $("body").removeClass();
         $("body").addClass(pageClass);
-    }
-
-    function renderTemplate(path) {
-        $.getJSON("data.json", function(data){
-            dust.render(path, data, function(err, out) {
-                $("body").html(out);
-                setURL(path);
-
-                if ( path == 'addnote') {
-                    bindAddNoteEvents();
-                } else {
-                    bindEvents();
-                }
-            });
-        });
     }
 
     function loadPic(file) {
@@ -72,14 +57,12 @@
     }
 
     function storePic(date, picture, $pageWrapperClass, callback) {
-        console.log(picture);
         hideError($pageWrapperClass);
         localStorage['picNote_' + date] = picture;
         callback();
     }
 
     function storeNote(date, textNote, $pageWrapperClass) {
-        console.log(textNote);
         hideError($pageWrapperClass);
         localStorage['textNote_' + date] = textNote;
     }
@@ -96,7 +79,7 @@
         $pageWrapperClass.find('.error').hide();
     }
 
-    function storeData() {
+    function storeUserGenData() {
         var $pageWrapperClass = $('.addnote');
 
         if (Modernizr.localstorage) {
@@ -125,33 +108,65 @@
         }
     }
 
-    function getCurrentPonchoMessage() {
-        var ponchoJsonURL = 'http://poncho.is/s/5EcpV/json/',
-            d = new Date(),
-            m_names = new Array("Jan.", "Feb.", "Mar.", "Apr.", "May", "Jun.", "Jul.", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."),
-            curr_date = d.getDate(),
-            curr_month = d.getMonth(),
-            curr_year = d.getFullYear(),
-            dateToday = m_names[curr_month] + " " + d_names[curr_day] + ", " + curr_year;
+    // function getForecastCondition(date) {
+    //     var LATITUDE = '40.7366138',
+    //         LONGITUDE = '-74.0094471',
+    //         APIKEY = '04e2a312ccb44bb2c4cc196f41a681bc',
+    //         TIME = date.getTime(),
+    //         forecastIOURL = 'https://api.forecast.io/forecast/' + APIKEY + '/' + LATITUDE + ',' + LONGITUDE + ',' + TIME;
 
 
-        $.getJSON(ponchoJsonURL, function(data){
-            console.log(data[dateToday]);
+    //     $.getJSON(forecastIOURL, function(data){
+    //         console.log(data[forecastIOURL]);
+    //     });
+    // }
+
+    function renderTemplates(currentState){
+        dust.render(currentState, consolidated_json, function(err, out) {
+
+            $("body").html(out);
+            $(".page-body").hide().fadeIn();
+
+            setURL(currentState);
+
+            if ( currentState === 'addnote') {
+                bindAddNoteEvents();
+            } else {
+                bindEvents();
+            }
         });
     }
 
-    function getCurrentForecastCondition() {
-        var LATITUDE = '40.7366138',
-            LONGITUDE = '-74.0094471',
-            APIKEY = '04e2a312ccb44bb2c4cc196f41a681bc',
-            TIME =
-            forecastIOURL = 'https://api.forecast.io/forecast/' + APIKEY + '/' + LATITUDE + ',' + LONGITUDE + ',' + TIME;
+    function getData() {
+        var urls = ['data.json', 'http://poncho.is/api/archive/list'];
 
-
-        $.getJSON(forecastIOURL, function(data){
-
+        var jxhr = [];
+        $.each(urls, function (i, url) {
+            jxhr.push(
+                $.getJSON(url, function (data) {
+                    if ( i === 0 ) {
+                        consolidated_json = dust.makeBase(data);
+                    } else {
+                        consolidated_json = consolidated_json.push(data);
+                    }
+                })
+            );
         });
+
+        $.when.apply($, jxhr).done(function() {
+            renderTemplates(currentState);
+        });
+
     }
+
+    // function getPonchoForecastData() {
+    //     var d = new Date(),
+    //         m_names = new Array("Jan.", "Feb.", "Mar.", "Apr.", "May", "Jun.", "Jul.", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."),
+    //         curr_date = d.getDate(),
+    //         curr_month = d.getMonth(),
+    //         curr_year = d.getFullYear(),
+    //         dateToday = m_names[curr_month] + " " + curr_date + ", " + curr_year;
+    // }
 
     function bindAddNoteEvents() {
 
@@ -180,7 +195,7 @@
         // store data locally
         $('.store-note').on(touchOrClickEvent, function(e) {
             e.preventDefault();
-            storeData();
+            storeUserGenData();
         });
 
         // Toggle Temp Up/Down
@@ -193,19 +208,30 @@
             window.history.back();
         });
 
+        // Set Hashchange trigger
+        $(window).on('hashchange', function() {
+            renderTemplates(window.location.hash.substr(1));
+        });
+
     }
 
     function bindEvents() {
+
+        $('.nav a').on(touchOrClickEvent, function(e){
+            e.preventDefault();
+            window.location.hash = $(this).attr('href');
+        });
 
         // Toggle Temp Up/Down
         $('.temps').on(touchOrClickEvent, function() {
             $('.more').animate({ height: "toggle" });
         });
 
+
         $('.add-btn').on(touchOrClickEvent, function(e) {
             e.preventDefault();
             $('.wear-page').fadeOut(400, function() {
-                renderTemplate('addnote');
+                renderTemplates('addnote');
                 history.pushState(null, null, "#addnote");
             });
         });
@@ -217,25 +243,14 @@
 
         // Set Hashchange trigger
         $(window).on('hashchange', function() {
-            renderTemplate(window.location.hash.substr(1));
+            renderTemplates(window.location.hash.substr(1));
         });
 
     }
 
     function loadBody() {
-
-        $.getJSON("data.json", function(data){
-
-            getURL();
-
-            dust.render(currentState, data, function(err, out) {
-                $("body").html(out);
-                bindEvents();
-                setURL(currentState);
-            });
-
-        });
-
+        getURL();
+        getData();
     }
 
     $(document).ready(function() {

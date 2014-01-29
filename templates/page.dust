@@ -1,0 +1,7 @@
+<section class="page-body">
+    {+bodyContent/}
+</section>
+
+{+pageFooter}
+    {>"footer" /}
+{/pageFooter}

@@ -1,3 +1,6 @@
+{>"page"/}
+
+{<bodyContent}
 <header class="header row">
     <div class="container col-xs-12">
         <!-- <div class="input-group search">
@@ -12,17 +15,15 @@
 
 <section class="body row">
     <div class="wrapper col-xs-12">
-        <h1 class="subject">☁ Thank Cats It's Friday!</h1>
-        <p class="text">Thankfully it's turned out to be a clear day, and it's an overcast (but dry) evening ahead. Time to get your Friday on.</p>
+        {#data[0]}
+        <h1 class="subject">{subject}</h1>
+        <p class="text">{body}</p>
         <div class="gif">
-            <img class="img" src="http://placehold.it/300x169" alt="img">
+            {?media}
+                <img class="img" src="{media}" alt="img">
+            {/media}
         </div>
+        {/data[0]}
     </div>
-
 </section>
-
-<footer class="footer">
-    {>"temps" /}
-    {>"navbar" /}
-</footer>
-{>googleanalytics /}
+{/bodyContent}

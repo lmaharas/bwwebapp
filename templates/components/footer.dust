@@ -1,0 +1,5 @@
+<footer class="footer">
+    {>"temps" /}
+    {>"navbar" /}
+</footer>
+{>googleanalytics /}

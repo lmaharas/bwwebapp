@@ -1,24 +1,24 @@
 <section class="temps">
     <div class="current col-xs-12">
-        <img src="libs/img/rainy.gif" alt="rainy" width="44px">
+        <img src="libs/img/{data.weather1}" alt="rainy" width="44px">
         <div>
-            <h3>38</h3>
+            <h3>{data.temp1}</h3>
             <h4>40/22</h4>
         </div>
     </div>
     <div class="more col-xs-12">
         <div class="time col-xs-4">
-            <img src="libs/img/rainy.gif" alt="rainy" width="44px">
+            <img src="libs/img/{data.weather2}" alt="rainy" width="44px">
             <h3>38</h3>
             <time class="timestamp" datetime="2014-01-20T18:50:00-0500">2PM</time>
         </div>
         <div class="time col-xs-4">
-            <img src="libs/img/rainy.gif" alt="rainy" width="44px">
+            <img src="libs/img/{data.weather3}" alt="rainy" width="44px">
             <h3>38</h3>
             <time class="timestamp" datetime="2014-01-20T18:50:00-0500">2PM</time>
         </div>
         <div class="time col-xs-4">
-            <img src="libs/img/rainy.gif" alt="rainy" width="44px">
+            <img src="libs/img/{data.weather4}" alt="rainy" width="44px">
             <h3>38</h3>
             <time class="timestamp" datetime="2014-01-20T18:50:00-0500">2PM</time>
         </div>
