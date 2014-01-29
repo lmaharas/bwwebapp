@@ -3,7 +3,7 @@
 
     var currentState = 'forecast',
         touchOrClickEvent = Modernizr.touch ? "touchstart" : "click",
-        consolidated_json = '';
+        consolidated_json;
 
     function getURL() {
         var hash = window.location.hash ? window.location.hash.substr(1) : currentState;
@@ -138,22 +138,34 @@
     }
 
     function getData() {
-        var urls = ['data.json', 'http://poncho.is/api/archive/list'];
+        var urls = ['data.json','http://poncho.is/s/i4R69/json/'];
 
         var jxhr = [];
         $.each(urls, function (i, url) {
             jxhr.push(
                 $.getJSON(url, function (data) {
-                    if ( i === 0 ) {
+                    if (i === 0){
                         consolidated_json = dust.makeBase(data);
+                        console.log(consolidated_json);
                     } else {
-                        consolidated_json = consolidated_json.push(data);
+                        consolidated_json = consolidated_json.push({forecast: 'data.data'});
+                        console.log(consolidated_json);
                     }
+
+                    // if ( i === 0 ) {
+                    //     consolidated_json = dust.makeBase(data);
+                    // } else {
+                    //     if (data.indexOf('data')) {
+                    //         console.log(d);
+                    //     }
+                    //     consolidated_json = consolidated_json.push(data);
+                    // }
                 })
             );
         });
 
         $.when.apply($, jxhr).done(function() {
+            // console.log(consolidated_json);
             renderTemplates(currentState);
         });
 

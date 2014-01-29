@@ -15,7 +15,7 @@
 
 <section class="body row">
     <div class="wrapper col-xs-12">
-        {#data[0]}
+        {#forecast}
         <h1 class="subject">{subject}</h1>
         <p class="text">{body}</p>
         <div class="gif">
@@ -23,7 +23,7 @@
                 <img class="img" src="{media}" alt="img">
             {/media}
         </div>
-        {/data[0]}
+        {/forecast}
     </div>
 </section>
 {/bodyContent}
