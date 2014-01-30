@@ -74,8 +74,8 @@
 
             img.src = fileURL;
             img.className = 'img';
-            $('.camera-btn').parent().prepend("<div class='gif'></div>");
-            $('.camera-btn').prev('.gif').prepend(img);
+            $('.camera-btn').closest('.wrapper').prepend("<div class='gif'></div>");
+            $('.wrapper').find('.gif').prepend(img);
 
         } else {
 
@@ -131,6 +131,8 @@
             if ( textNote === '' && picture === '' ) {
                 showNullNoteError($pageWrapperClass);
             }
+
+            $('.back-btn').trigger(touchOrClickEvent);
 
         } else {
             showNoStorageError($pageWrapperClass);

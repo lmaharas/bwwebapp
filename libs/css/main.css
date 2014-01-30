@@ -152,15 +152,10 @@ a, a:hover {
     margin-bottom: 120px;
 }
 
-.addnote .wrapper .gif {
-    margin-bottom: 10px;
-}
-
 .addnote .capture {
     width: 100%;
     margin: 0 auto;
     border-radius: 5px;
-    margin-bottom: 30px;
     min-height: 100px;
     position: relative;
 }
@@ -180,7 +175,7 @@ a, a:hover {
 
 .addnote .camera-btn:hover {
     color: #7374AD;
-    background-color: #e3e4f7;
+    background-color: #c7c8e2;
     border-color: #e3e4f7;
 }
 
