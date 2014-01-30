@@ -1,26 +1,23 @@
 <section class="temps">
     <div class="current col-xs-12">
-        <img src="libs/img/{data.weather1}" alt="rainy" width="44px">
+        {#forecast}
+        <img src="libs/img/{weather1}" alt="rainy" width="44px">
         <div>
-            <h3>{data.temp1}</h3>
-            <h4>40/22</h4>
+            <h3 class="weather">{temp1}</h3>
+            <time class="timestamp" datetime="2014-01-20T18:50:00-0500">now</time>
         </div>
     </div>
     <div class="more col-xs-12">
-        <div class="time col-xs-4">
-            <img src="libs/img/{data.weather2}" alt="rainy" width="44px">
-            <h3>38</h3>
-            <time class="timestamp" datetime="2014-01-20T18:50:00-0500">2PM</time>
+        <div class="time col-xs-6">
+            <img src="libs/img/{weather2}" alt="{weather2}" width="44px">
+            <h3 class="weather">{temp2}</h3>
+            <time class="timestamp" datetime="2014-01-20T18:50:00-0500">{time2}</time>
         </div>
-        <div class="time col-xs-4">
-            <img src="libs/img/{data.weather3}" alt="rainy" width="44px">
-            <h3>38</h3>
-            <time class="timestamp" datetime="2014-01-20T18:50:00-0500">2PM</time>
+        <div class="time col-xs-6">
+            <img src="libs/img/{weather3}" alt="{weather3}" width="44px">
+            <h3 class="weather">{temp3}</h3>
+            <time class="timestamp" datetime="2014-01-20T18:50:00-0500">{time3}</time>
         </div>
-        <div class="time col-xs-4">
-            <img src="libs/img/{data.weather4}" alt="rainy" width="44px">
-            <h3>38</h3>
-            <time class="timestamp" datetime="2014-01-20T18:50:00-0500">2PM</time>
-        </div>
+        {/forecast}
     </div>
 </section>

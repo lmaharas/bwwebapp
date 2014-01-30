@@ -1,18 +1,6 @@
 {>"page"/}
 
 {<bodyContent}
-<header class="header row">
-    <div class="container col-xs-12">
-        <!-- <div class="input-group search">
-            <input type="text" placeholder="Where you at?" class="form-control">
-            <span class="input-group-btn">
-                <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
-            </span>
-        </div> --><!-- /input-group -->
-        <h2 class="title"><span class="text">Forecast</span></h2>
-    </div>
-</header>
-
 <section class="body row">
     <div class="wrapper col-xs-12">
         {#forecast}

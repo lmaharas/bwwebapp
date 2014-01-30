@@ -9,6 +9,24 @@
             "icon": "picture"
         }
     ],
+    "page":[
+        {
+            "title": "forecast",
+            "hash": "forecast"
+        },
+        {
+            "title": "don't forget!",
+            "hash": "wear",
+            "class":"add-btn",
+            "icon": "plus"
+        },
+        {
+            "title": "add a note",
+            "hash": "addnote",
+            "class": "back-btn",
+            "icon": "chevron-left"
+        }
+    ],
    "autocomplete": {
         "items":[
             {
