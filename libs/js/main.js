@@ -21,6 +21,12 @@
         setHeader(hash);
     }
 
+    function hideUrlBar() {
+        /mobile/i.test(navigator.userAgent) && setTimeout(function () {
+            window.scrollTo(0, 1);
+        }, 1000);
+    }
+
     function setActiveNav(path) {
         $('.nav a').parent().removeClass('active');
         if (path !== 'addnote'){
@@ -242,7 +248,6 @@
             $('.more').animate({ height: "toggle" });
         });
 
-
         $('.add-btn').on(touchOrClickEvent, function(e) {
             e.preventDefault();
             $('.wear-page').fadeOut(400, function() {
@@ -265,6 +270,7 @@
 
     function loadBody() {
         getURL();
+        hideUrlBar();
         getData();
     }
 
