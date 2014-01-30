@@ -8,7 +8,7 @@
         <p class="text">{body}</p>
         <div class="gif">
             {?media}
-                <img class="img" src="{media}" alt="img">
+                <img class="img forecast-img" src="{media}" alt="img">
             {/media}
         </div>
         {/forecast}

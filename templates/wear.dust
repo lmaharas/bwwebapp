@@ -6,21 +6,20 @@
     <div class="wrapper col-xs-12 wear-page">
         <p class="text">It's gonna be cloudy and rainy today so bring your umbrella!</p>
         <div class="gif">
-            <img class="img" src="libs/img/rainrain.gif" alt="img">
+            <img class="img wear-img" src="libs/img/rainrain.gif" alt="img">
         </div>
     </div>
 
     <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="wear-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    <h4 class="modal-title" id="myModalLabel">Add a Note</h4>
                 </div>
                 <div class="modal-body">
                     <p>Leave yourself a note. The next time the weather is similar to todays' you'll get a reminder, from YOURSELF!</p>
-                    <p>Perhaps your note will look like this:</p>
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->

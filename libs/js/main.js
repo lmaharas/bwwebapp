@@ -3,6 +3,7 @@
 
     var currentState = 'forecast',
         touchOrClickEvent = Modernizr.touch ? "touchstart" : "click",
+        modalOpen = true,
         consolidated_json;
 
     function getURL() {
@@ -19,6 +20,14 @@
         setActiveNav(hash);
         setBodyClass(hash);
         setHeader(hash);
+        if (hash == 'wear' && modalOpen) {
+            openModal('wear-modal');
+        }
+    }
+
+    function openModal(id){
+        $('#' + id).modal('show');
+        modalOpen = false;
     }
 
     function hideUrlBar() {
@@ -43,8 +52,8 @@
             var header = headers[k],
                 headersTitle = $(header).data('title');
 
-            if ( hash !== headersTitle) {
-                $(header).hide();
+            if ( hash === headersTitle) {
+                $(header).show();
             }
         });
     }
@@ -168,7 +177,6 @@
                         consolidated_json = dust.makeBase(data);
                     } else {
                         consolidated_json = consolidated_json.push({forecast: data.data});
-            console.log(consolidated_json);
                     }
                 })
             );

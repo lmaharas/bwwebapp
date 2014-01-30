@@ -3,7 +3,11 @@
 {<bodyContent}
 <section class="body row">
     <div class="wrapper col-xs-12">
-        <button class="btn btn-default btn-lg camera-btn"><span class="glyphicon glyphicon-camera"></span></button>
+        <div class="capture">
+            <button class="btn btn-default btn-lg camera-btn">
+                <span class="glyphicon glyphicon-camera"></span>
+            </button>
+        </div>
         <form role="form" id="store-data">
             <input id="camera" type="file" accept="image/*" capture="camera">
             <div class="form-group">
