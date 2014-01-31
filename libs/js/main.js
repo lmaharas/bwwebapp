@@ -106,7 +106,7 @@
         $pageWrapperClass.find('.error').addClass('.no-' + errorClass).html(errorText);
         $pageWrapperClass.find('.error').addClass('.no-' + errorClass).fadeIn( 300, function() {
             $(this).css('opacity', 1);
-        };
+        });
     }
 
     function hideError($pageWrapperClass) {

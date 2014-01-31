@@ -206,6 +206,12 @@ a, a:hover {
     padding-right: 10px;
 }
 
+#saved-modal .modal-body {
+    position: relative;
+    padding: 0 20px 20px;
+    margin-top: 20px;
+}
+
 /*
  * COMPONENTS
  */
