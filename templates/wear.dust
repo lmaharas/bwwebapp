@@ -4,7 +4,7 @@
 
 <section class="body row">
     <div class="wrapper col-xs-12 wear-page">
-        <p class="text">It's gonna be cloudy and rainy today so bring your umbrella!</p>
+        <p class="text">Today calls for {condition}, so don't leave home without your _____</p>
         <div class="gif">
             <img class="img wear-img" src="libs/img/rainrain.gif" alt="img">
         </div>
@@ -16,10 +16,10 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title" id="myModalLabel">Add a Note</h4>
+                    <h4 class="modal-title" id="myModalLabel">Add a Note About Today</h4>
                 </div>
                 <div class="modal-body">
-                    <p>Leave yourself a note. The next time the weather is similar to todays' you'll get a reminder, from YOURSELF!</p>
+                    <p>Never under-dress again. The next time the weather is similar to today's, you'll get a reminder from yourself!</p>
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->

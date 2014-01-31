@@ -27,7 +27,7 @@
                     <!-- <h4 class="modal-title" id="myModalLabel">Saved!</h4> -->
                 </div>
                 <div class="modal-body">
-                    <p>Your note has been saved.  Look for this reminder in the future!</p>
+                    <p><span class="glyphicon glyphicon-ok"></span>Your note has been saved.  Look for this reminder in the future!</p>
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->

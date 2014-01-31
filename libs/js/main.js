@@ -69,7 +69,7 @@
         $("body").addClass(pageClass);
     }
 
-    function loadPic(file) {
+    function loadPic(file, callback) {
         var URL=window.URL|| window.webkitURL,
             fileURL=URL.createObjectURL(file),
             gifDiv = $('.wrapper').find('.gif');
@@ -88,6 +88,8 @@
             gifDiv.find('.img').attr('src', fileURL);
 
         }
+
+        callback = callback();
 
     }
 
@@ -166,6 +168,12 @@
     //     });
     // }
 
+    function setNoteFocus() {
+        setTimeout(function () {
+            $('.addnote .note').focus();
+        }, 1500);
+    }
+
     function renderTemplates(currentState){
         dust.render(currentState, consolidated_json, function(err, out) {
 
@@ -215,14 +223,15 @@
     // }
 
     function bindAddNoteEvents() {
-
         // open camera
         $('.camera-btn').on(touchOrClickEvent, function() {
             $('#camera').click();
 
             $('#camera').on('change', function(e) {
                 var picture=e.target.files[0];
-                loadPic(picture);
+                loadPic(picture, function(){
+                    setNoteFocus();
+                });
             });
         });
 
@@ -254,10 +263,11 @@
             window.history.back();
         });
 
-        $('#saved-modal').on('show', function() {
-            console.log('show');
+        $('#saved-modal').on('shown', function() {
+            //TODO: check to see this is working
             setTimeout(function () {
-                $('#saved-modal').modal('hide');
+                console.log('this ' + $(this));
+                $(this).modal('hide');
             }, 4000);
         });
 
