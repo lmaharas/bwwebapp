@@ -13,10 +13,25 @@
             <div class="form-group">
                 <textarea class="form-control note" rows="3" placeholder="Spill it!"></textarea>
             </div>
-            <p class="error no-note">Please add an image or text.</p>
-            <p class="error no-storage">Oops! Your browser won't allow a note to be stored. Please use Chrome or Safari.</p>
+            <p class="error">error:</p>
             <button type="submit" class="btn btn-default btn-lg store-note">Save</button>
         </form>
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="saved-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <!-- <h4 class="modal-title" id="myModalLabel">Saved!</h4> -->
+                </div>
+                <div class="modal-body">
+                    <p>Your note has been saved.  Look for this reminder in the future!</p>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
 </section>
 {/bodyContent}

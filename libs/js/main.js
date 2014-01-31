@@ -21,13 +21,19 @@
         setBodyClass(hash);
         setHeader(hash);
         if (hash == 'wear' && modalOpen) {
-            openModal('wear-modal');
+            openModal('wear');
         }
     }
 
-    function openModal(id){
-        $('#' + id).modal('show');
-        modalOpen = false;
+    function openModal(id) {
+        var modalId = id + '-modal';
+        if (id === 'wear') {
+            $('#' + modalId).modal('show');
+            modalOpen = false;
+        } else {
+            $('#' + modalId).modal('show');
+        }
+
     }
 
     function hideUrlBar() {
@@ -96,46 +102,54 @@
         localStorage['textNote_' + date] = textNote;
     }
 
-    function showNullNoteError($pageWrapperClass) {
-        $pageWrapperClass.find('.error.no-note').show();
-    }
-
-    function showStorageError($pageWrapperClass) {
-        $pageWrapperClass.find('.error.no-storage').show();
+    function showError($pageWrapperClass, errorText, errorClass) {
+        $pageWrapperClass.find('.error').addClass('.no-' + errorClass).html(errorText);
+        $pageWrapperClass.find('.error').addClass('.no-' + errorClass).fadeIn( 300, function() {
+            $(this).css('opacity', 1);
+        };
     }
 
     function hideError($pageWrapperClass) {
-        $pageWrapperClass.find('.error').hide();
+        $pageWrapperClass.find('.error').fadeOut();
     }
 
     function storeUserGenData() {
-        var $pageWrapperClass = $('.addnote');
+        var $pageWrapperClass = $('.addnote'),
+            textNote = $('.addnote .note').val() ? $('.addnote .note').val() : '',
+            picture = $('.addnote .gif .img').attr('src') ? $('.addnote .gif .img').attr('src') : '',
+            date = new Date(),
+            errorNoNote = "Please add an image or text",
+            errorNoStorage = "Oops! Your browser won't allow a note to be stored. Please use Chrome or Safari.";
 
         if (Modernizr.localstorage) {
 
-            var textNote = $('.addnote .note').val() ? $('.addnote .note').val() : '',
-                picture = $('.addnote .gif .img').attr('src') ? $('.addnote .gif .img').attr('src') : '',
-                date = new Date();
+            if ( textNote === '' && picture === '' ) {
+                //show an error
+                showError($pageWrapperClass, errorNoNote, 'note');
 
-            if (textNote) {
-                storeNote(date, textNote, $pageWrapperClass);
-            }
+            } else {
+                // store the note
+                if (textNote) {
+                    storeNote(date, textNote, $pageWrapperClass);
+                }
 
-            if (picture) {
-                storePic(date, picture, $pageWrapperClass, function(){
-                    var URL=window.URL|| window.webkitURL;
-                    URL.revokeObjectURL(picture);
+                // store and display the pic then remove the image object url
+                if (picture) {
+                    storePic(date, picture, $pageWrapperClass, function(){
+                        var URL=window.URL|| window.webkitURL;
+                        URL.revokeObjectURL(picture);
+                    });
+                }
+
+                // finish by animating to the top of screen
+                $('html, body').animate({ scrollTop: 0 }, 500, 'swing', function() {
+                    openModal('saved');
                 });
             }
 
-            if ( textNote === '' && picture === '' ) {
-                showNullNoteError($pageWrapperClass);
-            }
-
-            $('.back-btn').trigger(touchOrClickEvent);
-
         } else {
-            showNoStorageError($pageWrapperClass);
+            //show an error
+            showError($pageWrapperClass, errorNoStorage, 'storage');
         }
     }
 
@@ -161,6 +175,7 @@
             setURL(currentState);
 
             if ( currentState === 'addnote') {
+                console.log('addnote ' + currentState);
                 bindAddNoteEvents();
             } else {
                 bindEvents();
@@ -237,6 +252,13 @@
         $('.back-btn').on(touchOrClickEvent, function(e) {
             e.preventDefault();
             window.history.back();
+        });
+
+        $('#saved-modal').on('show', function() {
+            console.log('show');
+            setTimeout(function () {
+                $('#saved-modal').modal('hide');
+            }, 4000);
         });
 
         // Set Hashchange trigger
