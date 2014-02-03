@@ -6,21 +6,26 @@
     <!-- {weather[0].comment[0].summer} -->
     {#todayWeatherData}
         <div class="wrapper col-xs-12 wear-page">
-            <time class="timestamp" datetime=""><span>From:</span> {#forecast}{date}{/forecast}</time>
-            <p class="prev-text"><!-- Last time there was {condition}, you left this note: --> You haven't left any reminders for {condition}.</p>
-            <p class="text">
-                {?condition}
-                    Today calls for {condition}, &nbsp
+            <div class="datetime">
+                <time class="timestamp" datetime=""><span>From:</span> {#forecast}{date}{/forecast}</time>
+                <time class="location" datetime=""><span>City:</span> {#forecast}{city}{/forecast}</time>
+            </div>
+            <div class="note">
+                <p class="prev-text"><!-- Last time there was {condition}, you left this note: --> You haven't left any reminders for {condition}.</p>
+                <p class="text">
+                    {?condition}
+                        Today calls for {condition}, &nbsp
 
-                    {@if cond=" '{comment}'.length != 2 "}
-                        {comment}
+                        {@if cond=" '{comment}'.length != 2 "}
+                            {comment}
+                        {:else}
+                            {#comment}{season}{/comment}
+                        {/if}
                     {:else}
-                        {#comment}{season}{/comment}
-                    {/if}
-                {:else}
-                    You know what to do.
-                {/condition}
-            </p>
+                        You know what to do.
+                    {/condition}
+                </p>
+            </div>
 
             <div class="media">
                 <img class="img wear-img" src="libs/img/{type}.jpg" alt="{type}">

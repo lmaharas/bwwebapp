@@ -127,7 +127,7 @@
         $pageWrapperClass.find('.error').fadeOut();
     }
 
-    function storeUserGenData() {
+    function storeUserGenData(consolidated_json) {
         var $pageWrapperClass = $('.addnote'),
             textNote = $('.addnote .note').val() ? $('.addnote .note').val() : '',
             picture = $('.addnote .gif .img').attr('src') ? $('.addnote .gif .img').attr('src') : '',
@@ -137,6 +137,9 @@
             dateNow = Date.now(),
             errorNoNote = "Please add an image or text",
             errorNoStorage = "Oops! Your browser won't allow a note to be stored. Please use Chrome or Safari.";
+            //currLocation = consolidated_json.forecast.city;
+
+            console.log(consolidated_json);
 
         if (Modernizr.localstorage) {
 
@@ -359,7 +362,7 @@
         // store data locally
         $('.store-note').on(touchOrClickEvent, function(e) {
             e.preventDefault();
-            storeUserGenData();
+            storeUserGenData(consolidated_json);
         });
 
         // Toggle Temp Up/Down
