@@ -3,11 +3,18 @@
 {<bodyContent}
 
 <section class="body row">
+    <!-- {weather[0].comment[0].summer} -->
     {#todayWeatherData}
         <div class="wrapper col-xs-12 wear-page">
             <p class="text">
                 {?condition}
-                    Today calls for {condition}, {comment}
+                    Today calls for {condition}, &nbsp
+
+                    {@if cond=" '{comment}'.length != 2 "}
+                        {comment}
+                    {:else}
+                        {#comment}{season}{/comment}
+                    {/if}
                 {:else}
                     You know what to do.
                 {/condition}

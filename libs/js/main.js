@@ -5,9 +5,10 @@
         touchOrClickEvent = Modernizr.touch ? "touchstart" : "click",
         modalOpen = true,
         consolidated_json,
-        weatherToday = '',
+        weatherTodayCondition = '',
         weatherData = [],
-        weatherType = '';
+        weatherType = '',
+        forecastToday = '';
 
     function getURL() {
         var hash = window.location.hash ? window.location.hash.substr(1) : currentState;
@@ -202,7 +203,8 @@
     function preprocessTodayWeatherData(data){
         $.each(data, function (k, currData) {
             if (currData.condition !== 'undefined' && currData.condition) {
-                weatherToday = currData.condition.toLowerCase();
+                forecastToday = currData;
+                weatherTodayCondition = currData.condition.toLowerCase();
             } else {
                 $.each(currData, function(j, condData) {
                     if (condData.type !== 'undefined' && condData.type) {
@@ -237,8 +239,9 @@
 
         $.when.apply($, jxhr).done(function() {
             for (var i = 0; i < weatherData.length; i++) {
-                if (weatherToday === weatherData[i].type) {
-                    consolidated_json = consolidated_json.push({todayWeatherData: weatherData[i]});
+                if (weatherTodayCondition === weatherData[i].type) {
+                    consolidated_json = consolidated_json.push({todayWeatherData: [ weatherData[i] ]});
+                    // consolidated_json = consolidated_json.push({forecast.day:  })
                 }
             }
 
@@ -248,22 +251,16 @@
 
     }
 
-    function setWeatherMessage(){
+    function getPonchoForecastData(data) {
+        var d = new Date(),
+            m_names = new Array("Jan.", "Feb.", "Mar.", "Apr.", "May", "Jun.", "Jul.", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."),
+            curr_date = d.getDate(),
+            curr_month = d.getMonth(),
+            curr_year = d.getFullYear(),
+            dateToday = m_names[curr_month] + " " + curr_date + ", " + curr_year;
 
-        $.each(consolidated_json, function(){
-
-        });
-
+        console.log(forecast.date);
     }
-
-    // function getPonchoForecastData() {
-    //     var d = new Date(),
-    //         m_names = new Array("Jan.", "Feb.", "Mar.", "Apr.", "May", "Jun.", "Jul.", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."),
-    //         curr_date = d.getDate(),
-    //         curr_month = d.getMonth(),
-    //         curr_year = d.getFullYear(),
-    //         dateToday = m_names[curr_month] + " " + curr_date + ", " + curr_year;
-    // }
 
     function bindAddNoteEvents() {
         // open camera
