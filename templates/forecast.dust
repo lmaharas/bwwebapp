@@ -4,13 +4,13 @@
 <section class="body row">
     <div class="wrapper col-xs-12">
         {#forecast}
-        <h1 class="subject">{subject}</h1>
-        <p class="text">{body}</p>
-        <div class="gif">
-            {?media}
-                <img class="img forecast-img" src="{media}" alt="img">
-            {/media}
-        </div>
+            <h1 class="subject">{subject}</h1>
+            <p class="text">{body}</p>
+            <div class="gif">
+                {?media}
+                    <img class="img forecast-img" src="{media}" alt="img">
+                {/media}
+            </div>
         {/forecast}
     </div>
 </section>

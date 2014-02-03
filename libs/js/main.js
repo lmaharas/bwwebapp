@@ -6,6 +6,7 @@
         modalOpen = true,
         consolidated_json,
         weatherTodayCondition = '',
+        weatherCurrentTemp = '',
         weatherData = [],
         weatherType = '',
         forecastToday = '';
@@ -43,6 +44,7 @@
 
     }
 
+    //TODO: test this on iphone
     function hideUrlBar() {
         /mobile/i.test(navigator.userAgent) && setTimeout(function () {
             window.scrollTo(0, 1);
@@ -100,15 +102,15 @@
 
     }
 
-    function storePic(date, picture, $pageWrapperClass, callback) {
+    function storePic(date, picture, $pageWrapperClass, currTemp, currCondition, callback) {
         hideError($pageWrapperClass);
-        localStorage['picNote_' + date] = picture;
-        callback();
+        localStorage['note_' + currCondition + '_' + currTemp + '_pict' + '_' + date] = picture;
+        callback = callback();
     }
 
-    function storeNote(date, textNote, $pageWrapperClass) {
+    function storeNote(date, textNote, $pageWrapperClass, currTemp, currCondition) {
         hideError($pageWrapperClass);
-        localStorage['textNote_' + date] = textNote;
+        localStorage['note_' + currCondition + '_' + currTemp + '_text' + '_' + date] = textNote;
     }
 
     function showError($pageWrapperClass, errorText, errorClass) {
@@ -126,11 +128,12 @@
         var $pageWrapperClass = $('.addnote'),
             textNote = $('.addnote .note').val() ? $('.addnote .note').val() : '',
             picture = $('.addnote .gif .img').attr('src') ? $('.addnote .gif .img').attr('src') : '',
-            date = new Date(),
+            currTemp = $('.temps .current .weather').html(),
+            currCondition = $('.temps .current .condition').attr('alt'),
+            d = new Date(),
+            dateNow = Date.now(),
             errorNoNote = "Please add an image or text",
             errorNoStorage = "Oops! Your browser won't allow a note to be stored. Please use Chrome or Safari.";
-
-            console.log(date);
 
         if (Modernizr.localstorage) {
 
@@ -141,12 +144,12 @@
             } else {
                 // store the note
                 if (textNote) {
-                    storeNote(date, textNote, $pageWrapperClass);
+                    storeNote(dateNow, textNote, $pageWrapperClass, currTemp, currCondition);
                 }
 
                 // store and display the pic then remove the image object url
                 if (picture) {
-                    storePic(date, picture, $pageWrapperClass, function(){
+                    storePic(dateNow, picture, $pageWrapperClass, currTemp, currCondition, function(){
                         var URL=window.URL|| window.webkitURL;
                         URL.revokeObjectURL(picture);
                     });
@@ -199,13 +202,16 @@
         });
     }
 
-    // Preprocess Data ----------------------
+    // Preprocess Data
     function preprocessTodayWeatherData(data){
         $.each(data, function (k, currData) {
+            //currData.condition is found in http://poncho.is/s/i4R69/json/ as data.condition
             if (currData.condition !== 'undefined' && currData.condition) {
                 forecastToday = currData;
                 weatherTodayCondition = currData.condition.toLowerCase();
+                weatherCurrentTemp = currData.temp2;
             } else {
+                // condData.type is found in data.json as weather[i].type
                 $.each(currData, function(j, condData) {
                     if (condData.type !== 'undefined' && condData.type) {
                         weatherData.push(condData);
@@ -215,15 +221,57 @@
         });
     }
 
+    // Get Stored Data if conditions match
+    function getLocallyStoredData(currentCond, currentTemp) {
+        var localData = [];
+
+        if (typeof(Storage)!=="undefined") {
+            localData = localStorage;
+            console.log(localData);
+            getMatchingStoredDatatoCurrentData(localData, currentCond, currentTemp);
+        }
+    }
+
+    function getMatchingStoredDatatoCurrentData(localData, currentCond, currentTemp) {
+        var noteKeys = [];
+
+        // get all the locally stored keys
+        for (var i = 0; i < localData.length; i++){
+            noteKeys.push(localData.key(i));
+        }
+
+        // get all sotred keys that match currentCond
+        for (var key in noteKeys) {
+            if (typeof noteKeys[key] !== 'function') {
+                // split the key into parts
+                var separator = '_',
+                    parts = noteKeys[key].split(separator),
+                    storedKey = key;
+                    console.log(parts);
+
+                // iterate over the parts
+                for (var part in parts) {
+                    if (typeof parts[part] !== 'function') {
+                        // does this key match the current condition?
+                        if (parts[part] == currentCond) {
+                            console.log(localData[storedKey]);
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
     function getData() {
         var urls = ['data.json','http://poncho.is/s/i4R69/json/'],
             jxhr = [];
-            // conditionData = [];
 
         $.each(urls, function (i, url) {
             jxhr.push(
                 $.getJSON(url, function (data) {
 
+                    //preprocess today's weather data
                     preprocessTodayWeatherData(data);
 
                     if (i === 0){
@@ -236,11 +284,19 @@
             );
         });
 
-
         $.when.apply($, jxhr).done(function() {
+
             for (var i = 0; i < weatherData.length; i++) {
+
+                // compare the weatherTodayCondition string and with weatherData array on type
+                // both varaibles are set in preprocessTodayWeatherData()
                 if (weatherTodayCondition === weatherData[i].type) {
+                    // add TodayWeatherData: type, condition, comment to json object
                     consolidated_json = consolidated_json.push({todayWeatherData: [ weatherData[i] ]});
+
+                    // both varaibles are set in preprocessTodayWeatherData()
+                    getLocallyStoredData(weatherTodayCondition, weatherCurrentTemp);
+
                     // consolidated_json = consolidated_json.push({forecast.day:  })
                 }
             }
@@ -249,17 +305,6 @@
             renderTemplates(currentState);
         });
 
-    }
-
-    function getPonchoForecastData(data) {
-        var d = new Date(),
-            m_names = new Array("Jan.", "Feb.", "Mar.", "Apr.", "May", "Jun.", "Jul.", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."),
-            curr_date = d.getDate(),
-            curr_month = d.getMonth(),
-            curr_year = d.getFullYear(),
-            dateToday = m_names[curr_month] + " " + curr_date + ", " + curr_year;
-
-        console.log(forecast.date);
     }
 
     function bindAddNoteEvents() {

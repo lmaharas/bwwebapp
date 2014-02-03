@@ -39,13 +39,19 @@
             ]
         },
         {
-            "type": "clear-day"
+            "type": "clear-day",
+            "condition": "a clear day",
+            "comment": "you know what to do."
         },
         {
-            "type": "clear-night"
+            "type": "clear-night",
+            "condition": "snow",
+            "comment": "you know what to do."
         },
         {
-            "type": "cloudy"
+            "type": "cloudy",
+            "condition": "snow",
+            "comment": "you know what to do."
         },
         {
             "type": "foggy",
@@ -53,10 +59,14 @@
             "comment": "so I don't suggest trying anything too daring with your hair."
         },
         {
-            "type": "partly-cloudy-day"
+            "type": "partly-cloudy-day",
+            "condition": "snow",
+            "comment": "you know what to do."
         },
         {
-            "type": "partly-cloudy-night"
+            "type": "partly-cloudy-night",
+            "condition": "snow",
+            "comment": "you know what to do."
         },
         {
             "type": "rainy",
@@ -71,7 +81,7 @@
         {
             "type": "snow",
             "condition": "snow",
-            "comment": "so don't leave home without your umbrella."
+            "comment": "so don't leave home without your mittens."
         }
     ],
    "autocomplete": {
