@@ -6,6 +6,8 @@
     <!-- {weather[0].comment[0].summer} -->
     {#todayWeatherData}
         <div class="wrapper col-xs-12 wear-page">
+            <time class="timestamp" datetime=""><span>From:</span> {#forecast}{date}{/forecast}</time>
+            <p class="prev-text"><!-- Last time there was {condition}, you left this note: --> You haven't left any reminders for {condition}.</p>
             <p class="text">
                 {?condition}
                     Today calls for {condition}, &nbsp
@@ -20,11 +22,8 @@
                 {/condition}
             </p>
 
-
-
-
-            <div class="gif">
-                <img class="img wear-img" src="libs/img/{type}.jpg" alt="img">
+            <div class="media">
+                <img class="img wear-img" src="libs/img/{type}.jpg" alt="{type}">
             </div>
         </div>
     {/todayWeatherData}

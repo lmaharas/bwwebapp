@@ -77,12 +77,12 @@ a, a:hover {
     padding-bottom: 120px;
 }
 
-.body .wrapper .gif {
+.body .wrapper .media {
     padding: 0;
     margin-bottom: 30px;
 }
 
-.body .wrapper .gif .img {
+.body .wrapper .media .img {
     width: 100%;
     max-width: 480px;
 }
@@ -112,9 +112,29 @@ a, a:hover {
     left: -999999em;
 }
 
-.wear .text {
+.wear .text,
+.wear .prev-text {
     text-align: left;
     margin-bottom: 12px;
+}
+
+.wear .prev-text {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.wear .timestamp {
+    text-align: left;
+    clear: both;
+    display: block;
+    color: #888;
+    font-size: 12px;
+}
+
+.wear .timestamp span {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .wear .btn {

@@ -6,9 +6,9 @@
         {#forecast}
             <h1 class="subject">{subject}</h1>
             <p class="text">{body}</p>
-            <div class="gif">
+            <div class="media">
                 {?media}
-                    <img class="img forecast-img" src="{media}" alt="img">
+                    <img class="img forecast-img" src="{media}" alt="{media}">
                 {/media}
             </div>
         {/forecast}

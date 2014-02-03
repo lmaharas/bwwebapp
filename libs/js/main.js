@@ -102,15 +102,18 @@
 
     }
 
-    function storePic(date, picture, $pageWrapperClass, currTemp, currCondition, callback) {
+    function storePicAndNote(currDate, picture, text, $pageWrapperClass, currTemp, currCondition, callback) {
         hideError($pageWrapperClass);
-        localStorage['note_' + currCondition + '_' + currTemp + '_pict' + '_' + date] = picture;
-        callback = callback();
-    }
 
-    function storeNote(date, textNote, $pageWrapperClass, currTemp, currCondition) {
-        hideError($pageWrapperClass);
-        localStorage['note_' + currCondition + '_' + currTemp + '_text' + '_' + date] = textNote;
+        var storedName = currCondition + '_' + currDate,
+            dataToStore = { 'currCondition': currCondition, 'currTemp': currTemp, 'date': currDate, 'picture': picture, 'text': text };
+        // Put the object into storage
+        localStorage.setItem(storedName, JSON.stringify(dataToStore) );
+
+        // localStorage['note_' + currCondition + '_' + currTemp + '_text' + '_' + date] = textNote;
+        // localStorage['note_' + currCondition + '_' + currTemp + '_pict' + '_' + date] = picture;
+
+        callback = callback();
     }
 
     function showError($pageWrapperClass, errorText, errorClass) {
@@ -143,15 +146,13 @@
 
             } else {
                 // store the note
-                if (textNote) {
-                    storeNote(dateNow, textNote, $pageWrapperClass, currTemp, currCondition);
-                }
-
-                // store and display the pic then remove the image object url
-                if (picture) {
-                    storePic(dateNow, picture, $pageWrapperClass, currTemp, currCondition, function(){
-                        var URL=window.URL|| window.webkitURL;
-                        URL.revokeObjectURL(picture);
+                if (textNote || picture) {
+                    // store and display the pic then remove the image object url
+                    storePicAndNote(dateNow, picture, textNote, $pageWrapperClass, currTemp, currCondition, function(){
+                        if (picture) {
+                            var URL=window.URL|| window.webkitURL;
+                            URL.revokeObjectURL(picture);
+                        }
                     });
                 }
 
@@ -227,39 +228,62 @@
 
         if (typeof(Storage)!=="undefined") {
             localData = localStorage;
-            console.log(localData);
-            getMatchingStoredDatatoCurrentData(localData, currentCond, currentTemp);
+            // console.log(localData);
+
+            getLocalKeysForCurrCond(localData, currentCond, currentTemp);
         }
     }
 
-    function getMatchingStoredDatatoCurrentData(localData, currentCond, currentTemp) {
-        var noteKeys = [];
+    function getLocalKeysForCurrCond(localData, currentCond, currentTemp) {
 
+        var storedKeys = [],
+            storedValues = [],
+            dataLength = localData.length;
         // get all the locally stored keys
-        for (var i = 0; i < localData.length; i++){
-            noteKeys.push(localData.key(i));
-        }
+        $.each(localData, function(key, data) {
+            storedKeys.push(key);
+            storedValues.push(data);
+        });
 
-        // get all sotred keys that match currentCond
-        for (var key in noteKeys) {
-            if (typeof noteKeys[key] !== 'function') {
-                // split the key into parts
-                var separator = '_',
-                    parts = noteKeys[key].split(separator),
-                    storedKey = key;
-                    console.log(parts);
+        $.each(storedKeys, function(key, data) {
+            var separator = '_',
+                parts = data.split(separator);
 
-                // iterate over the parts
-                for (var part in parts) {
-                    if (typeof parts[part] !== 'function') {
-                        // does this key match the current condition?
-                        if (parts[part] == currentCond) {
-                            console.log(localData[storedKey]);
-                        }
+            $.each(parts, function(k, v){
+                if ( k === 0) {
+                    console.log(v);
+                    console.log(currentCond);
+
+                    if ( v ===  currentCond ) {
+                        //console.log(currentCond);
                     }
                 }
-            }
-        }
+            });
+
+        });
+
+
+
+        // // get all sotred keys that match currentCond
+        // for (var key in noteKeys) {
+        //     if (typeof noteKeys[key] !== 'function') {
+        //         // split the key into parts
+        //         var separator = '_',
+        //             parts = noteKeys[key].split(separator),
+        //             storedKey = key;
+        //             console.log(parts);
+
+        //         // iterate over the parts
+        //         for (var part in parts) {
+        //             if (typeof parts[part] !== 'function') {
+        //                 // does this key match the current condition?
+        //                 if (parts[part] == currentCond) {
+        //                     console.log(localData[storedKey]);
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
 
     }
 
