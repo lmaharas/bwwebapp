@@ -3,12 +3,21 @@
 {<bodyContent}
 
 <section class="body row">
-    <div class="wrapper col-xs-12 wear-page">
-        <p class="text">Today calls for {condition}, so don't leave home without your _____</p>
-        <div class="gif">
-            <img class="img wear-img" src="libs/img/rainrain.gif" alt="img">
+    {#todayWeatherData}
+        <div class="wrapper col-xs-12 wear-page">
+            <p class="text">
+                {?condition}
+                    Today calls for {condition}, {comment}
+                {:else}
+                    You know what to do.
+                {/condition}
+            </p>
+            <div class="gif">
+                <img class="img wear-img" src="libs/img/{type}.jpg" alt="img">
+            </div>
         </div>
-    </div>
+    {/todayWeatherData}
+
 
     <!-- Modal -->
     <div class="modal fade" id="wear-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -16,10 +25,10 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title" id="myModalLabel">Add a Note About Today</h4>
+                    <h4 class="modal-title" id="myModalLabel">Reminder for today</h4>
                 </div>
                 <div class="modal-body">
-                    <p>Never under-dress again. The next time the weather is similar to today's, you'll get a reminder from yourself!</p>
+                    <p></p>
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->

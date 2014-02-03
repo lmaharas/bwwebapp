@@ -6,7 +6,7 @@ module.exports = function(grunt) {
         compile: {
           files: {
             "libs/js/templates.js": ["templates/**/*.dust"]
-          }
+          },
         }
       },
 

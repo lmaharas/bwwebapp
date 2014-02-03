@@ -4,7 +4,10 @@
     var currentState = 'forecast',
         touchOrClickEvent = Modernizr.touch ? "touchstart" : "click",
         modalOpen = true,
-        consolidated_json;
+        consolidated_json,
+        weatherToday = '',
+        weatherData = [],
+        weatherType = '';
 
     function getURL() {
         var hash = window.location.hash ? window.location.hash.substr(1) : currentState;
@@ -20,18 +23,21 @@
         setActiveNav(hash);
         setBodyClass(hash);
         setHeader(hash);
+        if (hash == 'addnote' && modalOpen) {
+            openModal('addnote');
+        }
         if (hash == 'wear' && modalOpen) {
-            openModal('wear');
+            //openModal('wear');
         }
     }
 
     function openModal(id) {
         var modalId = id + '-modal';
-        if (id === 'wear') {
-            $('#' + modalId).modal('show');
+
+        $('#' + modalId).modal('show');
+
+        if (id === 'addnote') {
             modalOpen = false;
-        } else {
-            $('#' + modalId).modal('show');
         }
 
     }
@@ -123,6 +129,8 @@
             errorNoNote = "Please add an image or text",
             errorNoStorage = "Oops! Your browser won't allow a note to be stored. Please use Chrome or Safari.";
 
+            console.log(date);
+
         if (Modernizr.localstorage) {
 
             if ( textNote === '' && picture === '' ) {
@@ -183,7 +191,6 @@
             setURL(currentState);
 
             if ( currentState === 'addnote') {
-                console.log('addnote ' + currentState);
                 bindAddNoteEvents();
             } else {
                 bindEvents();
@@ -191,24 +198,60 @@
         });
     }
 
-    function getData() {
-        var urls = ['data.json','http://poncho.is/s/i4R69/json/'];
+    // Preprocess Data ----------------------
+    function preprocessTodayWeatherData(data){
+        $.each(data, function (k, currData) {
+            if (currData.condition !== 'undefined' && currData.condition) {
+                weatherToday = currData.condition.toLowerCase();
+            } else {
+                $.each(currData, function(j, condData) {
+                    if (condData.type !== 'undefined' && condData.type) {
+                        weatherData.push(condData);
+                    }
+                });
+            }
+        });
+    }
 
-        var jxhr = [];
+    function getData() {
+        var urls = ['data.json','http://poncho.is/s/i4R69/json/'],
+            jxhr = [];
+            // conditionData = [];
+
         $.each(urls, function (i, url) {
             jxhr.push(
                 $.getJSON(url, function (data) {
+
+                    preprocessTodayWeatherData(data);
+
                     if (i === 0){
                         consolidated_json = dust.makeBase(data);
                     } else {
                         consolidated_json = consolidated_json.push({forecast: data.data});
                     }
+
                 })
             );
         });
 
+
         $.when.apply($, jxhr).done(function() {
+            for (var i = 0; i < weatherData.length; i++) {
+                if (weatherToday === weatherData[i].type) {
+                    consolidated_json = consolidated_json.push({todayWeatherData: weatherData[i]});
+                }
+            }
+
+            console.log(consolidated_json);
             renderTemplates(currentState);
+        });
+
+    }
+
+    function setWeatherMessage(){
+
+        $.each(consolidated_json, function(){
+
         });
 
     }
@@ -279,7 +322,7 @@
     }
 
     function bindEvents() {
-
+        // Nav change hash
         $('.nav a').on(touchOrClickEvent, function(e){
             e.preventDefault();
             window.location.hash = $(this).attr('href');
@@ -290,14 +333,16 @@
             $('.more').animate({ height: "toggle" });
         });
 
+        // Add Button on "remember" page
         $('.add-btn').on(touchOrClickEvent, function(e) {
             e.preventDefault();
             $('.wear-page').fadeOut(400, function() {
-                renderTemplates('addnote');
                 history.pushState(null, null, "#addnote");
+                renderTemplates(window.location.hash.substr(1));
             });
         });
 
+        // Back Button on "add a note" page
         $('.back-btn').on(touchOrClickEvent, function(e) {
             e.preventDefault();
             window.history.back();

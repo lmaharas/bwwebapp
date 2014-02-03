@@ -21,7 +21,7 @@
             "icon": "plus"
         },
         {
-            "title": "add a note",
+            "title": "add a reminder",
             "hash": "addnote",
             "class": "back-btn",
             "icon": "chevron-left"
@@ -29,44 +29,49 @@
     ],
     "weather":[
         {
-            "condition": "sunny",
-            "item": "shades"
+            "type": "sunny",
+            "condition": "sunshine",
+            "comment":[
+                {
+                    "summer": "so don't leave home without your shades.",
+                    "winter": "so don't forget to take a moment and enjoy it today!"
+                }
+            ]
         },
         {
-            "condition": "clear-day",
-            "item": "shades"
+            "type": "clear-day"
         },
         {
-            "condition": "clear-night",
-            "item": "shades"
+            "type": "clear-night"
         },
         {
-            "condition": "cloudy",
-            "item": "shades"
+            "type": "cloudy"
         },
         {
-            "condition": "foggy",
-            "item": "shades"
+            "type": "foggy",
+            "condition": "fog",
+            "comment": "so I don't suggest trying anything too daring with your hair."
         },
         {
-            "condition": "partly-cloudy-day",
-            "item": "shades"
+            "type": "partly-cloudy-day"
         },
         {
-            "condition": "partly-cloudy-night",
-            "item": "shades"
+            "type": "partly-cloudy-night"
         },
         {
-            "condition": "rainy",
-            "item": "shades"
+            "type": "rainy",
+            "condition": "rain",
+            "comment": "so don't leave home without your umbrella."
         },
         {
+            "type": "sleet",
             "condition": "sleet",
-            "item": "shades"
+            "comment": "so don't leave home without your umbrella."
         },
         {
+            "type": "snow",
             "condition": "snow",
-            "item": "shades"
+            "comment": "so don't leave home without your umbrella."
         }
     ],
    "autocomplete": {
