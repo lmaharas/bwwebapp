@@ -151,7 +151,6 @@
     function storeUserGenData(consolidated_json) {
         var $pageWrapperClass = $('.addnote'),
             textNote = $('.addnote .note').val() ? $('.addnote .note').val() : '',
-            // picture = $('.addnote .media .img').attr('src') ? $('.addnote .media .img').attr('src') : '',
             picture = $('.addnote .media .img'),
             d = new Date(),
             dateNow = Date.now(),
@@ -166,6 +165,7 @@
                 showError($pageWrapperClass, errorNoNote, 'note');
 
             } else {
+                // preprocess the stored image
                 if (picture) {
                     preprocessUploadedImage(picture);
                 }
@@ -193,19 +193,6 @@
             showError($pageWrapperClass, errorNoStorage, 'storage');
         }
     }
-
-    // function getForecastCondition(date) {
-    //     var LATITUDE = '40.7366138',
-    //         LONGITUDE = '-74.0094471',
-    //         APIKEY = '04e2a312ccb44bb2c4cc196f41a681bc',
-    //         TIME = date.getTime(),
-    //         forecastIOURL = 'https://api.forecast.io/forecast/' + APIKEY + '/' + LATITUDE + ',' + LONGITUDE + ',' + TIME;
-
-
-    //     $.getJSON(forecastIOURL, function(data){
-    //         console.log(data[forecastIOURL]);
-    //     });
-    // }
 
     function setNoteFocus() {
         setTimeout(function () {
@@ -292,9 +279,8 @@
             });
         });
 
-        //storedDataMatch = JSON.parse(storedDataMatch);
         consolidated_json = consolidated_json.push({notes: storedDataMatch });
-        console.log(consolidated_json);
+        // console.log(consolidated_json);
 
         callback = callback();
 
@@ -302,7 +288,8 @@
 
     function getData() {
         var urls = ['data.json','http://poncho.is/s/i4R69/json/'],
-            jxhr = [];
+            jxhr = [],
+            pictures = [];
 
         $.each(urls, function (i, url) {
             jxhr.push(
@@ -334,25 +321,10 @@
                 }
             }
 
-            console.log(consolidated_json);
-
             // both varaibles are set in preprocessTodayWeatherData()
             if (typeof(Storage)!=="undefined") {
                 getLocallyStoredData(weatherTodayCondition, weatherCurrentTemp, function(){
                     renderTemplates(currentState);
-
-                    console.log($('.reminder').length);
-                    var media = $('.wrapper .media');
-
-                    for( var i = 0; i < media.length; i++ ) {
-
-                        console.log( media[i]);
-
-                       // var media = media[i];
-                        var picture = $(media[i]).find('.img').attr('data-picture');
-                        console.log(picture);
-                        loadPic(picture);
-                    }
                 });
             }
 
