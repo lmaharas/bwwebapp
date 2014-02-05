@@ -9,7 +9,8 @@
         weatherCurrentTemp = '',
         weatherData = [],
         weatherType = '',
-        forecastToday = '';
+        forecastToday = '',
+        imgAsDataURL = '';
 
     function getURL() {
         var hash = window.location.hash ? window.location.hash.substr(1) : currentState;
@@ -45,11 +46,11 @@
     }
 
     //TODO: test this on iphone
-    function hideUrlBar() {
-        /mobile/i.test(navigator.userAgent) && setTimeout(function () {
-            window.scrollTo(0, 1);
-        }, 1000);
-    }
+    // function hideUrlBar() {
+    //     /mobile/i.test(navigator.userAgent) && setTimeout(function () {
+    //         window.scrollTo(0, 1);
+    //     }, 1000);
+    // }
 
     function setActiveNav(path) {
         $('.nav a').parent().removeClass('active');
@@ -80,38 +81,43 @@
 
     function loadPic(file, callback) {
         var URL=window.URL|| window.webkitURL,
-            fileURL=URL.createObjectURL(file),
-            gifDiv = $('.wrapper').find('.gif');
+            fileURL,
+            imgDiv = $('.reminder').find('.media');
 
-        if ( !gifDiv.length ) {
+        if (typeof file === "object") {
+            fileURL = URL.createObjectURL(file);
+        } else {
+            fileURL = file;
+        }
+
+        if ( !imgDiv.length ) {
 
             var img = new Image();
 
             img.src = fileURL;
             img.className = 'img';
-            $('.camera-btn').closest('.wrapper').prepend("<div class='gif'></div>");
-            $('.wrapper').find('.gif').prepend(img);
+            $('.reminder').prepend("<div class='media'></div>");
+            $('.reminder').find('.media').prepend(img);
 
         } else {
 
-            gifDiv.find('.img').attr('src', fileURL);
+            imgDiv.find('.img').attr('src', fileURL);
 
         }
 
-        callback = callback();
+        if (callback){
+            callback = callback();
+        }
 
     }
 
-    function storePicAndNote(currDate, picture, text, $pageWrapperClass, currTemp, currCondition, callback) {
+    function storePicAndNote(currDate, picture, text, $pageWrapperClass, currTemp, todaysCondition, callback) {
         hideError($pageWrapperClass);
 
-        var storedName = currCondition + '_' + currDate,
-            dataToStore = { 'currCondition': currCondition, 'currTemp': currTemp, 'date': currDate, 'picture': picture, 'text': text };
+        var storedName = todaysCondition + '_' + currDate,
+            dataToStore = { 'condition': todaysCondition, 'currTemp': currTemp, 'date': currDate, 'picture': picture, 'text': text };
         // Put the object into storage
         localStorage.setItem(storedName, JSON.stringify(dataToStore) );
-
-        // localStorage['note_' + currCondition + '_' + currTemp + '_text' + '_' + date] = textNote;
-        // localStorage['note_' + currCondition + '_' + currTemp + '_pict' + '_' + date] = picture;
 
         callback = callback();
     }
@@ -127,19 +133,31 @@
         $pageWrapperClass.find('.error').fadeOut();
     }
 
+    function preprocessUploadedImage(picture) {
+        var imgCanvas = document.createElement("canvas"),
+            imgContext = imgCanvas.getContext("2d");
+
+        // Make sure canvas is as big as the picture
+        imgCanvas.width = picture[0].width;
+        imgCanvas.height = picture[0].height;
+
+        // Draw image into canvas element
+        imgContext.drawImage(picture[0], 0, 0, picture[0].width, picture[0].height);
+
+        // Get canvas contents as a data URL
+        imgAsDataURL = imgCanvas.toDataURL("image/png");
+    }
+
     function storeUserGenData(consolidated_json) {
         var $pageWrapperClass = $('.addnote'),
             textNote = $('.addnote .note').val() ? $('.addnote .note').val() : '',
-            picture = $('.addnote .gif .img').attr('src') ? $('.addnote .gif .img').attr('src') : '',
-            currTemp = $('.temps .current .weather').html(),
-            currCondition = $('.temps .current .condition').attr('alt'),
+            // picture = $('.addnote .media .img').attr('src') ? $('.addnote .media .img').attr('src') : '',
+            picture = $('.addnote .media .img'),
             d = new Date(),
             dateNow = Date.now(),
             errorNoNote = "Please add an image or text",
             errorNoStorage = "Oops! Your browser won't allow a note to be stored. Please use Chrome or Safari.";
             //currLocation = consolidated_json.forecast.city;
-
-            console.log(consolidated_json);
 
         if (Modernizr.localstorage) {
 
@@ -148,14 +166,19 @@
                 showError($pageWrapperClass, errorNoNote, 'note');
 
             } else {
-                // store the note
+                if (picture) {
+                    preprocessUploadedImage(picture);
+                }
+
+                // store the note + pic
                 if (textNote || picture) {
                     // store and display the pic then remove the image object url
-                    storePicAndNote(dateNow, picture, textNote, $pageWrapperClass, currTemp, currCondition, function(){
-                        if (picture) {
-                            var URL=window.URL|| window.webkitURL;
-                            URL.revokeObjectURL(picture);
-                        }
+                    storePicAndNote(dateNow, imgAsDataURL, textNote, $pageWrapperClass, weatherCurrentTemp, weatherTodayCondition, function(){
+
+                        // if (picture) {
+                        //     var URL=window.URL|| window.webkitURL;
+                        //     URL.revokeObjectURL(picture);
+                        // }
                     });
                 }
 
@@ -187,7 +210,7 @@
     function setNoteFocus() {
         setTimeout(function () {
             $('.addnote .note').focus();
-        }, 1500);
+        }, 1000);
     }
 
     function renderTemplates(currentState){
@@ -226,67 +249,54 @@
     }
 
     // Get Stored Data if conditions match
-    function getLocallyStoredData(currentCond, currentTemp) {
+    function getLocallyStoredData(todaysCond, currentTemp, callback) {
         var localData = [];
 
-        if (typeof(Storage)!=="undefined") {
-            localData = localStorage;
-            // console.log(localData);
-
-            getLocalKeysForCurrCond(localData, currentCond, currentTemp);
-        }
+        // get localStorage from browser
+        localData = localStorage;
+        getLocalKeysForCurrCond(localData, todaysCond, currentTemp, callback);
     }
 
-    function getLocalKeysForCurrCond(localData, currentCond, currentTemp) {
+    function getLocalKeysForCurrCond(localData, todaysCond, currentTemp, callback) {
+        // console.log('localData');
 
         var storedKeys = [],
             storedValues = [],
-            dataLength = localData.length;
+            storedDataMatch = [];
+
         // get all the locally stored keys
         $.each(localData, function(key, data) {
             storedKeys.push(key);
             storedValues.push(data);
+            // console.log(storedValues);
         });
 
         $.each(storedKeys, function(key, data) {
+            // split the stored content key from "snow_1391533859577" into [snow, 1391533859577]
             var separator = '_',
                 parts = data.split(separator);
 
+            // iterate over each stored key
             $.each(parts, function(k, v){
-                if ( k === 0) {
-                    console.log(v);
-                    console.log(currentCond);
+                // get the condition (aka the first part) of the stored content key
+                // ex. stored content key = [snow, 1391533859577]
+                // find only "snow" ( aka parts[0] )
+                if ( k === 0 ) {
 
-                    if ( v ===  currentCond ) {
-                        //console.log(currentCond);
+                    // find any stored conditions that match todays condition
+                    if ( v ===  todaysCond ) {
+                        // add all the stored objs that matches todays condition to the dust data
+                        storedDataMatch.push( JSON.parse(storedValues[key]) );
                     }
                 }
             });
-
         });
 
+        //storedDataMatch = JSON.parse(storedDataMatch);
+        consolidated_json = consolidated_json.push({notes: storedDataMatch });
+        console.log(consolidated_json);
 
-
-        // // get all sotred keys that match currentCond
-        // for (var key in noteKeys) {
-        //     if (typeof noteKeys[key] !== 'function') {
-        //         // split the key into parts
-        //         var separator = '_',
-        //             parts = noteKeys[key].split(separator),
-        //             storedKey = key;
-        //             console.log(parts);
-
-        //         // iterate over the parts
-        //         for (var part in parts) {
-        //             if (typeof parts[part] !== 'function') {
-        //                 // does this key match the current condition?
-        //                 if (parts[part] == currentCond) {
-        //                     console.log(localData[storedKey]);
-        //                 }
-        //             }
-        //         }
-        //     }
-        // }
+        callback = callback();
 
     }
 
@@ -321,15 +331,31 @@
                     // add TodayWeatherData: type, condition, comment to json object
                     consolidated_json = consolidated_json.push({todayWeatherData: [ weatherData[i] ]});
 
-                    // both varaibles are set in preprocessTodayWeatherData()
-                    getLocallyStoredData(weatherTodayCondition, weatherCurrentTemp);
-
-                    // consolidated_json = consolidated_json.push({forecast.day:  })
                 }
             }
 
             console.log(consolidated_json);
-            renderTemplates(currentState);
+
+            // both varaibles are set in preprocessTodayWeatherData()
+            if (typeof(Storage)!=="undefined") {
+                getLocallyStoredData(weatherTodayCondition, weatherCurrentTemp, function(){
+                    renderTemplates(currentState);
+
+                    console.log($('.reminder').length);
+                    var media = $('.wrapper .media');
+
+                    for( var i = 0; i < media.length; i++ ) {
+
+                        console.log( media[i]);
+
+                       // var media = media[i];
+                        var picture = $(media[i]).find('.img').attr('data-picture');
+                        console.log(picture);
+                        loadPic(picture);
+                    }
+                });
+            }
+
         });
 
     }
@@ -341,7 +367,8 @@
 
             $('#camera').on('change', function(e) {
                 var picture=e.target.files[0];
-                loadPic(picture, function(){
+                loadPic(picture, function() {
+                    console.log(picture);
                     setNoteFocus();
                 });
             });
@@ -351,7 +378,7 @@
         $('.wrapper .note').on('focus', function() {
             $('html, body').animate({
                 scrollTop: $(this).offset().top
-            });
+            }, 'slow');
         });
 
         // do not submit data form
@@ -426,7 +453,7 @@
 
     function loadBody() {
         getURL();
-        hideUrlBar();
+        // hideUrlBar();
         getData();
     }
 

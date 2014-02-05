@@ -31,12 +31,7 @@
         {
             "type": "sunny",
             "condition": "sunshine",
-            "comment":[
-                {
-                    "summer": "so don't leave home without your shades.",
-                    "winter": "so don't forget to take a moment and enjoy it today!"
-                }
-            ]
+            "comment": "so don't forget to take a moment and enjoy it today!"
         },
         {
             "type": "clear-day",

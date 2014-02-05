@@ -120,6 +120,9 @@ a, a:hover {
 
 .wear .prev-text {
     font-style: italic;
+}
+
+.wear .prev-text span {
     font-weight: bold;
 }
 
@@ -150,10 +153,6 @@ a, a:hover {
 
 .wear .note {
     margin-bottom: 10px;
-}
-
-.wear .note p {
-    margin-bottom: 0
 }
 
 .wear .btn {

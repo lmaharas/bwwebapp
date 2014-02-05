@@ -3,19 +3,23 @@
 {<bodyContent}
 <section class="body row">
     <div class="wrapper col-xs-12">
-        <div class="capture">
-            <button class="btn btn-default btn-lg camera-btn">
-                <span class="glyphicon glyphicon-camera"></span>
-            </button>
-        </div>
-        <form role="form" id="store-data">
-            <input id="camera" type="file" accept="image/*" capture="camera">
-            <div class="form-group">
-                <textarea class="form-control note" rows="3" placeholder="Spill it!"></textarea>
+        <div class="reminder">
+
+            <div class="capture">
+                <button class="btn btn-default btn-lg camera-btn">
+                    <span class="glyphicon glyphicon-camera"></span>
+                </button>
             </div>
-            <p class="error">error:</p>
-            <button type="submit" class="btn btn-default btn-lg store-note">Save</button>
-        </form>
+            <form role="form" id="store-data">
+                <input id="camera" type="file" accept="image/*" capture="camera">
+                <div class="form-group">
+                    <textarea class="form-control note" rows="3" placeholder="Spill it!"></textarea>
+                </div>
+                <p class="error">error:</p>
+                <button type="submit" class="btn btn-default btn-lg store-note">Save</button>
+            </form>
+
+        </div>
     </div>
 
     <!-- Modal -->
