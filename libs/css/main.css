@@ -317,6 +317,7 @@ a, a:hover {
 .temps .timestamp {
     text-transform: uppercase;
     font-size: 14px;
+    float: none;
 }
 
 .temps .more {
