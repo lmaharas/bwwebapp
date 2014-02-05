@@ -279,7 +279,7 @@
             });
         });
 
-        consolidated_json = consolidated_json.push({notes: storedDataMatch });
+        consolidated_json = consolidated_json.push({notes: storedDataMatch.reverse() });
         // console.log(consolidated_json);
 
         callback = callback();

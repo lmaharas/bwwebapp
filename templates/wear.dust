@@ -4,7 +4,7 @@
 
 <section class="body row">
     <!-- {weather[0].comment[0].summer} -->
-        <p class="prev-text">Last time there was {condition}, you left this:</p>
+        <p class="prev-text">Last time there was {#notes[0]}{condition}{/notes[0]}, you left this:</p>
         <div class="wrapper col-xs-12 wear-page">
             {#notes}
                 <div class="reminder">
