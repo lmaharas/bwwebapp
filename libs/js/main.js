@@ -31,7 +31,7 @@
             openModal('addnote');
         }
         if (hash == 'wear' && modalOpen) {
-            //openModal('wear');
+            openModal('wear');
         }
     }
 
@@ -116,7 +116,7 @@
 
     }
 
-    function storePicAndNote(currDate, picture, text, $pageWrapperClass, currTemp, todaysCondition, callback) {
+    function storePicAndNote(currDate, formatDate, picture, text, $pageWrapperClass, currTemp, todaysCondition, callback) {
         hideError($pageWrapperClass);
 
         var storedName = todaysCondition + '_' + currDate,
@@ -159,6 +159,7 @@
             picture = $('.addnote .media .img'),
             d = new Date(),
             dateNow = Date.now(),
+            formatDate = d.
             errorNoNote = "Please add an image or text",
             errorNoStorage = "Oops! Your browser won't allow a note to be stored. Please use Chrome or Safari.";
             //currLocation = consolidated_json.forecast.city;
@@ -178,7 +179,7 @@
                 // store the note + pic
                 if (textNote || picture) {
                     // store and display the pic then remove the image object url
-                    storePicAndNote(dateNow, imgAsDataURL, textNote, $pageWrapperClass, weatherCurrentTemp, weatherTodayCondition, function(){
+                    storePicAndNote(dateNow, formatDate, imgAsDataURL, textNote, $pageWrapperClass, weatherCurrentTemp, weatherTodayCondition, function(){
 
                         // if (picture) {
                         //     var URL=window.URL|| window.webkitURL;
@@ -285,7 +286,7 @@
         });
 
         consolidated_json = consolidated_json.push({notes: storedDataMatch.reverse() });
-        // console.log(consolidated_json);
+        console.log(consolidated_json);
 
         callback = callback();
 
@@ -328,6 +329,7 @@
 
             // both varaibles are set in preprocessTodayWeatherData()
             if (typeof(Storage)!=="undefined") {
+                modalOpen = false;
                 getLocallyStoredData(weatherTodayCondition, weatherCurrentTemp, function(){
                     renderTemplates(currentState);
                 });

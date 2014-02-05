@@ -9,7 +9,7 @@
             {#notes}
                 <div class="reminder">
                     <div class="datetime">
-                        <time class="timestamp" datetime="{date}"><span>From:</span>{date}</time>
+                        <time class="timestamp" datetime="{date}"><span>From: </span>{date}</time>
                         <!-- <time class="location" datetime=""><span>City:</span> {#forecast}{city}{/forecast}</time> -->
                     </div>
                     <p class="text">{text}</p>
