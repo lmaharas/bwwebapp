@@ -1,6 +1,7 @@
 (function($, undefined) {
     "use strict";
 
+    // gloabal vars
     var currentState = 'forecast',
         touchOrClickEvent = Modernizr.touch ? "touchstart" : "click",
         modalOpen = true,
@@ -85,8 +86,12 @@
             imgDiv = $('.reminder').find('.media');
 
         if (typeof file === "object") {
+            // this obj comes from the file that is loaded after a picture is taken
+            // for the "add a note" page
             fileURL = URL.createObjectURL(file);
         } else {
+            // this string comes from the stored data image blob
+            // for the "remember" page
             fileURL = file;
         }
 
