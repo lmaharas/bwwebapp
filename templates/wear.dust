@@ -45,7 +45,7 @@
                     <div class="datetime"><time class="timestamp" datetime="{#forecast}{date}{/forecast}"><span>From: </span>{#forecast}{date}{/forecast}</time></div>
                     <p class="text">
                         {?condition}
-                            Today calls for {condition}, &nbsp
+                            Today calls for {condition},&nbsp
 
                             {@if cond=" '{comment}'.length != 2 "}
                                 {comment}
