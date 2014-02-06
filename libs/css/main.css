@@ -114,6 +114,7 @@ a, a:hover {
 
 .forecast .body .subject {
     font-size: 22px;
+    margin-top: 0;
 }
 
 .forecast .body .subject,
