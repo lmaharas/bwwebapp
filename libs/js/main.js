@@ -179,7 +179,8 @@
 
             } else {
                 // preprocess the stored image
-                if ( picture !== '' || picture !== 'undefined' ) {
+                console.log(picture);
+                if ( picture.length !== 0 ) {
                     preprocessUploadedImage(picture);
                 }
 
@@ -334,9 +335,9 @@
                 }
             }
 
-            // both varaibles are set in preprocessTodayWeatherData()
             if ( typeof(Storage)!== "undefined" ) {
                 modalOpen = false;
+                // both varaibles are set in preprocessTodayWeatherData()
                 getLocallyStoredData(weatherTodayCondition, weatherCurrentTemp, function(){
                     renderTemplates(currentState);
                 });
@@ -386,6 +387,10 @@
         $('.back-btn').on(touchOrClickEvent, function(e) {
             e.preventDefault();
             window.history.back();
+
+            if ( typeof(Storage)!== "undefined" ) {
+                getLocallyStoredData(weatherTodayCondition, weatherCurrentTemp);
+            };
         });
 
         $('#saved-modal').on('shown', function() {
