@@ -4,7 +4,8 @@
     // gloabal vars
     var currentState = 'forecast',
         touchOrClickEvent = Modernizr.touch ? "touchstart" : "click",
-        modalOpen = true,
+        modalWearOpen = true,
+        modalAddOpen = true,
         consolidated_json,
         weatherTodayCondition = '',
         weatherCurrentTemp = '',
@@ -27,10 +28,12 @@
         setActiveNav(hash);
         setBodyClass(hash);
         setHeader(hash);
-        if (hash == 'addnote' && modalOpen) {
-            openModal('addnote');
+        if (hash == 'addnote' && modalAddOpen) {
+            if ( typeof(Storage)!== "undefined" ) {
+                openModal('addnote');
+            }
         }
-        if (hash == 'wear' && modalOpen) {
+        if (hash == 'wear' && modalWearOpen) {
             openModal('wear');
         }
     }
@@ -41,7 +44,7 @@
         $('#' + modalId).modal('show');
 
         if (id === 'addnote') {
-            modalOpen = false;
+            modalAddOpen = false;
         }
 
     }
@@ -336,7 +339,8 @@
             }
 
             if ( typeof(Storage)!== "undefined" ) {
-                modalOpen = false;
+                modalWearOpen = false;
+                modalAddOpen = false;
                 // both varaibles are set in preprocessTodayWeatherData()
                 getLocallyStoredData(weatherTodayCondition, weatherCurrentTemp, function(){
                     renderTemplates(currentState);
@@ -390,7 +394,7 @@
 
             if ( typeof(Storage)!== "undefined" ) {
                 getLocallyStoredData(weatherTodayCondition, weatherCurrentTemp);
-            };
+            }
         });
 
         $('#saved-modal').on('shown', function() {
