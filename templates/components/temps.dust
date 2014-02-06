@@ -3,19 +3,19 @@
         {#forecast}
         <img class="condition" src="libs/img/{weather1}" alt="{@substr str="{weather1}" begin="{weather1}.length" end="-4" /}" width="44px">
         <div class="temp-wrapper">
-            <h3 class="weather">{temp1}</h3>
+            <h3 class="weather">{temp1|s}</h3>
             <time class="timestamp" datetime="">now</time>
         </div>
     </div>
     <div class="more col-xs-12">
         <div class="time col-xs-6">
             <img class="condition" src="libs/img/{weather2}" alt="{@substr str="{weather2}" begin="{weather2}.length" end="-4" /}" width="44px">
-            <h3 class="weather">{temp2}</h3>
+            <h3 class="weather">{temp2|s}</h3>
             <time class="timestamp" datetime="">{time2|s}</time>
         </div>
         <div class="time col-xs-6">
             <img class="condition"  src="libs/img/{weather3}" alt="{@substr str="{weather3}" begin="{weather3}.length" end="-4" /}" width="44px">
-            <h3 class="weather">{temp3}</h3>
+            <h3 class="weather">{temp3|s}</h3>
             <time class="timestamp" datetime="">{time3|s}</time>
         </div>
         {/forecast}
