@@ -29,6 +29,10 @@ a, a:hover {
     overflow: hidden;
 }
 
+.btn-lg {
+    padding: 13px 16px;
+}
+
 /*Header*/
 .header {
     height: 50px;
