@@ -120,7 +120,7 @@
         hideError($pageWrapperClass);
 
         var storedName = todaysCondition + '_' + currDate,
-            dataToStore = { 'condition': todaysCondition, 'currTemp': currTemp, 'date': currDate, 'picture': picture, 'text': text };
+            dataToStore = { 'condition': todaysCondition, 'currTemp': currTemp, 'date': formatDate, 'picture': picture, 'text': text };
         // Put the object into storage
         localStorage.setItem(storedName, JSON.stringify(dataToStore) );
 
@@ -159,20 +159,27 @@
             picture = $('.addnote .media .img'),
             d = new Date(),
             dateNow = Date.now(),
-            formatDate = d.
+            d_names = new Array("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"),
+            m_names = new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"),
+            curr_day = d.getDay(),
+            curr_date = d.getDate(),
+            curr_month = d.getMonth(),
+            curr_year = d.getFullYear(),
+            formatDate = d_names[curr_day] + ", " + m_names[curr_month] + " " + curr_date + ", " + curr_year,
+            // formatDate =  day + " " + month + " " + date + " " + year,
             errorNoNote = "Please add an image or text",
             errorNoStorage = "Oops! Your browser won't allow a note to be stored. Please use Chrome or Safari.";
             //currLocation = consolidated_json.forecast.city;
 
         if (Modernizr.localstorage) {
 
-            if ( textNote === '' && picture === '' ) {
+            if ( textNote === '' && picture === 'undefined' ) {
                 //show an error
                 showError($pageWrapperClass, errorNoNote, 'note');
 
             } else {
                 // preprocess the stored image
-                if (picture) {
+                if ( picture !== '' || picture !== 'undefined' ) {
                     preprocessUploadedImage(picture);
                 }
 
@@ -328,7 +335,7 @@
             }
 
             // both varaibles are set in preprocessTodayWeatherData()
-            if (typeof(Storage)!=="undefined") {
+            if ( typeof(Storage)!== "undefined" ) {
                 modalOpen = false;
                 getLocallyStoredData(weatherTodayCondition, weatherCurrentTemp, function(){
                     renderTemplates(currentState);

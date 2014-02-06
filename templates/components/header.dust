@@ -8,7 +8,7 @@
         </div> --><!-- /input-group -->
         {#page}
         <h2 class="title" data-title="{hash}">
-            <span class="text">{title}</span>
+            <span class="title-text">{title}</span>
             {?class}
                 <a class="btn btn-lg {class}" href='#'><span class='glyphicon glyphicon-{icon}'></a>
             {/class}

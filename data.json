@@ -78,13 +78,5 @@
             "condition": "snow",
             "comment": "so don't leave home without your mittens."
         }
-    ],
-   "autocomplete": {
-        "items":[
-            {
-             "label":"Elizabeth Windsor, @Queen_UK",
-             "link":"twitter-parody-elizabethwindsor"
-            }
-        ]
-    }
+    ]
 }

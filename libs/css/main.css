@@ -16,7 +16,8 @@
 body {
     max-width: 480px;
     margin: 0 auto;
-    color: #444444;
+    /*color: #444444;*/
+    color: #767676;
     background-color: #e0e0e0;
 }
 
@@ -33,6 +34,13 @@ a, a:hover {
     height: 45px;
     margin-bottom: 30px;
     margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.header .container.col-xs-12 {
+    padding: 0;
+    float: none;
 }
 
 .header .search {
@@ -50,16 +58,17 @@ a, a:hover {
 .header .title {
     display: none;
     font-size: 18px;
-    line-height: 45px;
     font-weight: bold;
     margin: 0;
     vertical-align: middle;
     background-color: #fff;
     color: #767676;
     text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
 }
 
-.header .title .text {
+.header .title .title-text {
     padding-left: 15px;
 }
 
@@ -91,6 +100,10 @@ a, a:hover {
     max-width: 480px;
 }
 
+.page-body {
+    color: #555555;
+}
+
 /*
  * PAGES
  */
@@ -100,13 +113,17 @@ a, a:hover {
 }
 
 .forecast .body .subject {
-    font-size: 16px;
+    font-size: 22px;
 }
 
 .forecast .body .subject,
 .forecast .body .text {
     line-height: 1.3em;
     height: auto;
+}
+
+.forecast .body .text {
+    font-size: 18px;
 }
 
 
@@ -120,15 +137,12 @@ a, a:hover {
 .wear .prev-text {
     text-align: left;
     margin-bottom: 12px;
+    font-size: 18px;
 }
 
 .wear .prev-text {
     font-style: italic;
     margin-bottom: 22px;
-}
-
-.wear .prev-text span {
-    font-weight: bold;
 }
 
 .wear .datetime {
@@ -142,13 +156,12 @@ a, a:hover {
 .wear .location {
     float: left;
     color: #888;
-    font-size: 12px;
+    font-size: 14px;
     text-transform: uppercase;
 }
 
 .wear .timestamp span,
 .wear .location span {
-    font-size: 11px;
     font-weight: bold;
 }
 
@@ -165,6 +178,11 @@ a, a:hover {
     position: relative;
 }
 
+.wear .reminder {
+    border-top: 2px solid #ccc;
+    padding-top: 22px;
+}
+
 .back-btn {
     float: left;
     border-right: 1px solid #888;
@@ -173,7 +191,7 @@ a, a:hover {
 
 .add-btn {
     float: right;
-    border-left: 1px solid #888;
+    border-left: 1px solid #aaa;
     border-radius: 0;
 }
 
@@ -204,7 +222,7 @@ a, a:hover {
 
 .addnote .camera-btn {
     color: #fff;
-    background-color: #989ae2;
+    background-color: #8889CC;
     position: absolute;
     top: 50%;
     bottom: 50%;
@@ -329,6 +347,10 @@ a, a:hover {
 
 .temps .more .time {
     text-align: center;
+}
+
+.temps .temp-wrapper {
+    padding-left: 4px;
 }
 
 /*navbar*/
