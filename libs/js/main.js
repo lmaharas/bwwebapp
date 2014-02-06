@@ -4,7 +4,6 @@
     // gloabal vars
     var currentState = 'forecast',
         touchOrClickEvent = Modernizr.touch ? "touchstart" : "click",
-        modalWearOpen = true,
         modalAddOpen = true,
         consolidated_json,
         weatherTodayCondition = '',
@@ -29,12 +28,9 @@
         setBodyClass(hash);
         setHeader(hash);
         if (hash == 'addnote' && modalAddOpen) {
-            if ( typeof(Storage)!== "undefined" ) {
+            if ( Storage.length !== 0 ) {
                 openModal('addnote');
             }
-        }
-        if (hash == 'wear' && modalWearOpen) {
-            openModal('wear');
         }
     }
 
@@ -182,7 +178,6 @@
 
             } else {
                 // preprocess the stored image
-                console.log(picture);
                 if ( picture.length !== 0 ) {
                     preprocessUploadedImage(picture);
                 }
@@ -337,14 +332,14 @@
 
                 }
             }
-
-            if ( typeof(Storage)!== "undefined" ) {
-                modalWearOpen = false;
+            if ( Storage.length !== 0 ) {
                 modalAddOpen = false;
                 // both varaibles are set in preprocessTodayWeatherData()
                 getLocallyStoredData(weatherTodayCondition, weatherCurrentTemp, function(){
                     renderTemplates(currentState);
                 });
+            } else {
+                renderTemplates(currentState);
             }
 
         });
@@ -392,7 +387,7 @@
             e.preventDefault();
             window.history.back();
 
-            if ( typeof(Storage)!== "undefined" ) {
+            if ( Storage.length !== 0 ) {
                 getLocallyStoredData(weatherTodayCondition, weatherCurrentTemp);
             }
         });
