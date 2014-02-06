@@ -31,7 +31,7 @@ a, a:hover {
 
 /*Header*/
 .header {
-    height: 45px;
+    height: 50px;
     margin-bottom: 30px;
     margin-top: 0;
     margin-right: 0;
@@ -64,8 +64,8 @@ a, a:hover {
     background-color: #fff;
     color: #767676;
     text-transform: uppercase;
-    height: 45px;
-    line-height: 45px;
+    height: 50px;
+    line-height: 50px;
 }
 
 .header .title .title-text {
@@ -373,7 +373,7 @@ a, a:hover {
 .nav-pills>li>a,
 .nav-pills>li>a:focus {
     font-size: 20px;
-padding: 8px 15px;
+    line-height: 1.4em;
 }
 
 /*
