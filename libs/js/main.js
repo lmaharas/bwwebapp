@@ -4,6 +4,7 @@
     // gloabal vars
     var currentState = 'forecast',
         touchOrClickEvent = Modernizr.touch ? "touchstart" : "click",
+        modalWearOpen = true,
         modalAddOpen = true,
         consolidated_json,
         weatherTodayCondition = '',
@@ -28,7 +29,7 @@
         setBodyClass(hash);
         setHeader(hash);
         if (hash == 'addnote' && modalAddOpen) {
-            if ( Storage.length === 0 ) {
+            if ( localStorage.length === 0 && Modernizr.localstorage ) {
                 openModal('addnote');
             }
         }
@@ -170,7 +171,7 @@
             errorNoStorage = "Oops! Your browser won't allow a note to be stored. Please use Chrome or Safari.";
             //currLocation = consolidated_json.forecast.city;
 
-        if (Modernizr.localstorage) {
+        if ( Modernizr.localstorage ) {
 
             if ( textNote === '' && picture === 'undefined' ) {
                 //show an error
@@ -332,7 +333,8 @@
 
                 }
             }
-            if ( Storage.length !== 0 ) {
+            if ( localStorage.length !== 0 && Modernizr.localstorage ) {
+                modalWearOpen = false;
                 modalAddOpen = false;
                 // both varaibles are set in preprocessTodayWeatherData()
                 getLocallyStoredData(weatherTodayCondition, weatherCurrentTemp, function(){
@@ -387,7 +389,7 @@
             e.preventDefault();
             window.history.back();
 
-            if ( Storage.length !== 0 ) {
+            if ( localStorage.length !== 0 ) {
                 getLocallyStoredData(weatherTodayCondition, weatherCurrentTemp);
             }
         });
