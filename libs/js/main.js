@@ -28,7 +28,7 @@
         setBodyClass(hash);
         setHeader(hash);
         if (hash == 'addnote' && modalAddOpen) {
-            if ( Storage.length !== 0 ) {
+            if ( Storage.length === 0 ) {
                 openModal('addnote');
             }
         }
