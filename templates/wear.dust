@@ -32,11 +32,13 @@
                 </div>
                 <p class="text">{text}</p>
 
-                <div class="media">
-                    <img class="img wear-img" src="{picture}" alt="{condition}">
-                    <!-- {picture} -->
-                    <!-- <img src="http%3A//192.168.116.152/947a0039-89b8-4ad8-b935-db5b767babbb" alt=""> -->
-                </div>
+                {?picture}
+                    <div class="media">
+                        <img class="img wear-img" src="{picture}" alt="{condition}">
+                        <!-- {picture} -->
+                        <!-- <img src="http%3A//192.168.116.152/947a0039-89b8-4ad8-b935-db5b767babbb" alt=""> -->
+                    </div>
+                {/picture}
             </div>
         {:else}
             {#todayWeatherData}

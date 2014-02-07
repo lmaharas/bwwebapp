@@ -124,7 +124,9 @@
         // Put the object into storage
         localStorage.setItem(storedName, JSON.stringify(dataToStore) );
 
-        callback = callback();
+        if (callback) {
+            callback = callback();
+        }
     }
 
     function showError($pageWrapperClass, errorText, errorClass) {
@@ -173,27 +175,22 @@
 
         if ( Modernizr.localstorage ) {
 
-            if ( textNote === '' && picture === 'undefined' ) {
+            if ( textNote === '' && picture.length === 0 ) {
                 //show an error
                 showError($pageWrapperClass, errorNoNote, 'note');
 
             } else {
-                // preprocess the stored image
-                if ( picture.length !== 0 ) {
+
+                if ( picture.length === 0 || picture[0] === 'undefined' ) {
+                    picture = '';
+                } else {
+                    // preprocess the stored image
                     preprocessUploadedImage(picture);
                 }
 
                 // store the note + pic
-                if (textNote || picture) {
-                    // store and display the pic then remove the image object url
-                    storePicAndNote(dateNow, formatDate, imgAsDataURL, textNote, $pageWrapperClass, weatherCurrentTemp, weatherTodayCondition, function(){
-
-                        // if (picture) {
-                        //     var URL=window.URL|| window.webkitURL;
-                        //     URL.revokeObjectURL(picture);
-                        // }
-                    });
-                }
+                // store and display the pic then remove the image object url
+                storePicAndNote(dateNow, formatDate, imgAsDataURL, textNote, $pageWrapperClass, weatherCurrentTemp, weatherTodayCondition);
 
                 // finish by animating to the top of screen
                 $('html, body').animate({ scrollTop: 0 }, 500, 'swing', function() {
@@ -258,7 +255,6 @@
     }
 
     function getLocalKeysForCurrCond(localData, todaysCond, currentTemp, callback) {
-        // console.log('localData');
 
         var storedKeys = [],
             storedValues = [],
@@ -268,7 +264,6 @@
         $.each(localData, function(key, data) {
             storedKeys.push(key);
             storedValues.push(data);
-            // console.log(storedValues);
         });
 
         $.each(storedKeys, function(key, data) {
@@ -293,9 +288,10 @@
         });
 
         consolidated_json = consolidated_json.push({notes: storedDataMatch.reverse() });
-        console.log(consolidated_json);
 
-        callback = callback();
+        if (callback) {
+            callback = callback();
+        }
 
     }
 
@@ -348,6 +344,7 @@
 
     }
 
+    //TODO: needs to be cleaned up and combined with bindEvents function.
     function bindAddNoteEvents() {
         // open camera
         $('.camera-btn').on(touchOrClickEvent, function() {
@@ -355,10 +352,11 @@
 
             $('#camera').on('change', function(e) {
                 var picture=e.target.files[0];
-                loadPic(picture, function() {
-                    console.log(picture);
-                    setNoteFocus();
-                });
+                if (picture !== '') {
+                    loadPic(picture, function() {
+                        setNoteFocus();
+                    });
+                }
             });
         });
 
@@ -397,7 +395,6 @@
         $('#saved-modal').on('shown', function() {
             //TODO: check to see this is working
             setTimeout(function () {
-                console.log('this ' + $(this));
                 $(this).modal('hide');
             }, 4000);
         });
